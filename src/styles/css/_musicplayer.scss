@@ -73,6 +73,9 @@
       margin-bottom: 12px;
       font-size: 26px;
       color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .progress {

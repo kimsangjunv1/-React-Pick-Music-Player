@@ -12,6 +12,9 @@
       // padding-left: 20px;
       font-size: 26px;
       font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
       em {
         color: #ea3323;
@@ -235,7 +238,10 @@
     }
   }
 }
-
+.musicplayer_inside {
+  height: 100vh;
+  margin-bottom: 0 !important;
+}
 // weather
 
 .weatherWrap {

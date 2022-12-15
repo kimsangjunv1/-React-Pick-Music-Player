@@ -3,26 +3,40 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import Header from '../include/Header'
 import Loader from '../Loader'
 import MainSearch from '../layout/MainSearch'
+import { Link } from 'react-router-dom'
 
 function RankingItem(props) {
   return (
-    <li className="item">
-      <div>{props.index + 2}</div>
-      <div>
-        <img src={`${props.ranking.images.coverart}`} alt="" />
-      </div>
-      <div>{props.ranking.title}</div>
-      {/* <div>아무노래</div> */}
-      <div>{props.ranking.subtitle}</div>
-      <div>
-        <img
-          src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
-          alt=""
-        />
-        Likes {props.ranking.key.slice(0, 3)}
-      </div>
-      <div>03:52</div>
-    </li>
+    <Link to={`/musicplayer/${props.ranking.key}`}>
+      <li className="item">
+        <div>{props.index + 2}</div>
+        <div>
+          <img src={`${props.ranking.images.coverart}`} alt="" />
+        </div>
+        <div>{props.ranking.title}</div>
+        {/* <div>아무노래</div> */}
+        <div>{props.ranking.subtitle}</div>
+        <div>
+          <img
+            src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+            alt=""
+          />
+          &nbsp; Likes {props.ranking.key.slice(0, 3)}
+        </div>
+        <audio
+          className="audiobox"
+          src={`${props.ranking.hub.actions[1].uri}`}
+          type="audio/m4a"
+          controls
+          // autoPlay
+        >
+          <source
+            src={`${props.ranking.hub.actions[1].uri}`}
+            type="audio/m4a"
+          />
+        </audio>
+      </li>
+    </Link>
   )
 }
 function FirstRankingItem(props) {
@@ -38,7 +52,7 @@ function FirstRankingItem(props) {
         />
       </div>
       <h4>01-</h4>
-      <p className="artist">벤(ben)</p>
+      <p className="artist">{props.ranking.subtitle}</p>
       <p className="song_title">{props.ranking.title}</p>
       <p className="refresh_time">
         <img
@@ -54,6 +68,14 @@ function FirstRankingItem(props) {
         />
         <span>올해 47주간 1위</span>
       </p>
+      <audio
+        src={`${props.ranking.hub.actions[1].uri}`}
+        type="audio/m4a"
+        controls
+        // autoPlay
+      >
+        <source src={`${props.ranking.hub.actions[1].uri}`} type="audio/m4a" />
+      </audio>
     </div>
   )
 }
@@ -66,6 +88,10 @@ const Popular = () => {
     fetchAPI(
       `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=9&startFrom=1`
     ).then((data) => setRanking(data.tracks))
+
+    // fetchAPI(
+    //   `https://shazam.p.rapidapi.com/songs/get-details?key=${key}&locale=ko-KR`
+    // ).then((data) => setRankingDetail(data.tracks))
   }, [])
 
   useEffect(() => {
@@ -86,28 +112,6 @@ const Popular = () => {
             {firstranking.map((ranking, index) => (
               <FirstRankingItem key={index} ranking={ranking} />
             ))}
-            {/* <div className="winner_cont">
-              <h2>Top 10</h2>
-              <div className="album_art_cont">
-                <img src="assets/img/test_album.png" alt="" />
-                <img
-                  className="album_art_shadow"
-                  src="assets/img/test_album.png"
-                  alt="앨범아트 그림자"
-                />
-              </div>
-              <h4>01-</h4>
-              <p className="artist">벤(ben)</p>
-              <p className="song_title">헤어져줘서 고마워,</p>
-              <p className="refresh_time">
-                <img src="assets/img/refresh.svg" alt="새로고침" />
-                <span>2022. 11. 13. 오후 22:02</span>
-              </p>
-              <p className="trophy_desc">
-                <img src="assets/img/trophy.svg" alt="트로피" />
-                <span>올해 47주간 1위</span>
-              </p>
-            </div> */}
             <div className="list_cont">
               <div className="ranking_list_header">
                 <div>순위</div>
@@ -116,7 +120,7 @@ const Popular = () => {
                 {/* <div>앨범</div> */}
                 <div>아티스트</div>
                 <div>LIKE</div>
-                <div>시간</div>
+                <div>Play</div>
               </div>
               <ul>
                 {ranking.map((ranking, index) => (

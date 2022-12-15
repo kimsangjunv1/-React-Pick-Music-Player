@@ -1,0 +1,123 @@
+.albumart_bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  // object-position: 0px -254px;
+}
+.main_albumart_bg {
+  height: 430px;
+  position: relative;
+  margin-bottom: 70px;
+}
+.main_albumart_bg::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 287px;
+  background: linear-gradient(0deg, #000, #0000);
+  // z-index: 1;
+}
+.banner_video {
+  position: relative;
+}
+
+.album_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2 {
+    margin-bottom: 10px;
+  }
+  .album_like {
+    display: flex;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.494);
+  }
+}
+
+.heart {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.albumart {
+  // width: 20px !important;
+  height: 100%;
+}
+
+.banner {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+
+  .banner_video_cont {
+    display: flex;
+    width: 1160px;
+    height: 100px;
+    margin: 0 auto;
+    gap: 20px;
+
+    .banner_img {
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        background: #000;
+        width: 6px;
+        height: 20px;
+        top: 5px;
+        right: 15px;
+        border-radius: 100px;
+        transform: rotate(45deg);
+      }
+      img {
+        border-radius: 15px;
+      }
+    }
+  }
+}
+
+.section_contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px 20px;
+}
+.mv_item {
+  width: 32.1%;
+  position: relative;
+  > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 6px;
+    height: 20px;
+    top: 5px;
+    right: 15px;
+    border-radius: 100px;
+    transform: rotate(45deg);
+  }
+  .mv_item_desc {
+    display: flex;
+    justify-content: space-between;
+    .mv_item_desc_sub {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      img {
+        width: 20px;
+      }
+      p {
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
