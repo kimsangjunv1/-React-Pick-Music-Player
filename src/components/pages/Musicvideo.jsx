@@ -66,15 +66,15 @@ const Musicvideo = () => {
       <Header />
 
       <main id="main">
-        <div class="main_albumart_bg">
+        <div className="main_albumart_bg">
           <img
             className="albumart_bg"
             src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
             alt=""
           />
-          <div class="banner">
-            <div class="banner_video_cont">
-              <div class="banner_img">
+          <div className="banner">
+            <div className="banner_video_cont">
+              <div className="banner_img">
                 <img
                   className="albumart"
                   src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
@@ -104,15 +104,15 @@ const Musicvideo = () => {
               <p>여기에서 날씨에 맞는 음악을 추천해드릴게요!</p>
             </div>
             <div className="section_contents">
-              <div class="mv_item">
+              <div className="mv_item">
                 <img
                   src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
-                <div class="mv_item_desc">
+                <div className="mv_item_desc">
                   <h2>Our Love is Great</h2>
-                  <div class="mv_item_desc_sub">
+                  <div className="mv_item_desc_sub">
                     <img
                       src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
                       alt="하트"
@@ -121,15 +121,15 @@ const Musicvideo = () => {
                   </div>
                 </div>
               </div>
-              <div class="mv_item">
+              <div className="mv_item">
                 <img
                   src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
-                <div class="mv_item_desc">
+                <div className="mv_item_desc">
                   <h2>Our Love is Great</h2>
-                  <div class="mv_item_desc_sub">
+                  <div className="mv_item_desc_sub">
                     <img
                       src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
                       alt="하트"
@@ -138,15 +138,15 @@ const Musicvideo = () => {
                   </div>
                 </div>
               </div>
-              <div class="mv_item">
+              <div className="mv_item">
                 <img
                   src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
-                <div class="mv_item_desc">
+                <div className="mv_item_desc">
                   <h2>Our Love is Great</h2>
-                  <div class="mv_item_desc_sub">
+                  <div className="mv_item_desc_sub">
                     <img
                       src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
                       alt="하트"
@@ -155,15 +155,15 @@ const Musicvideo = () => {
                   </div>
                 </div>
               </div>
-              <div class="mv_item">
+              <div className="mv_item">
                 <img
                   src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
-                <div class="mv_item_desc">
+                <div className="mv_item_desc">
                   <h2>Our Love is Great</h2>
-                  <div class="mv_item_desc_sub">
+                  <div className="mv_item_desc_sub">
                     <img
                       src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
                       alt="하트"
@@ -172,15 +172,15 @@ const Musicvideo = () => {
                   </div>
                 </div>
               </div>
-              <div class="mv_item">
+              <div className="mv_item">
                 <img
                   src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
-                <div class="mv_item_desc">
+                <div className="mv_item_desc">
                   <h2>Our Love is Great</h2>
-                  <div class="mv_item_desc_sub">
+                  <div className="mv_item_desc_sub">
                     <img
                       src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
                       alt="하트"

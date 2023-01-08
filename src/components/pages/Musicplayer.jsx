@@ -6,19 +6,19 @@ import Loader from '../Loader'
 
 function MusicText({ musicDetail }) {
   return (
-    <div class="music__player__subcont">
-      <div class="music__player">
-        <div class="music_player_ctrl">
+    <div className="music__player__subcont">
+      <div className="music__player">
+        <div className="music_player_ctrl">
           <h2>
             Now <strong>Playing.</strong>
           </h2>
-          <div class="inner_album_art">
+          <div className="inner_album_art">
             <img src={musicDetail.images.coverart} alt="" />
-            <div class="greencircle"></div>
-            <div class="musicpoint"></div>
+            <div className="greencircle"></div>
+            <div className="musicpoint"></div>
           </div>
           <p>{musicDetail.subtitle}</p>
-          <p class="music__tit">{musicDetail.title.slice(0, 20)}</p>
+          <p className="music__tit">{musicDetail.title.slice(0, 20)}</p>
           <audio
             className="audiobox"
             src={`${musicDetail.hub.actions[1].uri}`}
@@ -32,9 +32,9 @@ function MusicText({ musicDetail }) {
             />
           </audio>
         </div>
-        <div class="music_player_lyric">
+        <div className="music_player_lyric">
           <h3>Lyric</h3>
-          <div class="lyric_inner">
+          <div className="lyric_inner">
             "Have Yourself A Merry Little Christmas"(originally by Judy Garland)
             <br />
             <br />
@@ -85,25 +85,26 @@ const Musicplayer = () => {
     fetchAPI(`songs/get-details?key=${key}&locale=ko-KR`).then((data) =>
       setMusicDetail(data)
     )
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   if (!musicDetail?.length) return <Loader />
   return (
     <>
       <Header />
-      <main id="main" class="musicplayer_inside">
-        <section id="contents" class="musicplayer_inside">
-          <div class="outer_album_art">
+      <main id="main" className="musicplayer_inside">
+        <section id="contents" className="musicplayer_inside">
+          <div className="outer_album_art">
             <img src="assets/img/test_album.png" alt="" />
           </div>
-          <div class="search">
+          <div className="search">
             <label htmlFor="searchInput ir">
-              <div class="glass"></div>
+              <div className="glass"></div>
             </label>
             <input
               type="text"
               id="searchInput"
-              class="input__search"
+              className="input__search"
               placeholder="Please Insert Here"
               title="검색"
             />
