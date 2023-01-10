@@ -4,6 +4,7 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import Loader from '../Loader'
 
 function ArtistItem(props) {
+  // console.log(props)
   return (
     <div className="artist unWidth">
       <img
@@ -19,7 +20,8 @@ function ArtistItem(props) {
             src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
             alt=""
           />
-          <p>Likes 5,677</p>
+          {/* <p>Likes 5,677</p> */}
+          &nbsp; Likes {props.artist.key.slice(0, 3)}
         </div>
         <audio
           src={`${props.artist.hub.actions[1].uri}`}

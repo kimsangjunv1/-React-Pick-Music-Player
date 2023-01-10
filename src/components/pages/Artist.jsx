@@ -3,10 +3,14 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import Header from '../include/Header'
 import MainSearch from '../layout/MainSearch'
 
+// import { Link } from 'react-router-dom'
+
 import Loader from '../Loader'
 
 function ArtistItem(props) {
+  // console.log(props.artist.artists[0].adamid)
   return (
+    // <Link to={`artists/get-details/${props.artist.artists[0].adamid}`}>
     <div className="artist">
       <img src={`${props.artist.images.background}`} alt="" />
       <div className="artistbox">
@@ -22,6 +26,7 @@ function ArtistItem(props) {
         </div>
       </div>
     </div>
+    // </Link>
   )
 }
 

@@ -6,6 +6,7 @@ import MainSearch from '../layout/MainSearch'
 import { Link } from 'react-router-dom'
 
 function RankingItem(props) {
+  // console.log(props)
   return (
     <Link to={`/musicplayer/${props.ranking.key}`}>
       <li className="item">

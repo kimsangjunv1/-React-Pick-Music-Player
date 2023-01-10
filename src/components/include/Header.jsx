@@ -13,18 +13,18 @@ const Header = () => {
             <img src="assets/img/broadcast.png" alt="" />
             <span>홈</span>
           </Link>
-          <Link to="/genre" href="#">
+          {/* <Link to="/genre" href="#">
             <img src="assets/img/play.png" alt="" />
             <span>장르</span>
-          </Link>
-          <Link to="/favorite" href="#">
+          </Link> */}
+          {/* <Link to="/favorite" href="#">
             <img src="assets/img/rss.png" alt="" />
             <span>FAVORITE</span>
-          </Link>
-          <Link to="/playlist" href="#">
+          </Link> */}
+          {/* <Link to="/playlist" href="#">
             <img src="assets/img/align-text-top-one.png" alt="" />
             <span>플레이리스트</span>
-          </Link>
+          </Link> */}
           <Link to="/popular" href="#">
             <img src="assets/img/trophy.png" alt="" />
             <span>POPULAR</span>
