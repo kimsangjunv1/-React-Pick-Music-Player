@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header = ({ selectCategory, setSelectCategory }) => {
+  // function yoyo() {
+  //   alert(selectCategory)
+  // }
   return (
     <header id="header">
       <aside id="aside">
@@ -9,37 +12,65 @@ const Header = () => {
           <h1 className="ir">logo</h1>
         </Link>
         <div>
-          <Link to="/" href="#">
+          <Link
+            to="/"
+            // href="#"
+            onClick={() => setSelectCategory('a')}
+            style={{
+              backgroundColor:
+                'a' === selectCategory ? '#1DD960' : 'transparent',
+            }}
+          >
             <img src="assets/img/broadcast.png" alt="" />
             <span>홈</span>
           </Link>
-          {/* <Link to="/genre" href="#">
-            <img src="assets/img/play.png" alt="" />
-            <span>장르</span>
-          </Link> */}
-          {/* <Link to="/favorite" href="#">
-            <img src="assets/img/rss.png" alt="" />
-            <span>FAVORITE</span>
-          </Link> */}
-          {/* <Link to="/playlist" href="#">
-            <img src="assets/img/align-text-top-one.png" alt="" />
-            <span>플레이리스트</span>
-          </Link> */}
-          <Link to="/popular" href="#">
+          <Link
+            to="/popular"
+            // href="#"
+            onClick={() => setSelectCategory('b')}
+            style={{
+              backgroundColor:
+                'b' === selectCategory ? '#1DD960' : 'transparent',
+            }}
+          >
             <img src="assets/img/trophy.png" alt="" />
-            <span>POPULAR</span>
+            <span>인기순위</span>
           </Link>
-          <Link to="/download" href="#">
+          <Link
+            to="/download"
+            // href="#"
+            onClick={() => setSelectCategory('c')}
+            style={{
+              backgroundColor:
+                'c' === selectCategory ? '#1DD960' : 'transparent',
+            }}
+          >
             <img src="assets/img/align-text-bottom.png" alt="" />
-            <span>DOWNLOAD</span>
+            <span>다운로드</span>
           </Link>
-          <Link to="/artist" href="#">
+          <Link
+            to="/artist"
+            // href="#"
+            onClick={() => setSelectCategory('d')}
+            style={{
+              backgroundColor:
+                'd' === selectCategory ? '#1DD960' : 'transparent',
+            }}
+          >
             <img src="assets/img/personal-collection.png" alt="" />
             <span>아티스트</span>
           </Link>
-          <Link to="/musicvideo" href="#">
+          <Link
+            to="/musicvideo"
+            // href="#"
+            onClick={() => setSelectCategory('e')}
+            style={{
+              backgroundColor:
+                'e' === selectCategory ? '#1DD960' : 'transparent',
+            }}
+          >
             <img src="assets/img/record.png" alt="" />
-            <span>Music Video</span>
+            <span>뮤직비디오</span>
           </Link>
         </div>
       </aside>

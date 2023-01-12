@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../include/Header'
 
 const Favorite = () => {
-  return <Header />
+  const [selectCategory, setSelectCategory] = useState(null)
+  return (
+    <Header
+      selectCategory={selectCategory}
+      setSelectCategory={setSelectCategory}
+    />
+  )
 }
 
 export default Favorite

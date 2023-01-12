@@ -32,6 +32,7 @@ function ArtistItem(props) {
 
 const Artist = () => {
   const [artist, setArtist] = useState(null)
+  const [selectCategory, setSelectCategory] = useState('d')
 
   useEffect(() => {
     fetchAPI(
@@ -43,7 +44,10 @@ const Artist = () => {
 
   return (
     <>
-      <Header />
+      <Header
+        selectCategory={selectCategory}
+        setSelectCategory={setSelectCategory}
+      />
       <main id="main">
         <section id="contents">
           <MainSearch />

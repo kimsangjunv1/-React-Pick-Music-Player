@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { fetchAPI } from '../../utils/fetchAPI'
 
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination } from 'swiper'
+
 import Loader from '../Loader'
+
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 function ArtistItem(props) {
   // console.log(props)
@@ -13,31 +19,29 @@ function ArtistItem(props) {
         alt=""
       />
       <div className="artistbox">
-        <p>{props.artist.title.slice(0, 26)}</p>
         <h4>{props.artist.subtitle}</h4>
         <div className="like">
           <img
             src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
             alt=""
           />
-          {/* <p>Likes 5,677</p> */}
           &nbsp; Likes {props.artist.key.slice(0, 3)}
         </div>
-        <audio
+        {/* <audio
           src={`${props.artist.hub.actions[1].uri}`}
           type="audio/m4a"
           controls
           // autoPlay
         >
           <source src={`${props.artist.hub.actions[1].uri}`} type="audio/m4a" />
-        </audio>
+        </audio> */}
       </div>
     </div>
   )
 }
 
 const ArtistCont = () => {
-  const [artist, setArtist] = useState(null)
+  const [artist, setArtist] = useState(0)
 
   useEffect(() => {
     fetchAPI(
@@ -54,9 +58,24 @@ const ArtistCont = () => {
       </div>
       <div className="artistWrap">
         <div className="artistinner unflex_artist">
-          {artist.map((artist, index) => (
-            <ArtistItem key={index} artist={artist} />
-          ))}
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={200}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            {artist.map((artist, index) => (
+              <SwiperSlide>
+                <ArtistItem key={index} artist={artist} />
+              </SwiperSlide>
+            ))}
+            <SwiperSlide>
+              <div style={{ opacity: 0 }}>2</div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>

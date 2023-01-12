@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../include/Header'
 
 const Download = () => {
-  return <Header />
+  const [selectCategory, setSelectCategory] = useState('c')
+  return (
+    <Header
+      selectCategory={selectCategory}
+      setSelectCategory={setSelectCategory}
+    />
+  )
 }
 
 export default Download

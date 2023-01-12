@@ -9,6 +9,7 @@ import {
   Artist,
   Musicvideo,
   Musicplayer,
+  WeatherPlaylist,
 } from './components/'
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/genre" element={<Genre />} />
         <Route path="/favorite" element={<Favorite />} />
         <Route path="/playlist" element={<Playlist />} />
+        <Route path="/weatherplaylist" element={<WeatherPlaylist />} />
         <Route path="/popular" element={<Popular />} />
         <Route path="/download" element={<Download />} />
         <Route path="/artist" element={<Artist />} />
