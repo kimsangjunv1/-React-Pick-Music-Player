@@ -10,7 +10,7 @@ function RankingItem(props) {
   return (
     <Link to={`/musicplayer/${props.ranking.key}`}>
       <li className="item">
-        <div>{props.index + 2}</div>
+        <div>{props.index + 1}</div>
         <div>
           <img src={`${props.ranking.images.coverart}`} alt="" />
         </div>
@@ -41,6 +41,7 @@ function RankingItem(props) {
   )
 }
 function FirstRankingItem(props) {
+  console.log('props 22: ', props)
   return (
     <div className="winner_cont">
       <h2>Top 10</h2>
@@ -87,22 +88,21 @@ const Popular = () => {
 
   useEffect(() => {
     fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=9&startFrom=1`
-    ).then((data) => setRanking(data.tracks))
-
-    // fetchAPI(
-    //   `https://shazam.p.rapidapi.com/songs/get-details?key=${key}&locale=ko-KR`
-    // ).then((data) => setRankingDetail(data.tracks))
+      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=9&startFrom=0`
+    ).then((data) => {
+      setRanking(data.tracks.filter((item, index) => index > 0))
+      setFirstRanking(data.tracks.filter((item, index) => index === 0))
+    })
   }, [])
 
-  useEffect(() => {
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=1&startFrom=0`
-    ).then((data) => setFirstRanking(data.tracks))
-  }, [])
+  // useEffect(() => {
+  //   fetchAPI(
+  //     `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=1&startFrom=0`
+  //   ).then((data) => setFirstRanking(data.tracks))
+  // }, [])
 
   if (!ranking?.length) return <Loader />
-  if (!firstranking?.length) return <Loader />
+  // if (!firstranking?.length) return <Loader />
   return (
     <>
       <Header />
