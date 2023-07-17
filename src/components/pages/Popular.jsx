@@ -19,7 +19,7 @@ function RankingItem(props) {
         <div>{props.ranking.subtitle}</div>
         <div>
           <img
-            src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
             alt=""
           />
           &nbsp; Likes {props.ranking.key.slice(0, 3)}
@@ -57,14 +57,14 @@ function FirstRankingItem(props) {
       <p className="song_title">{props.ranking.title}</p>
       <p className="refresh_time">
         <img
-          src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/refresh.svg"
+          src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/refresh.svg"
           alt="새로고침"
         />
         <span>2022. 11. 13. 오후 22:02</span>
       </p>
       <p className="trophy_desc">
         <img
-          src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/trophy.svg"
+          src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/trophy.svg"
           alt="트로피"
         />
         <span>올해 47주간 1위</span>

@@ -19,7 +19,7 @@ function ArtistItem(props) {
         </div>
         <div className="like">
           <img
-            src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
             alt="/"
           />
           <p>Likes 5,677</p>

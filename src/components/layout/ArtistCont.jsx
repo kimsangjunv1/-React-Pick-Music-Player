@@ -22,7 +22,7 @@ function ArtistItem(props) {
         <h4>{props.artist.subtitle}</h4>
         <div className="like">
           <img
-            src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
             alt=""
           />
           &nbsp; Likes {props.artist.key.slice(0, 3)}

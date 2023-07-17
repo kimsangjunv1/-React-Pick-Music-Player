@@ -45,7 +45,7 @@ const Main = () => {
                 <div className="season_cont">
                   <div className="season_youtube_link">
                     <img
-                      src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/playlist.jpg?raw=true"
+                      src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/playlist.jpg?raw=true"
                       alt=""
                     />
                   </div>

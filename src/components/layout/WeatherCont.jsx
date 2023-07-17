@@ -65,7 +65,7 @@ const WeatherCont = () => {
             <div className="weather_condition">
               <img
                 className=""
-                src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/weather/weather_snow.png?raw=true"
+                src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/weather/weather_snow.png?raw=true"
                 alt=""
               />
               <div className="degree_cont">

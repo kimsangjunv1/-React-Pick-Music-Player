@@ -11,7 +11,7 @@ const Musicvideo = () => {
   //       <h2>Top 10</h2>
   //       <div className="album_art_cont">
   //         <img
-  //           src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+  //           src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
   //           alt=""
   //         />
   //         <img
@@ -25,14 +25,14 @@ const Musicvideo = () => {
   //       <p className="song_title">{props.ranking.title}</p>
   //       <p className="refresh_time">
   //         <img
-  //           src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/refresh.svg"
+  //           src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/refresh.svg"
   //           alt="새로고침"
   //         />
   //         <span>2022. 11. 13. 오후 22:02</span>
   //       </p>
   //       <p className="trophy_desc">
   //         <img
-  //           src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/trophy.svg"
+  //           src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/trophy.svg"
   //           alt="트로피"
   //         />
   //         <span>올해 47주간 1위</span>
@@ -69,7 +69,7 @@ const Musicvideo = () => {
         <div className="main_albumart_bg">
           <img
             className="albumart_bg"
-            src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+            src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
             alt=""
           />
           <div className="banner">
@@ -77,7 +77,7 @@ const Musicvideo = () => {
               <div className="banner_img">
                 <img
                   className="albumart"
-                  src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+                  src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="앨범아트"
                 />
               </div>
@@ -87,7 +87,7 @@ const Musicvideo = () => {
                 <div className="album_like">
                   <img
                     className="heart"
-                    src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+                    src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
                     alt="heart"
                   />
                   <p>Likes 5,677</p>
@@ -106,7 +106,7 @@ const Musicvideo = () => {
             <div className="section_contents">
               <div className="mv_item">
                 <img
-                  src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+                  src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
@@ -114,7 +114,7 @@ const Musicvideo = () => {
                   <h2>Our Love is Great</h2>
                   <div className="mv_item_desc_sub">
                     <img
-                      src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+                      src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
                       alt="하트"
                     />
                     <p>Likes 5,677</p>
@@ -123,7 +123,7 @@ const Musicvideo = () => {
               </div>
               <div className="mv_item">
                 <img
-                  src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+                  src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
@@ -131,7 +131,7 @@ const Musicvideo = () => {
                   <h2>Our Love is Great</h2>
                   <div className="mv_item_desc_sub">
                     <img
-                      src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+                      src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
                       alt="하트"
                     />
                     <p>Likes 5,677</p>
@@ -140,7 +140,7 @@ const Musicvideo = () => {
               </div>
               <div className="mv_item">
                 <img
-                  src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+                  src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
@@ -148,7 +148,7 @@ const Musicvideo = () => {
                   <h2>Our Love is Great</h2>
                   <div className="mv_item_desc_sub">
                     <img
-                      src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+                      src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
                       alt="하트"
                     />
                     <p>Likes 5,677</p>
@@ -157,7 +157,7 @@ const Musicvideo = () => {
               </div>
               <div className="mv_item">
                 <img
-                  src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+                  src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
@@ -165,7 +165,7 @@ const Musicvideo = () => {
                   <h2>Our Love is Great</h2>
                   <div className="mv_item_desc_sub">
                     <img
-                      src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+                      src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
                       alt="하트"
                     />
                     <p>Likes 5,677</p>
@@ -174,7 +174,7 @@ const Musicvideo = () => {
               </div>
               <div className="mv_item">
                 <img
-                  src="https://github.com/kimsangjunv1/react_project_pick/blob/main/src/styles/img/test_album.png?raw=true"
+                  src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/test_album.png?raw=true"
                   alt="음악 이미지"
                 />
                 <p>BAEK YE-RIN</p>
@@ -182,7 +182,7 @@ const Musicvideo = () => {
                   <h2>Our Love is Great</h2>
                   <div className="mv_item_desc_sub">
                     <img
-                      src="https://raw.githubusercontent.com/kimsangjunv1/react_project_pick/main/src/styles/img/like.svg"
+                      src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
                       alt="하트"
                     />
                     <p>Likes 5,677</p>
