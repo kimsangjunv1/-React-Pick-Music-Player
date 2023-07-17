@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import SkeletonMain from '../loading/SkeletonMain'
+import SkeletonWeather from '../loading/SkeletonWeather'
 
 function WeatherListItem(props) {
   //   console.log(props)
@@ -40,6 +42,8 @@ const WeatherCont = () => {
       .then((response) => setWeather(response.forecasts))
       .catch((err) => console.error(err))
   }, [])
+
+  if (!weather?.length) return <SkeletonWeather />
   return (
     <section>
       <div className="section_title">

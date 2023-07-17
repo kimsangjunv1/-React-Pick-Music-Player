@@ -1,7 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import { fetchAPI } from '../../utils/fetchAPI'
-
-// import Loader from '../Loader'
+import React from 'react'
 
 function AlbumItem(props) {
   return (
@@ -19,7 +16,7 @@ function AlbumItem(props) {
 }
 
 const AlbumCont = ({ test }) => {
-  // if (!test?.length) return <Loader />
+  // if (!test?.length) return <SkeletonMain />
 
   return (
     <section>

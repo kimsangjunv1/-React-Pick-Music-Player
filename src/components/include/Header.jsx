@@ -60,7 +60,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             <img src="assets/img/personal-collection.png" alt="" />
             <span>아티스트</span>
           </Link>
-          <Link
+          {/* <Link
             to="/musicvideo"
             // href="#"
             onClick={() => setSelectCategory('e')}
@@ -71,7 +71,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           >
             <img src="assets/img/record.png" alt="" />
             <span>뮤직비디오</span>
-          </Link>
+          </Link> */}
         </div>
       </aside>
     </header>

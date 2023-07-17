@@ -3,6 +3,7 @@ import Header from '../include/Header'
 import MainSearch from '../layout/MainSearch'
 import Loader from '../Loader'
 import { fetchAPI } from '../../utils/fetchAPI'
+import SkeletonMain from '../loading/SkeletonMain'
 
 import { Link } from 'react-router-dom'
 
@@ -18,10 +19,12 @@ const Main = () => {
     ).then((data) => setSongData(data.tracks))
   }, [])
 
-  if (!songData?.length) return <Loader />
+  // if (!songData?.length) return <Loader />
+  if (!songData?.length) return <SkeletonMain />
 
   return (
     <>
+      {/* <SkeletonMain /> */}
       <Header
         selectCategory={selectCategory}
         setSelectCategory={setSelectCategory}

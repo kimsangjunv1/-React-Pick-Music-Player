@@ -3,15 +3,12 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import Header from '../include/Header'
 import MainSearch from '../layout/MainSearch'
 
-// import { Link } from 'react-router-dom'
-
 import Loader from '../Loader'
 
 function ArtistItem(props) {
-  // console.log(props.artist.artists[0].adamid)
   console.log(
     '프롭스 : ',
-    !props?.artist?.images?.background ? props?.artist?.images?.background : ''
+    props?.artist?.images?.background ? props?.artist?.images?.background : ''
   )
   return (
     // <Link to={`artists/get-details/${props.artist.artists[0].adamid}`}>
