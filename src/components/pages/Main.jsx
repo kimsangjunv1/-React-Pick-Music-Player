@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from '../include/Header'
 import MainSearch from '../layout/MainSearch'
+import Loader from '../Loader'
+import { fetchAPI } from '../../utils/fetchAPI'
 
 import { Link } from 'react-router-dom'
 
@@ -8,6 +10,15 @@ import { AlbumCont, RankCont, ArtistCont, WeatherCont } from '../'
 
 const Main = () => {
   const [selectCategory, setSelectCategory] = useState('a')
+  const [songData, setSongData] = useState(null)
+
+  useEffect(() => {
+    fetchAPI(
+      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
+    ).then((data) => setSongData(data.tracks))
+  }, [])
+
+  if (!songData?.length) return <Loader />
 
   return (
     <>
@@ -41,10 +52,10 @@ const Main = () => {
                 </div>
               </section>
             </Link>
-            <AlbumCont />
+            <AlbumCont test={songData} />
             <section id="ranking__temporary">
-              <RankCont />
-              <ArtistCont />
+              <RankCont test={songData} />
+              <ArtistCont test={songData} />
             </section>
             <div className="music__control">
               <div className="progress"></div>

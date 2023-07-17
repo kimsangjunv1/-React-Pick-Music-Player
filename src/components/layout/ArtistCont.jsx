@@ -4,7 +4,7 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper'
 
-import Loader from '../Loader'
+// import Loader from '../Loader'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -40,16 +40,8 @@ function ArtistItem(props) {
   )
 }
 
-const ArtistCont = () => {
-  const [artist, setArtist] = useState(0)
-
-  useEffect(() => {
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
-    ).then((data) => setArtist(data.tracks))
-  }, [])
-
-  if (!artist?.length) return <Loader />
+const ArtistCont = ({ test }) => {
+  // if (!test?.length) return <Loader />
 
   return (
     <div className="artist_cont unflex">
@@ -67,7 +59,7 @@ const ArtistCont = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
-            {artist.map((artist, index) => (
+            {test.map((artist, index) => (
               <SwiperSlide>
                 <ArtistItem key={index} artist={artist} />
               </SwiperSlide>

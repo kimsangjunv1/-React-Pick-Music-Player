@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { fetchAPI } from '../../utils/fetchAPI'
 
-import Loader from '../Loader'
+// import Loader from '../Loader'
 
 function AlbumItem(props) {
   return (
@@ -18,16 +18,8 @@ function AlbumItem(props) {
   )
 }
 
-const AlbumCont = () => {
-  const [album, setAlbum] = useState(null)
-
-  useEffect(() => {
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
-    ).then((data) => setAlbum(data.tracks))
-  }, [])
-
-  if (!album?.length) return <Loader />
+const AlbumCont = ({ test }) => {
+  // if (!test?.length) return <Loader />
 
   return (
     <section>
@@ -36,7 +28,7 @@ const AlbumCont = () => {
         <p>이번에 추천하는 인기 앨범</p>
       </div>
       <div className="album_cont">
-        {album.map((album, index) => (
+        {test.map((album, index) => (
           <AlbumItem key={index} album={album} />
         ))}
         <div className="album_item">

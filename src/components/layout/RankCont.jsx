@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { fetchAPI } from '../../utils/fetchAPI'
 
-import Loader from '../Loader'
+// import Loader from '../Loader'
 
 function RankingItem(props) {
   return (
@@ -26,16 +26,8 @@ function RankingItem(props) {
   )
 }
 
-const RankCont = () => {
-  const [ranking, setRanking] = useState(null)
-
-  useEffect(() => {
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=5&startFrom=0`
-    ).then((data) => setRanking(data.tracks))
-  }, [])
-
-  if (!ranking?.length) return <Loader />
+const RankCont = ({ test }) => {
+  // if (!test?.length) return <Loader />
 
   return (
     <div className="ranking_cont unflex">
@@ -44,7 +36,7 @@ const RankCont = () => {
       </div>
       <div className="list_cont maxWidth">
         <ul>
-          {ranking.map((ranking, index) => (
+          {test.map((ranking, index) => (
             <RankingItem key={index} ranking={ranking} index={index} />
           ))}
         </ul>
