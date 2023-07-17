@@ -85,6 +85,7 @@ function FirstRankingItem(props) {
 const Popular = () => {
   const [ranking, setRanking] = useState(null)
   const [firstranking, setFirstRanking] = useState(null)
+  const [selectCategory, setSelectCategory] = useState('b')
 
   useEffect(() => {
     fetchAPI(
@@ -105,7 +106,10 @@ const Popular = () => {
   // if (!firstranking?.length) return <Loader />
   return (
     <>
-      <Header />
+      <Header
+        selectCategory={selectCategory}
+        setSelectCategory={setSelectCategory}
+      />
       <main id="main">
         <section id="contents">
           <MainSearch />

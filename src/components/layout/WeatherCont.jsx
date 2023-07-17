@@ -17,11 +17,11 @@ function WeatherListItem(props) {
         alt={`${props.weather.text} 그림`}
       />
       <div>
-        <span>날씨 : {props.weather.text}</span>
-        <div>
-          <span>최저 : {props.weather.low}</span>
-          <span>최고 : {props.weather.high}</span>
-        </div>
+        {/* <span>날씨 : {props.weather.text}</span> */}
+        <span>최저 : {props.weather.low}</span>
+        <span>최고 : {props.weather.high}</span>
+        {/* <div>
+        </div> */}
       </div>
     </div>
   )

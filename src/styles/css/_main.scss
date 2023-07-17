@@ -22,10 +22,12 @@
     }
 
     .search {
-      position: relative;
+      position: sticky;
       text-align: center;
       width: 700px;
       margin: 30px auto;
+      z-index: 10000;
+      top: 30px;
 
       button {
         position: absolute;
@@ -309,6 +311,16 @@
 }
 .weatherList_cont {
   display: flex;
+  gap: 10px;
+  > div {
+    border: 1px solid #171719;
+    padding: 10px;
+    border-radius: 10px;
+    // background: red;
+    img {
+      width: 150px;
+    }
+  }
 }
 
 .main_loader {

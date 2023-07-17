@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 const Header = ({ selectCategory, setSelectCategory }) => {
+  useState(() => {
+    console.log('선택됨 : ', selectCategory)
+  }, [])
   // function yoyo() {
   //   alert(selectCategory)
   // }
@@ -16,10 +20,13 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             to="/"
             // href="#"
             onClick={() => setSelectCategory('a')}
-            style={{
-              backgroundColor:
-                'a' === selectCategory ? '#1DD960' : 'transparent',
-            }}
+            style={
+              {
+                // backgroundColor:
+                //   'a' === selectCategory ? '#1DD960' : 'transparent',
+              }
+            }
+            className={'a' === selectCategory ? 'test' : ''}
           >
             <img src="assets/img/broadcast.png" alt="" />
             <span>홈</span>
@@ -28,10 +35,13 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             to="/popular"
             // href="#"
             onClick={() => setSelectCategory('b')}
-            style={{
-              backgroundColor:
-                'b' === selectCategory ? '#1DD960' : 'transparent',
-            }}
+            style={
+              {
+                // backgroundColor:
+                //   'b' === selectCategory ? '#1DD960' : 'transparent',
+              }
+            }
+            className={'b' === selectCategory ? 'test' : ''}
           >
             <img src="assets/img/trophy.png" alt="" />
             <span>인기순위</span>
@@ -40,10 +50,13 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             to="/download"
             // href="#"
             onClick={() => setSelectCategory('c')}
-            style={{
-              backgroundColor:
-                'c' === selectCategory ? '#1DD960' : 'transparent',
-            }}
+            style={
+              {
+                // backgroundColor:
+                //   'c' === selectCategory ? '#1DD960' : 'transparent',
+              }
+            }
+            className={'c' === selectCategory ? 'test' : ''}
           >
             <img src="assets/img/align-text-bottom.png" alt="" />
             <span>다운로드</span>
@@ -52,10 +65,13 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             to="/artist"
             // href="#"
             onClick={() => setSelectCategory('d')}
-            style={{
-              backgroundColor:
-                'd' === selectCategory ? '#1DD960' : 'transparent',
-            }}
+            style={
+              {
+                // backgroundColor:
+                //   'd' === selectCategory ? '#1DD960' : 'transparent',
+              }
+            }
+            className={'d' === selectCategory ? 'test' : ''}
           >
             <img src="assets/img/personal-collection.png" alt="" />
             <span>아티스트</span>
@@ -65,8 +81,8 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             // href="#"
             onClick={() => setSelectCategory('e')}
             style={{
-              backgroundColor:
-                'e' === selectCategory ? '#1DD960' : 'transparent',
+              // backgroundColor:
+              //   'e' === selectCategory ? '#1DD960' : 'transparent',
             }}
           >
             <img src="assets/img/record.png" alt="" />
