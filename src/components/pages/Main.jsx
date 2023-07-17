@@ -36,7 +36,8 @@ const Main = () => {
             {/* 날씨 */}
             <WeatherCont />
             <Link to="/weatherplaylist">
-              <section>
+              {/* 다가온다 크리스마스 */}
+              {/* <section>
                 <div className="section_title">
                   <h2>다가온다, 크리스마-스!</h2>
                   <p>
@@ -53,7 +54,7 @@ const Main = () => {
                     />
                   </div>
                 </div>
-              </section>
+              </section> */}
             </Link>
             <AlbumCont test={songData} />
             <section id="ranking__temporary">

@@ -177,6 +177,22 @@
 .album_cont {
   display: flex;
   gap: 20px;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  position: relative;
+  .album_item {
+    scroll-snap-align: start;
+  }
+  // &::before {
+  //   position: fixed;
+  //   content: '';
+  //   height: 100%;
+  //   background: red;
+  //   right: 0;
+  //   top: 0;
+  //   z-index: 10000;
+  //   width: 10px;
+  // }
 }
 .section_title {
   margin-bottom: 30px;

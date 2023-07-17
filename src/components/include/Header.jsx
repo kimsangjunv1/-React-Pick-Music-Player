@@ -6,15 +6,28 @@ const Header = ({ selectCategory, setSelectCategory }) => {
   useState(() => {
     console.log('선택됨 : ', selectCategory)
   }, [])
+
+  const [asideWidth, setAsideWidth] = useState(true)
   // function yoyo() {
   //   alert(selectCategory)
   // }
+  const hide = () => {
+    const aside = document.querySelector('#aside')
+  }
   return (
     <header id="header">
-      <aside id="aside">
+      <aside id="aside" className={asideWidth ? 'minimize' : ''}>
         <Link to="/" className="logo" href="">
           <h1 className="ir">logo</h1>
         </Link>
+        <button
+          onClick={() => {
+            asideWidth === false ? setAsideWidth(true) : setAsideWidth(false)
+          }}
+          className="minimize_btn"
+        >
+          {asideWidth === false ? '<' : '>'}
+        </button>
         <div>
           <Link
             to="/"

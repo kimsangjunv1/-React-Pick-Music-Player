@@ -8,10 +8,30 @@ function WeatherListItem(props) {
   //   var Dates = new Date(`${props.weather.date}` * 1000)
 
   //   console.log(date)
+  const getDayName = (date) => {
+    switch (date) {
+      case 'Mon':
+        return '월요일'
+      case 'Tue':
+        return '화요일'
+      case 'Wed':
+        return '수요일'
+      case 'Thu':
+        return '목요일'
+      case 'Fri':
+        return '금요일'
+      case 'Sat':
+        return '토요일'
+      case 'Sun':
+        return '일요일'
+      default:
+        return '불명확'
+    }
+  }
   return (
     <div>
       {/* <p className="date">{Dates}</p> */}
-      <p>{props.weather.day}</p>
+      <p>{getDayName(props.weather.day)}</p>
       <img
         src={`https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/weather/${props.weather.text}.png`}
         alt={`${props.weather.text} 그림`}
@@ -58,7 +78,7 @@ const WeatherCont = () => {
           <WeatherListItem key={index} weather={weather} />
         ))}
       </div>
-      <div className="section_title">
+      {/* <div className="section_title">
         <h2>오늘의 날씨에 맞는 음악은?</h2>
         <p>여기에서 날씨에 맞는 음악을 추천해드릴게요!</p>
       </div>
@@ -105,7 +125,7 @@ const WeatherCont = () => {
             <div className="item_003"></div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
