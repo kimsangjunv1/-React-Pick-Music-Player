@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { fetchAPI } from '../../utils/fetchAPI'
 import Header from '../include/Header'
 import MainSearch from '../layout/MainSearch'
+import Footer from '../include/Footer'
 
 import Loader from '../Loader'
 
@@ -72,6 +73,7 @@ const Artist = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   )
 }

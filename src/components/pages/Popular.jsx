@@ -4,6 +4,7 @@ import Header from '../include/Header'
 import Loader from '../Loader'
 import MainSearch from '../layout/MainSearch'
 import { Link } from 'react-router-dom'
+import Footer from '../include/Footer'
 
 function RankingItem(props) {
   // console.log(props)
@@ -134,7 +135,7 @@ const Popular = () => {
               </ul>
             </div>
           </div>
-          <div className="music__control">
+          {/* <div className="music__control">
             <div className="progress">
               <div className="bar"></div>
               <div className="timer">
@@ -143,14 +144,14 @@ const Popular = () => {
               </div>
             </div>
             <div className="volumeCont">
-              {/* <input
+              <input
                 type="range"
                 id="volume-control"
                 min="0"
                 max="10"
                 devalue="5"
                 step="0.1"
-              /> */}
+              />
             </div>
             <div className="control_cont">
               <div className="control_music">
@@ -176,9 +177,10 @@ const Popular = () => {
                 <i title="재생 목록" className="list" id="control-list"></i>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </main>
+      <Footer />
     </>
   )
 }

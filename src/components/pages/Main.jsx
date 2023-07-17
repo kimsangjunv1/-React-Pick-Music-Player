@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../include/Header'
+import Footer from '../include/Footer'
 import MainSearch from '../layout/MainSearch'
 import Loader from '../Loader'
 import { fetchAPI } from '../../utils/fetchAPI'
@@ -67,6 +68,7 @@ const Main = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   )
 }

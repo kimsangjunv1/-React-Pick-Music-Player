@@ -50,7 +50,10 @@ const ArtistCont = ({ test }) => {
       </div>
       <div className="artistWrap">
         <div className="artistinner unflex_artist">
-          <Swiper
+          {test.map((artist, index) => (
+            <ArtistItem key={index} artist={artist} />
+          ))}
+          {/* <Swiper
             slidesPerView={3}
             spaceBetween={200}
             pagination={{
@@ -67,7 +70,7 @@ const ArtistCont = ({ test }) => {
             <SwiperSlide>
               <div style={{ opacity: 0 }}>2</div>
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
     </div>

@@ -25,6 +25,8 @@
       margin-bottom: 20px;
       border-radius: 15px;
       cursor: pointer;
+      border: 1px solid #252525;
+      overflow: hidden;
 
       audio {
         position: absolute;
@@ -44,14 +46,23 @@
         right: 25px;
         border-radius: 100px;
         transform: rotate(45deg);
+        z-index: 1000;
       }
 
       &:hover {
-        transform: translatey(10px);
-        transition: 0.25s;
+        transform: translatey(-10px);
+        transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+        border: 1px solid #1cd961;
+        img {
+          transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+          transform: scale(1.2);
+        }
       }
       &:not(:hover) {
-        transition: 0.25s;
+        transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+        img {
+          transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
       }
 
       > img {
