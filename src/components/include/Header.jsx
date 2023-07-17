@@ -28,7 +28,10 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             }
             className={'a' === selectCategory ? 'test' : ''}
           >
-            <img src="assets/img/broadcast.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/record.png"
+              alt=""
+            />
             <span>홈</span>
           </Link>
           <Link
@@ -43,7 +46,10 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             }
             className={'b' === selectCategory ? 'test' : ''}
           >
-            <img src="assets/img/trophy.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/trophy.png"
+              alt=""
+            />
             <span>인기순위</span>
           </Link>
           <Link
@@ -58,7 +64,10 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             }
             className={'c' === selectCategory ? 'test' : ''}
           >
-            <img src="assets/img/align-text-bottom.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/align-text-bottom.png"
+              alt=""
+            />
             <span>다운로드</span>
           </Link>
           <Link
@@ -73,7 +82,10 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             }
             className={'d' === selectCategory ? 'test' : ''}
           >
-            <img src="assets/img/personal-collection.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/personal-collection.png"
+              alt=""
+            />
             <span>아티스트</span>
           </Link>
           {/* <Link
