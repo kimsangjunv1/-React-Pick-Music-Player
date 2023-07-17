@@ -9,10 +9,21 @@ import Loader from '../Loader'
 
 function ArtistItem(props) {
   // console.log(props.artist.artists[0].adamid)
+  console.log(
+    '프롭스 : ',
+    !props?.artist?.images?.background ? props?.artist?.images?.background : ''
+  )
   return (
     // <Link to={`artists/get-details/${props.artist.artists[0].adamid}`}>
     <div className="artist">
-      <img src={`${props.artist.images.background}`} alt="" />
+      <img
+        src={`${
+          props?.artist?.images?.background
+            ? props?.artist?.images?.background
+            : ''
+        }`}
+        alt=""
+      />
       <div className="artistbox">
         <div className="artistbox_desc">
           <h4>{props.artist.subtitle}</h4>
