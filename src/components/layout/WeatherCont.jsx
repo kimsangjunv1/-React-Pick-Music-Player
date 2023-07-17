@@ -12,7 +12,10 @@ function WeatherListItem(props) {
     <div>
       {/* <p className="date">{Dates}</p> */}
       <p>{props.weather.day}</p>
-      <img src={`${props.weather.text}`} alt={`${props.weather.text} 그림`} />
+      <img
+        src={`https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/weather/${props.weather.text}.png`}
+        alt={`${props.weather.text} 그림`}
+      />
       <div>
         <span>날씨 : {props.weather.text}</span>
         <div>

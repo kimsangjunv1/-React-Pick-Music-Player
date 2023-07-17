@@ -19,8 +19,8 @@ const Main = () => {
     ).then((data) => setSongData(data.tracks))
   }, [])
 
-  // if (!songData?.length) return <Loader />
-  if (!songData?.length) return <SkeletonMain />
+  if (!songData?.length) return <Loader />
+  // if (!songData?.length) return <SkeletonMain />
 
   return (
     <>
