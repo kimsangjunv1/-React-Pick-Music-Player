@@ -5,13 +5,14 @@ import Loader from '../Loader'
 import MainSearch from '../layout/MainSearch'
 import { Link } from 'react-router-dom'
 import Footer from '../include/Footer'
+import MusicControl from '../include/MusicControl'
 
 function RankingItem(props) {
   // console.log(props)
   return (
     <Link to={`/musicplayer/${props.ranking.key}`}>
       <li className="item">
-        <div>{props.index + 1}</div>
+        <div>{props.index + 2}</div>
         <div>
           <img src={`${props.ranking.images.coverart}`} alt="" />
         </div>
@@ -45,8 +46,19 @@ function FirstRankingItem(props) {
   console.log('props 22: ', props)
   return (
     <div className="winner_cont">
-      <h2>Top 10</h2>
+      <p className="winner_cont_header">현재 인기 곡</p>
       <div className="album_art_cont">
+        <audio
+          src={`${props.ranking.hub.actions[1].uri}`}
+          type="audio/m4a"
+          controls
+          // autoPlay
+        >
+          <source
+            src={`${props.ranking.hub.actions[1].uri}`}
+            type="audio/m4a"
+          />
+        </audio>
         <img src={`${props.ranking.images.coverart}`} alt="" />
         <img
           className="album_art_shadow"
@@ -54,7 +66,7 @@ function FirstRankingItem(props) {
           alt="앨범아트 그림자"
         />
       </div>
-      <h4>01-</h4>
+      <h4>1위</h4>
       <p className="artist">{props.ranking.subtitle}</p>
       <p className="song_title">{props.ranking.title}</p>
       <p className="refresh_time">
@@ -71,14 +83,14 @@ function FirstRankingItem(props) {
         />
         <span>올해 47주간 1위</span>
       </p>
-      <audio
+      {/* <audio
         src={`${props.ranking.hub.actions[1].uri}`}
         type="audio/m4a"
         controls
         // autoPlay
       >
         <source src={`${props.ranking.hub.actions[1].uri}`} type="audio/m4a" />
-      </audio>
+      </audio> */}
     </div>
   )
 }
@@ -114,6 +126,7 @@ const Popular = () => {
       <main id="main">
         <section id="contents">
           <MainSearch />
+          <h2>Top 10</h2>
           <div className="ranking_cont">
             {firstranking.map((ranking, index) => (
               <FirstRankingItem key={index} ranking={ranking} />
@@ -135,49 +148,7 @@ const Popular = () => {
               </ul>
             </div>
           </div>
-          {/* <div className="music__control">
-            <div className="progress">
-              <div className="bar"></div>
-              <div className="timer">
-                <span className="current">0:00</span>
-                <span className="duration">4:00</span>
-              </div>
-            </div>
-            <div className="volumeCont">
-              <input
-                type="range"
-                id="volume-control"
-                min="0"
-                max="10"
-                devalue="5"
-                step="0.1"
-              />
-            </div>
-            <div className="control_cont">
-              <div className="control_music">
-                <img src="assets/img/test_album.png" alt="" />
-                <div className="control_music_desc">
-                  <p>TAEYEON</p>
-                  <div>
-                    <h2>Weekend</h2>
-                    <p>KR</p>
-                  </div>
-                </div>
-              </div>
-              <div className="control">
-                <div className="timer">
-                  <span className="current">0:00</span>
-                  <span>/</span>
-                  <span className="duration">4:00</span>
-                </div>
-                <i title="전체 반복" className="repeat" id="control-repeat"></i>
-                <i title="이전곡 재생" className="prev" id="control-prev"></i>
-                <i title="재생" className="play" id="control-play"></i>
-                <i title="다음곡 재생" className="next" id="control-next"></i>
-                <i title="재생 목록" className="list" id="control-list"></i>
-              </div>
-            </div>
-          </div> */}
+          {/* <MusicControl /> */}
         </section>
       </main>
       <Footer />
