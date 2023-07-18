@@ -7,10 +7,10 @@ import Footer from '../include/Footer'
 import Loader from '../Loader'
 
 function ArtistItem(props) {
-  console.log(
-    '프롭스 : ',
-    props?.artist?.images?.background ? props?.artist?.images?.background : ''
-  )
+  // console.log(
+  //   '프롭스 : ',
+  //   props?.artist?.images?.background ? props?.artist?.images?.background : ''
+  // )
   return (
     // <Link to={`artists/get-details/${props.artist.artists[0].adamid}`}>
     <div className="artist">
@@ -42,11 +42,17 @@ function ArtistItem(props) {
 const Artist = () => {
   const [artist, setArtist] = useState(null)
   const [selectCategory, setSelectCategory] = useState('d')
+  const [resultCount, setResultCount] = useState(5)
+
+  const fetchItem = () => {
+    setResultCount(resultCount + 5)
+    fetchAPI(
+      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=${resultCount}&startFrom=0`
+    ).then((data) => setArtist(data.tracks))
+  }
 
   useEffect(() => {
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=30&startFrom=10`
-    ).then((data) => setArtist(data.tracks))
+    fetchItem()
   }, [])
 
   if (!artist?.length) return <Loader />
@@ -63,7 +69,7 @@ const Artist = () => {
 
           <div className="artistWrap">
             <h3>
-              Artist<em>30</em>
+              Artist<em>{resultCount - 5}명</em>
             </h3>
             <div className="artistinner">
               {artist.map((artist, index) => (
@@ -71,6 +77,20 @@ const Artist = () => {
               ))}
             </div>
           </div>
+          <button
+            className={resultCount > 20 ? 'more_btn disabled' : 'more_btn'}
+            onClick={() => {
+              if (resultCount <= 20) {
+                setResultCount(resultCount + 5)
+                fetchItem()
+                console.log('성공')
+              }
+            }}
+          >
+            {resultCount > 20
+              ? '더 보기는 최대 20명 까지만 지원합니다.'
+              : '더 보기'}
+          </button>
         </section>
       </main>
       <Footer />

@@ -29,7 +29,11 @@ function WeatherListItem(props) {
     }
   }
   return (
-    <div>
+    <div
+      onClick={(e) => {
+        e.target.className = 'testttt'
+      }}
+    >
       {/* <p className="date">{Dates}</p> */}
       <p>{getDayName(props.weather.day)}</p>
       <img
@@ -49,6 +53,7 @@ function WeatherListItem(props) {
 
 const WeatherCont = () => {
   const [weather, setWeather] = useState([])
+  const [todayWeather, setTodayWeather] = useState([])
   const options = {
     method: 'GET',
     headers: {
@@ -62,7 +67,10 @@ const WeatherCont = () => {
       options
     )
       .then((response) => response.json())
-      .then((response) => setWeather(response.forecasts))
+      .then((response) => {
+        setWeather(response.forecasts.filter((item, index) => index > 0))
+        setTodayWeather(response.forecasts.filter((item, index) => index === 0))
+      })
       .catch((err) => console.error(err))
   }, [])
 
@@ -72,6 +80,12 @@ const WeatherCont = () => {
       <div className="section_title">
         <h2>오늘의 날씨는?</h2>
         <p>오늘의 날씨는</p>
+      </div>
+      <p>오늘의 날씨</p>
+      <div>
+        {todayWeather?.map((todayWeather, index) => (
+          <WeatherListItem key={index} weather={todayWeather} />
+        ))}
       </div>
       <div className="weatherList_cont">
         {weather?.map((weather, index) => (
