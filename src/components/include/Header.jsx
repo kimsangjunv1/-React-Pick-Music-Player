@@ -31,14 +31,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
         <div>
           <Link
             to="/"
-            // href="#"
             onClick={() => setSelectCategory('a')}
-            style={
-              {
-                // backgroundColor:
-                //   'a' === selectCategory ? '#1DD960' : 'transparent',
-              }
-            }
             className={'a' === selectCategory ? 'test' : ''}
           >
             <img
@@ -49,14 +42,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           </Link>
           <Link
             to="/popular"
-            // href="#"
             onClick={() => setSelectCategory('b')}
-            style={
-              {
-                // backgroundColor:
-                //   'b' === selectCategory ? '#1DD960' : 'transparent',
-              }
-            }
             className={'b' === selectCategory ? 'test' : ''}
           >
             <img
@@ -67,14 +53,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           </Link>
           <Link
             to="/download"
-            // href="#"
             onClick={() => setSelectCategory('c')}
-            style={
-              {
-                // backgroundColor:
-                //   'c' === selectCategory ? '#1DD960' : 'transparent',
-              }
-            }
             className={'c' === selectCategory ? 'test' : ''}
           >
             <img
@@ -85,14 +64,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           </Link>
           <Link
             to="/artist"
-            // href="#"
             onClick={() => setSelectCategory('d')}
-            style={
-              {
-                // backgroundColor:
-                //   'd' === selectCategory ? '#1DD960' : 'transparent',
-              }
-            }
             className={'d' === selectCategory ? 'test' : ''}
           >
             <img

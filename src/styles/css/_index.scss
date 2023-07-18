@@ -17,6 +17,35 @@
   border-radius: 15px;
   // margin-right: 20px;
 }
+.todayWeather_cont {
+  margin-bottom: 70px;
+  .todayWeather_cont_inner {
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    > div {
+      position: absolute;
+      z-index: 1;
+      img {
+        position: absolute;
+        bottom: -290px;
+        left: -90px;
+        transform: scale(1.5);
+      }
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, black 0%, transparent 60%);
+    }
+  }
+}
 .weather_cont {
   display: flex;
   gap: 20px;

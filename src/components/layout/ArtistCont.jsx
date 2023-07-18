@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { fetchAPI } from '../../utils/fetchAPI'
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
+import { Link } from 'react-router-dom'
 
 // import Loader from '../Loader'
 
@@ -50,9 +47,11 @@ const ArtistCont = ({ test }) => {
       </div>
       <div className="artistWrap">
         <div className="artistinner unflex_artist">
-          {test.map((artist, index) => (
-            <ArtistItem key={index} artist={artist} />
-          ))}
+          <Link to="/artist">
+            {test.map((artist, index) => (
+              <ArtistItem key={index} artist={artist} />
+            ))}
+          </Link>
           {/* <Swiper
             slidesPerView={3}
             spaceBetween={200}
