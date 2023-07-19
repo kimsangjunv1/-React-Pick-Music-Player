@@ -29,6 +29,10 @@ function WeatherListItem(props) {
         return '불명확'
     }
   }
+  const getTime = (date) => {
+    console.log('뉴 데이트 : ', new Date(date))
+    return `${new Date(date)}`
+  }
   return (
     <div
       onClick={(e) => {
@@ -36,6 +40,7 @@ function WeatherListItem(props) {
       }}
     >
       {/* <p className="date">{Dates}</p> */}
+      <p>{getTime(props.weather.date)}</p>
       <p>{getDayName(props.weather.day)}</p>
       <img
         src={`https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/weather/${props.weather.text}.png`}
