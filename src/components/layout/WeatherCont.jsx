@@ -1691,16 +1691,19 @@ const WeatherCont = () => {
 
   const getWeatherImage = () => {
     console.log('imageData : ', imageData)
-    setWeatherImage(
-      imageData.results.data[Math.floor(Math.random() * 10) + 1].attributes
-        .image.large
-    )
+    // setWeatherImage(
+    //   imageData.results.data[Math.floor(Math.random() * 10) + 1].attributes
+    //     .image.large
+    // )
     imageAPI(
       `api/search`
       // `api/search?type=video&query=technology&size=large&orientation=landscape`
     ).then((data) => {
       console.log('data : ', data)
-      setWeatherImage(data.results.data[10].attributes.image.large)
+      setWeatherImage(
+        data.results.data[Math.floor(Math.random() * 10) + 1].attributes.image
+          .large
+      )
     })
   }
 

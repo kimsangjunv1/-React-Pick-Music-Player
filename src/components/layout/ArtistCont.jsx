@@ -39,6 +39,18 @@ function ArtistItem(props) {
 
 const ArtistCont = ({ test }) => {
   // if (!test?.length) return <Loader />
+  const [artistItem, setArtistItem] = useState([])
+  const filterArtist = () => {
+    console.log(
+      '메인 아티스트 : ',
+      test.filter((item, index) => index >= 0 && index <= 4)
+    )
+    setArtistItem(test.filter((item, index) => index >= 0 && index <= 4))
+  }
+
+  useEffect(() => {
+    filterArtist()
+  }, [])
 
   return (
     <div className="artist_cont unflex">
@@ -47,30 +59,15 @@ const ArtistCont = ({ test }) => {
       </div>
       <div className="artistWrap">
         <div className="artistinner unflex_artist">
-          <Link to="/artist">
-            {test.map((artist, index) => (
+          <Link to="/artist" className="a_flex">
+            {artistItem.map((artist, index) => (
               <ArtistItem key={index} artist={artist} />
             ))}
           </Link>
-          {/* <Swiper
-            slidesPerView={3}
-            spaceBetween={200}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
-          >
-            {test.map((artist, index) => (
-              <SwiperSlide>
-                <ArtistItem key={index} artist={artist} />
-              </SwiperSlide>
-            ))}
-            <SwiperSlide>
-              <div style={{ opacity: 0 }}>2</div>
-            </SwiperSlide>
-          </Swiper> */}
         </div>
+        <Link to="/artist" className="artist_more">
+          더보기
+        </Link>
       </div>
     </div>
   )

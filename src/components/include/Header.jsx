@@ -8,12 +8,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
   }, [])
 
   const [asideWidth, setAsideWidth] = useState(true)
-  // function yoyo() {
-  //   alert(selectCategory)
-  // }
-  const hide = () => {
-    const aside = document.querySelector('#aside')
-  }
+
   return (
     <header id="header">
       <aside id="aside" className={asideWidth ? 'minimize' : ''}>
