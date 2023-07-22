@@ -10,9 +10,24 @@ import { Link } from 'react-router-dom'
 
 import { AlbumCont, RankCont, ArtistCont, WeatherCont } from '../'
 
+// 리덕스
+import { useDispatch } from 'react-redux'
+import { ADD_NUM } from '../../reducer'
+
 const Main = () => {
   const [selectCategory, setSelectCategory] = useState('a')
   const [songData, setSongData] = useState(null)
+
+  const [value, setValue] = useState(0)
+  const dispatch = useDispatch()
+
+  const onClickAddNum = () => {
+    setValue((prev) => prev + 1)
+    dispatch({
+      type: ADD_NUM,
+      data: value,
+    })
+  }
 
   useEffect(() => {
     fetchAPI(
@@ -34,6 +49,14 @@ const Main = () => {
         <section id="contents">
           <MainSearch />
           <div className="main_cont">
+            {/* ------------- 리덕스 테스트 ------------ */}
+            <div>
+              <p>{value}</p>
+              <button type="button" onClick={onClickAddNum}>
+                클릭
+              </button>
+            </div>
+            {/* ------------------------------------ */}
             {/* 날씨 */}
             <WeatherCont />
             <Link to="/weatherplaylist">
