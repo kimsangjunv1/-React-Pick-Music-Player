@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom'
 import Footer from '../include/Footer'
 import MusicControl from '../include/MusicControl'
 
+// 리덕스
+import StoreTest from '../include/StoreTest'
+
 function RankingItem(props) {
   // console.log(props)
   return (
@@ -127,6 +130,8 @@ const Popular = () => {
         <section id="contents">
           <MainSearch />
           <h2>Top 10</h2>
+          <StoreTest />
+
           <div className="ranking_cont">
             {firstranking.map((ranking, index) => (
               <FirstRankingItem key={index} ranking={ranking} />

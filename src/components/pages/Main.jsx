@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 import { AlbumCont, RankCont, ArtistCont, WeatherCont } from '../'
 
 // 리덕스
+import StoreTest from '../include/StoreTest'
 
 const Main = () => {
   const [selectCategory, setSelectCategory] = useState('a')
@@ -38,6 +39,8 @@ const Main = () => {
           <div className="main_cont">
             {/* 날씨 */}
             <WeatherCont />
+            <StoreTest />
+
             <Link to="/weatherplaylist">
               {/* 다가온다 크리스마스 */}
               {/* <section>
