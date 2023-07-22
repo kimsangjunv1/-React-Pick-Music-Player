@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 const Header = ({ selectCategory, setSelectCategory }) => {
-  useState(() => {
-    console.log('선택됨 : ', selectCategory)
-  }, [])
-
   const [asideWidth, setAsideWidth] = useState(true)
 
   return (
