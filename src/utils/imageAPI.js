@@ -17,12 +17,12 @@ const options = {
   },
 }
 
-export const imageAPI = async (url) => {
+export const imageAPI = async (url, keyword) => {
   const { data } = await axios.post(
     `${BASE_URL}/${url}`,
     {
       type: 'photo',
-      query: 'raining',
+      query: keyword,
       size: 'large',
       orientation: 'landscape',
     },
