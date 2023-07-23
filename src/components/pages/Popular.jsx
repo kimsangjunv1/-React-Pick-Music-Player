@@ -8,16 +8,11 @@ import Footer from '../include/Footer'
 import MusicControl from '../include/MusicControl'
 
 // 리덕스
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { saveText } from '../../utils/counterSlice'
-import StoreTest from '../include/StoreTest'
 
 function RankingItem(props) {
   const dispatch = useDispatch()
-  const currentProps = useSelector((state) => state.counter.props)
-
-  console.log('currentProps : ', currentProps)
-  // console.log(props)
   return (
     <Link
       to={`/musicplayer/${props.ranking.key}`}
@@ -25,7 +20,6 @@ function RankingItem(props) {
         dispatch(saveText(props))
       }}
     >
-      <StoreTest />
       <li className="item">
         <div>{props.index + 2}</div>
         <div>

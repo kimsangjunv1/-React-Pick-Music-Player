@@ -17,21 +17,21 @@ function MusicText({ musicDetail }) {
             Now <strong>Playing.</strong>
           </h2>
           <div className="inner_album_art">
-            {/* <img src={musicDetail.images.coverart} alt="" /> */}
+            <img src={musicDetail.ranking.images.coverart} alt="" />
             <div className="greencircle"></div>
             <div className="musicpoint"></div>
           </div>
-          {/* <p>{musicDetail.subtitle}</p>
-          <p className="music__tit">{musicDetail.title.slice(0, 20)}</p> */}
+          <p>{musicDetail.ranking.subtitle}</p>
+          <p className="music__tit">{musicDetail.ranking.title.slice(0, 20)}</p>
           <audio
             className="audiobox"
-            // src={`${musicDetail.hub.actions[1].uri}`}
+            src={`${musicDetail.ranking.hub.actions[1].uri}`}
             type="audio/m4a"
             controls
             // autoPlay
           >
             <source
-              // src={`${musicDetail.hub.actions[1].uri}`}
+              src={`${musicDetail.ranking.hub.actions[1].uri}`}
               type="audio/m4a"
             />
           </audio>
