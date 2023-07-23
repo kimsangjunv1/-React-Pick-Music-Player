@@ -1,10 +1,14 @@
 #main {
-  margin: 0 40px 0 200px;
+  // margin: 0 40px 0 200px;
 
   #contents {
-    // width: 1160px;
     margin: 0 auto;
     position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     &::after {
       content: '';
       background: radial-gradient(

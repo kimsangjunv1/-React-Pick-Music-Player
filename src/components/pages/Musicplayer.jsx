@@ -102,7 +102,7 @@ const Musicplayer = () => {
       <main id="main" className="musicplayer_inside">
         <section id="contents" className="musicplayer_inside">
           <div className="outer_album_art">
-            <img src="assets/img/test_album.png" alt="" />
+            <img src={`${musicDetail.ranking.images.coverart}`} alt="" />
           </div>
           <div className="search">
             <label htmlFor="searchInput ir">
