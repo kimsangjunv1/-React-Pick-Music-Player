@@ -39,8 +39,6 @@ const Main = () => {
           <div className="main_cont">
             {/* 날씨 */}
             <WeatherCont />
-            <StoreTest />
-
             <Link to="/weatherplaylist">
               {/* 다가온다 크리스마스 */}
               {/* <section>

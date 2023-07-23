@@ -1,4 +1,10 @@
 .playlist {
+  min-width: 320px;
+  width: 320px;
+  height: 320px;
+  // background: #252525;
+  border-radius: 15px;
+  // margin-right: 20px;
   &::before {
     content: '';
     width: 26px;
@@ -10,12 +16,31 @@
     right: 20px;
     transform: rotate(315deg);
   }
-  min-width: 320px;
-  width: 320px;
-  height: 320px;
-  background: #252525;
-  border-radius: 15px;
-  // margin-right: 20px;
+  .item_001,
+  .item_002,
+  .item_003,
+  .item_004,
+  .item_005 {
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    /* background: linear-gradient(45deg, black, transparent); */
+    > div {
+      padding: 20px;
+      background: linear-gradient(360deg, black, transparent);
+      width: 100%;
+      border-radius: 0 0 15px 15px;
+      p {
+        &:first-child {
+          font-size: 14px;
+        }
+        &:last-child {
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
 .todayWeather_cont {
   margin-bottom: 70px;
@@ -57,6 +82,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+  border-radius: 15px;
 }
 .weather_info {
   position: relative;

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SkeletonMain from '../loading/SkeletonMain'
 import SkeletonWeather from '../loading/SkeletonWeather'
 import { imageAPI } from '../../utils/imageAPI'
+import { searchAPI } from '../../utils/searchAPI'
 
 function WeatherListItem(props) {
   //   console.log(props)
@@ -30,7 +31,6 @@ function WeatherListItem(props) {
     }
   }
   const getTime = (date) => {
-    console.log('뉴 데이트 : ', new Date(date))
     return `${new Date(date)}`
   }
   return (
@@ -99,7 +99,6 @@ function TodayWeatherImageItem(props, image) {
         return date
     }
   }
-  console.log('제발 : ', props)
   return (
     <>
       <div
@@ -128,10 +127,149 @@ function TodayWeatherImageItem(props, image) {
   )
 }
 
+function SetTodayWeatherMusic(props) {
+  console.log('과연?? : ', props)
+  const getWeatherName = (date) => {
+    switch (date) {
+      case 'Sunny':
+        return '화창한'
+      case 'Clear':
+        return '맑은'
+      case 'Thunderstorms':
+        return '천둥번개 치는'
+      case 'Mostly Sunny':
+        return '거의 화창한'
+      case 'Showers':
+        return '소나기오는'
+      case 'Cloudy':
+        return '흐린'
+      default:
+        return '잘 모르겠는'
+    }
+  }
+  return (
+    <div className="weather_cont">
+      <div className="playlist weather_info">
+        <div
+          className="weather_text_cont"
+          style={{
+            backgroundImage: `url(${props.image})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div className="weather_desc">
+            <h2>오늘 같이 {getWeatherName(props.weather.text)} 날!</h2>
+            <p>
+              {getWeatherName(props.weather.text)} 날 듣기 좋은 플레이리스트를
+              정리 해~보았다
+            </p>
+          </div>
+          <div className="weather_condition">
+            <img
+              className=""
+              src={`https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/weather/${props.weather.text}.png`}
+              alt={`${props.weather.text} 그림`}
+            />
+            <div className="degree_cont">
+              <p>{props.weather.low}°</p>
+              <p>서울</p>
+            </div>
+            <p>눈 오는 날 듣기 좋은 음악을 추천 해드릴게요</p>
+          </div>
+        </div>
+      </div>
+      <div className="playlist select_001">
+        <div
+          className="item_001"
+          style={{
+            backgroundImage: `url(${props.searchMusic[0].track.images.coverart})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div>
+            <p>{props.searchMusic[0].track.subtitle}</p>
+            <p>{props.searchMusic[0].track.title}</p>
+          </div>
+        </div>
+        <div className="item_cont">
+          <div
+            className="item_002"
+            style={{
+              backgroundImage: `url(${props.searchMusic[1].track.images.coverart})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            <div>
+              <p>{props.searchMusic[1].track.subtitle}</p>
+              <p>{props.searchMusic[1].track.title}</p>
+            </div>
+          </div>
+          <div
+            className="item_003"
+            style={{
+              backgroundImage: `url(${props.searchMusic[2].track.images.coverart})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            <div>
+              <p>{props.searchMusic[2].track.subtitle}</p>
+              <p>{props.searchMusic[2].track.title}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="playlist select_002">
+        <div
+          className="item_004"
+          style={{
+            backgroundImage: `url(${props.searchMusic[3].track.images.coverart})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div>
+            <p>{props.searchMusic[3].track.subtitle}</p>
+            <p>{props.searchMusic[3].track.title}</p>
+          </div>
+        </div>
+        <div className="item_cont2">
+          <div
+            className="item_005"
+            style={{
+              backgroundImage: `url(${props.searchMusic[4].track.images.coverart})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            <div>
+              <p>{props.searchMusic[4].track.subtitle}</p>
+              <p>{props.searchMusic[4].track.title}</p>
+            </div>
+          </div>
+          <div className="item_006"></div>
+        </div>
+      </div>
+      {/* <div className="playlist select_003"></div>
+      <div className="playlist select_001">
+        <div className="item_001"></div>
+        <div className="item_cont">
+          <div className="item_002"></div>
+          <div className="item_003"></div>
+        </div>
+      </div> */}
+    </div>
+  )
+}
+
 const WeatherCont = () => {
   const [weather, setWeather] = useState([])
   const [todayWeather, setTodayWeather] = useState([])
   const [weatherImage, setWeatherImage] = useState([])
+  const [searchMusicItem, setSearchMusicItem] = useState([])
 
   const options = {
     method: 'GET',
@@ -151,6 +289,9 @@ const WeatherCont = () => {
         setWeather(response.forecasts.filter((item, index) => index > 0))
         setTodayWeather(response.forecasts.filter((item, index) => index === 0))
         getWeatherImage(response.forecasts.filter((item, index) => index === 0))
+        searchWeatherMusic(
+          response.forecasts.filter((item, index) => index === 0)
+        )
       })
       .catch((err) => console.error(err))
   }, [])
@@ -166,72 +307,48 @@ const WeatherCont = () => {
     })
   }
 
+  const searchWeatherMusic = ([props]) => {
+    const searchKeyword = props.text
+
+    searchAPI(
+      `search?term=${searchKeyword}&locale=ko-KR&offset=0&limit=5'`
+    ).then((data) => {
+      setSearchMusicItem(data.tracks.hits)
+    })
+  }
+
   if (!weather?.length) return <SkeletonWeather />
+  if (!searchMusicItem?.length) return <SkeletonWeather />
   return (
     <section>
       <div className="todayWeather_cont">
-        <h2>오늘의 날씨는?</h2>
+        <div className="section_title">
+          <h2>오늘의 날씨에 맞는 음악은?</h2>
+          <p>여기에서 날씨에 맞는 음악을 추천해드릴게요!</p>
+        </div>
         {todayWeather?.map((todayWeather, index) => (
-          <TodayWeatherImageItem
+          <SetTodayWeatherMusic
             key={index}
             weather={todayWeather}
             image={weatherImage}
+            searchMusic={searchMusicItem}
           />
         ))}
+        <div className="weatherList_cont">
+          {weather?.map((weather, index) => (
+            <WeatherListItem key={index} weather={weather} />
+          ))}
+        </div>
       </div>
-      <div className="weatherList_cont">
-        {weather?.map((weather, index) => (
-          <WeatherListItem key={index} weather={weather} />
-        ))}
-      </div>
-      {/* <div className="section_title">
-        <h2>오늘의 날씨에 맞는 음악은?</h2>
-        <p>여기에서 날씨에 맞는 음악을 추천해드릴게요!</p>
-      </div>
-      <div className="weather_cont">
-        <div className="playlist weather_info">
-          <div className="weather_text_cont">
-            <div className="weather_desc">
-              <h2>오늘 같이 눈 오는 날!</h2>
-              <p>눈오는 날 듣기 좋은 플레이리스트를 정리 해~보았다</p>
-            </div>
-            <div className="weather_condition">
-              <img
-                className=""
-                src="https://github.com/kimsangjunv1/-React-Pick-Music-Player/blob/main/src/styles/img/weather/weather_snow.png?raw=true"
-                alt=""
-              />
-              <div className="degree_cont">
-                <p>08°</p>
-                <p>서울</p>
-              </div>
-              <p>눈 오는 날 듣기 좋은 음악을 추천 해드릴게요</p>
-            </div>
-          </div>
-        </div>
-        <div className="playlist select_001">
-          <div className="item_001"></div>
-          <div className="item_cont">
-            <div className="item_002"></div>
-            <div className="item_003"></div>
-          </div>
-        </div>
-        <div className="playlist select_002">
-          <div className="item_004"></div>
-          <div className="item_cont2">
-            <div className="item_005"></div>
-            <div className="item_006"></div>
-          </div>
-        </div>
-        <div className="playlist select_003"></div>
-        <div className="playlist select_001">
-          <div className="item_001"></div>
-          <div className="item_cont">
-            <div className="item_002"></div>
-            <div className="item_003"></div>
-          </div>
-        </div>
-      </div> */}
+
+      {/* {todayWeather?.map((todayWeather, index) => (
+        <SetTodayWeatherMusic
+          key={index}
+          weather={todayWeather}
+          image={weatherImage}
+          searchMusic={searchMusicItem}
+        />
+      ))} */}
     </section>
   )
 }

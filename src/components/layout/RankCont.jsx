@@ -12,14 +12,7 @@ function RankingItem(props) {
       </div>
       <div>{props.ranking.title}</div>
       <div>{props.ranking.subtitle}</div>
-      <audio
-        className="audiobox"
-        src={`${props.ranking.hub.actions[1].uri}`}
-        type="audio/m4a"
-        controls
-      >
-        <source src={`${props.ranking.hub.actions[1].uri}`} type="audio/m4a" />
-      </audio>
+      <div></div>
     </li>
   )
 }
