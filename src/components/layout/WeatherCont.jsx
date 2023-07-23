@@ -34,11 +34,7 @@ function WeatherListItem(props) {
     return `${new Date(date)}`
   }
   return (
-    <div
-      onClick={(e) => {
-        e.target.className = 'testttt'
-      }}
-    >
+    <div>
       {/* <p className="date">{Dates}</p> */}
       <p>{getTime(props.weather.date)}</p>
       <p>{getDayName(props.weather.day)}</p>
