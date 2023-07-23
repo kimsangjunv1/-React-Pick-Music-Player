@@ -3,6 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   value: 0,
   text: 'no Save AnyThing :(',
+  props: {},
 }
 
 export const counterSlice = createSlice({
@@ -19,8 +20,13 @@ export const counterSlice = createSlice({
     decrement: (state) => {
       state.value -= 1
     },
+    // 값을 전달할때는 action의 payload로 가져오면 됨.
     saveText: (state, action) => {
       state.text = action.payload
+    },
+    // 값을 전달할때는 action의 payload로 가져오면 됨.
+    saveProps: (state, action) => {
+      state.props = action.payload
     },
     incrementByAmount: (state, action) => {
       state.value += action.payload
@@ -29,7 +35,7 @@ export const counterSlice = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount, saveText } =
+export const { increment, decrement, incrementByAmount, saveText, saveProps } =
   counterSlice.actions
 
 export default counterSlice.reducer

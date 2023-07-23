@@ -4,7 +4,11 @@ import Header from '../include/Header'
 import { useParams } from 'react-router-dom'
 import Loader from '../Loader'
 
+// 리덕스
+import { useSelector, useDispatch } from 'react-redux'
+
 function MusicText({ musicDetail }) {
+  console.log('함수가 반환하는 값 : ', musicDetail)
   return (
     <div className="music__player__subcont">
       <div className="music__player">
@@ -13,21 +17,21 @@ function MusicText({ musicDetail }) {
             Now <strong>Playing.</strong>
           </h2>
           <div className="inner_album_art">
-            <img src={musicDetail.images.coverart} alt="" />
+            {/* <img src={musicDetail.images.coverart} alt="" /> */}
             <div className="greencircle"></div>
             <div className="musicpoint"></div>
           </div>
-          <p>{musicDetail.subtitle}</p>
-          <p className="music__tit">{musicDetail.title.slice(0, 20)}</p>
+          {/* <p>{musicDetail.subtitle}</p>
+          <p className="music__tit">{musicDetail.title.slice(0, 20)}</p> */}
           <audio
             className="audiobox"
-            src={`${musicDetail.hub.actions[1].uri}`}
+            // src={`${musicDetail.hub.actions[1].uri}`}
             type="audio/m4a"
             controls
             // autoPlay
           >
             <source
-              src={`${musicDetail.hub.actions[1].uri}`}
+              // src={`${musicDetail.hub.actions[1].uri}`}
               type="audio/m4a"
             />
           </audio>
@@ -77,18 +81,21 @@ function MusicText({ musicDetail }) {
 }
 
 const Musicplayer = () => {
-  const [musicDetail, setMusicDetail] = useState(null)
+  console.log('실행')
+  const musicDetail = useSelector((state) => state.counter.text)
+  console.log('musicDetail : ', musicDetail)
+  // const [musicDetail, setMusicDetail] = useState(null)
 
-  const { key } = useParams()
+  // const { key } = useParams()
 
-  useEffect(() => {
-    fetchAPI(`songs/get-details?key=${key}&locale=ko-KR`).then((data) =>
-      setMusicDetail(data)
-    )
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  // useEffect(() => {
+  //   fetchAPI(`songs/get-details?key=${key}&locale=ko-KR`).then((data) =>
+  //     setMusicDetail(data)
+  //   )
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [])
 
-  if (!musicDetail?.length) return <Loader />
+  // if (!musicDetail?.length) return <Loader />
   return (
     <>
       <Header />
