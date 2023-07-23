@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import SkeletonMain from '../loading/SkeletonMain'
 import SkeletonWeather from '../loading/SkeletonWeather'
+import { Link } from 'react-router-dom'
+
 import { imageAPI } from '../../utils/imageAPI'
 import { searchAPI } from '../../utils/searchAPI'
+
+import { useDispatch } from 'react-redux'
+import { saveText } from '../../utils/counterSlice'
 
 function WeatherListItem(props) {
   //   console.log(props)
@@ -143,6 +148,8 @@ function SetTodayWeatherMusic(props) {
         return '잘 모르겠는'
     }
   }
+
+  const dispatch = useDispatch()
   return (
     <div className="weather_cont">
       <div className="playlist weather_info">
@@ -175,6 +182,7 @@ function SetTodayWeatherMusic(props) {
           </div>
         </div>
       </div>
+
       <div className="playlist select_001">
         <div
           className="item_001"
@@ -184,10 +192,17 @@ function SetTodayWeatherMusic(props) {
             backgroundPosition: 'center',
           }}
         >
-          <div>
-            <p>{props.searchMusic[0].track.subtitle}</p>
-            <p>{props.searchMusic[0].track.title}</p>
-          </div>
+          <Link
+            to={`/musicplayer/${props.searchMusic[0].track.key}`}
+            onClick={() => {
+              dispatch(saveText({ ranking: props.searchMusic[0].track }))
+            }}
+          >
+            <div>
+              <p>{props.searchMusic[0].track.subtitle}</p>
+              <p>{props.searchMusic[0].track.title}</p>
+            </div>
+          </Link>
         </div>
         <div className="item_cont">
           <div

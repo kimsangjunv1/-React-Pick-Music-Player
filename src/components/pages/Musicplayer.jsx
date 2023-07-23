@@ -36,7 +36,7 @@ function MusicText({ musicDetail }) {
             />
           </audio>
         </div>
-        <div className="music_player_lyric">
+        {/* <div className="music_player_lyric">
           <h3>Lyric</h3>
           <div className="lyric_inner">
             "Have Yourself A Merry Little Christmas"(originally by Judy Garland)
@@ -74,7 +74,7 @@ function MusicText({ musicDetail }) {
             <br />
             Through the years we all will be together
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

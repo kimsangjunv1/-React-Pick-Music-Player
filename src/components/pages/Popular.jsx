@@ -12,6 +12,7 @@ import { useDispatch } from 'react-redux'
 import { saveText } from '../../utils/counterSlice'
 
 function RankingItem(props) {
+  console.log('popular : ', props)
   const dispatch = useDispatch()
   return (
     <Link
@@ -52,7 +53,6 @@ function RankingItem(props) {
   )
 }
 function FirstRankingItem(props) {
-  console.log('props 22: ', props)
   return (
     <div className="winner_cont">
       <p className="winner_cont_header">현재 인기 곡</p>
