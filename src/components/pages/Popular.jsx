@@ -142,8 +142,10 @@ const Popular = () => {
       />
       <main id="main">
         <section id="contents">
-          {/* <MainSearch /> */}
-          <h2>Top 10</h2>
+          <div className="page_title_container">
+            <Link to={`/`}>〈</Link>
+            <h2>Top 10</h2>
+          </div>
 
           <div className="ranking_cont">
             {firstranking.map((ranking, index) => (

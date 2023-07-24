@@ -5,10 +5,31 @@
   justify-content: space-evenly;
   width: 100%;
 
-  strong {
-    color: #1dd960;
-    // margin-bottom: 45px;
-    display: inline-block;
+  .music_player_title_container {
+    position: relative;
+    a {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%);
+      transition: 0.25s;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100px;
+      font-weight: 900;
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+    strong {
+      color: #1dd960;
+      // margin-bottom: 45px;
+      display: inline-block;
+    }
   }
 
   p {
@@ -58,6 +79,7 @@
 
     .inner_album_art {
       position: relative;
+      margin-bottom: 50px;
 
       .greencircle {
         position: absolute;
@@ -216,7 +238,7 @@
   left: 0;
 }
 .outer_album_art {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

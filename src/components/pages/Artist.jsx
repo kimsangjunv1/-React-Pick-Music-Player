@@ -79,10 +79,16 @@ const Artist = () => {
         <section id="contents">
           <MainSearch />
 
-          <div className="artistWrap">
-            <h3>
+          <div className="page_title_container">
+            <Link to={`/`}>〈</Link>
+            <h2>
               Artist<em>{resultCount - 5}명</em>
-            </h3>
+            </h2>
+          </div>
+          <div className="artistWrap">
+            {/* <h3>
+              Artist<em>{resultCount - 5}명</em>
+            </h3> */}
             <div className="artistinner">
               {artist.map((artist, index) => (
                 <ArtistItem key={index} artist={artist} />

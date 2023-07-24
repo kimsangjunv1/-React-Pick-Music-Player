@@ -4,6 +4,7 @@ import Footer from '../../include/Footer'
 import Loader from '../../Loader'
 import MainSearch from '../../layout/MainSearch'
 import { detailsAPI } from '../../../utils/detailsAPI'
+import { Link } from 'react-router-dom'
 
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
@@ -504,7 +505,11 @@ const Details = () => {
       />
       <main id="main">
         <section id="contents">
-          <div>
+          <div className="page_title_container">
+            <Link to={`/artist`}>〈</Link>
+            <h2>상세보기</h2>
+          </div>
+          <div className="detail_container">
             <img
               src={`${
                 artistProps?.artist?.images?.background
@@ -512,6 +517,7 @@ const Details = () => {
                   : ''
               }`}
               alt=""
+              className="detail_cover_image"
             />
             <h4>{artistProps?.artist?.subtitle}</h4>
           </div>

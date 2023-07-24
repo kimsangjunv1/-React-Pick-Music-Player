@@ -3,6 +3,7 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import Header from '../include/Header'
 import { useParams } from 'react-router-dom'
 import Loader from '../Loader'
+import { Link } from 'react-router-dom'
 
 // 리덕스
 import { useSelector, useDispatch } from 'react-redux'
@@ -13,9 +14,12 @@ function MusicText({ musicDetail }) {
     <div className="music__player__subcont">
       <div className="music__player">
         <div className="music_player_ctrl">
-          <h2>
-            Now <strong>Playing.</strong>
-          </h2>
+          <div className="music_player_title_container">
+            <Link to={`/`}>〈</Link>
+            <h2>
+              Now <strong>Playing.</strong>
+            </h2>
+          </div>
           <div className="music_player_utility_container">
             <a
               href={`${musicDetail.ranking.hub.actions[1].uri}`}
