@@ -39,6 +39,17 @@ function MusicText({ musicDetail }) {
               />
               Shazam
             </a>
+            <a
+              href={`${musicDetail.ranking.hub.options[0].actions[0].uri}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/apple.svg"
+                alt="샤잠 바로가기"
+              />
+              Apple
+            </a>
           </div>
           <div className="inner_album_art">
             <img src={musicDetail.ranking.images.coverart} alt="" />

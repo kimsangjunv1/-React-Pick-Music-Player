@@ -43,17 +43,6 @@ const Header = ({ selectCategory, setSelectCategory }) => {
             <span>인기순위</span>
           </Link>
           <Link
-            to="/download"
-            onClick={() => setSelectCategory('c')}
-            className={'c' === selectCategory ? 'test' : ''}
-          >
-            <img
-              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/align-text-bottom.png"
-              alt=""
-            />
-            <span>다운로드</span>
-          </Link>
-          <Link
             to="/artist"
             onClick={() => setSelectCategory('d')}
             className={'d' === selectCategory ? 'test' : ''}
