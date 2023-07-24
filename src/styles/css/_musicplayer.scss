@@ -7,7 +7,7 @@
 
   strong {
     color: #1dd960;
-    margin-bottom: 45px;
+    // margin-bottom: 45px;
     display: inline-block;
   }
 
@@ -26,6 +26,34 @@
 
   .music_player_ctrl {
     position: relative;
+    .music_player_utility_container {
+      padding: 10px 21px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ffffff12;
+      border-radius: 100px;
+      margin: 10px 0 40px;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        transition: 0.25s;
+        &:hover {
+          color: #1dd960;
+        }
+        &:first-child {
+          border-right: 1px solid #ffffff12;
+          padding-right: 20px;
+          margin-right: 20px;
+        }
+        img {
+          width: 17px;
+          filter: grayscale(1);
+        }
+      }
+    }
 
     .inner_album_art {
       position: relative;

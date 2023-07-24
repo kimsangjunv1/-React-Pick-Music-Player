@@ -16,13 +16,30 @@ function MusicText({ musicDetail }) {
           <h2>
             Now <strong>Playing.</strong>
           </h2>
-          <a
-            href={`${musicDetail.ranking.hub.actions[1].uri}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            다운로드
-          </a>
+          <div className="music_player_utility_container">
+            <a
+              href={`${musicDetail.ranking.hub.actions[1].uri}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/align-text-bottom.png"
+                alt="음원 다운로드"
+              />
+              다운로드
+            </a>
+            <a
+              href={`${musicDetail.ranking.url}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/share.svg"
+                alt="샤잠 바로가기"
+              />
+              Shazam
+            </a>
+          </div>
           <div className="inner_album_art">
             <img src={musicDetail.ranking.images.coverart} alt="" />
             <div className="greencircle"></div>
