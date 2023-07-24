@@ -9,6 +9,7 @@ import Loader from '../Loader'
 
 import { useDispatch } from 'react-redux'
 import { saveArtistID } from '../../utils/counterSlice'
+import { saveProps } from '../../utils/counterSlice'
 
 function ArtistItem(props) {
   // console.log(
@@ -21,6 +22,7 @@ function ArtistItem(props) {
       to={`/artist/details/${props.artist.artists[0].adamid}`}
       onClick={() => {
         dispatch(saveArtistID(props.artist.artists[0].adamid))
+        dispatch(saveProps(props))
       }}
     >
       <div className="artist">
