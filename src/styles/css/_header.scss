@@ -67,14 +67,18 @@
         padding: 10px 20px;
         border-radius: 100px;
         transition: 0.2s;
-        border: 1px solid transparent;
+        border: 1px solid #ffffff21;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
 
         &:last-child {
           margin-bottom: 0;
         }
 
         &:hover {
-          border: 1px solid #333;
+          border: 1px solid #1dd960;
+          background: #1dd960;
+          color: black;
           &:active {
             background: #333;
             border: 1px solid #333;
