@@ -16,6 +16,13 @@ function MusicText({ musicDetail }) {
           <h2>
             Now <strong>Playing.</strong>
           </h2>
+          <a
+            href={`${musicDetail.ranking.hub.actions[1].uri}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            다운로드
+          </a>
           <div className="inner_album_art">
             <img src={musicDetail.ranking.images.coverart} alt="" />
             <div className="greencircle"></div>
