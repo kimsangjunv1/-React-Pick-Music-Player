@@ -104,7 +104,7 @@ const Musicplayer = () => {
           <div className="outer_album_art">
             <img src={`${musicDetail.ranking.images.coverart}`} alt="" />
           </div>
-          <div className="search">
+          {/* <div className="search">
             <label htmlFor="searchInput ir">
               <div className="glass"></div>
             </label>
@@ -115,7 +115,7 @@ const Musicplayer = () => {
               placeholder="Please Insert Here"
               title="검색"
             />
-          </div>
+          </div> */}
           <MusicText musicDetail={musicDetail} />
         </section>
       </main>

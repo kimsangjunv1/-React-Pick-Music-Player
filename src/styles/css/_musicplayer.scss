@@ -177,8 +177,8 @@
 .outer_album_art::before {
   content: '';
   background: #000000ba;
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
   width: 100vw;
   height: 100vh;
   /* z-index: 11; */
