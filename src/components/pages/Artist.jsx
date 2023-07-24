@@ -3,39 +3,49 @@ import { fetchAPI } from '../../utils/fetchAPI'
 import Header from '../include/Header'
 import MainSearch from '../layout/MainSearch'
 import Footer from '../include/Footer'
+import { Link } from 'react-router-dom'
 
 import Loader from '../Loader'
+
+import { useDispatch } from 'react-redux'
+import { saveArtistID } from '../../utils/counterSlice'
 
 function ArtistItem(props) {
   // console.log(
   //   '프롭스 : ',
   //   props?.artist?.images?.background ? props?.artist?.images?.background : ''
   // )
+  const dispatch = useDispatch()
   return (
-    // <Link to={`artists/get-details/${props.artist.artists[0].adamid}`}>
-    <div className="artist">
-      <img
-        src={`${
-          props?.artist?.images?.background
-            ? props?.artist?.images?.background
-            : ''
-        }`}
-        alt=""
-      />
-      <div className="artistbox">
-        <div className="artistbox_desc">
-          <h4>{props.artist.subtitle}</h4>
-        </div>
-        <div className="like">
-          <img
-            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
-            alt="/"
-          />
-          <p>Likes 5,677</p>
+    <Link
+      to={`/artist/details/${props.artist.artists[0].adamid}`}
+      onClick={() => {
+        dispatch(saveArtistID(props.artist.artists[0].adamid))
+      }}
+    >
+      <div className="artist">
+        <img
+          src={`${
+            props?.artist?.images?.background
+              ? props?.artist?.images?.background
+              : ''
+          }`}
+          alt=""
+        />
+        <div className="artistbox">
+          <div className="artistbox_desc">
+            <h4>{props.artist.subtitle}</h4>
+          </div>
+          <div className="like">
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
+              alt="/"
+            />
+            <p>Likes 5,677</p>
+          </div>
         </div>
       </div>
-    </div>
-    // </Link>
+    </Link>
   )
 }
 

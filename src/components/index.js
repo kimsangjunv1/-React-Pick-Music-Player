@@ -14,3 +14,5 @@ export { default as AlbumCont } from './layout/AlbumCont'
 export { default as RankCont } from './layout/RankCont'
 export { default as ArtistCont } from './layout/ArtistCont'
 export { default as WeatherCont } from './layout/WeatherCont'
+
+export { default as Details } from './pages/details/Details'

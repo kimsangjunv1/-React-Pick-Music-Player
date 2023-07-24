@@ -9,6 +9,9 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 120px;
+    padding: 120px 20px 0 20px;
+    max-width: 1300px;
+    width: 100%;
     &::after {
       content: '';
       background: radial-gradient(

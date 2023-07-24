@@ -10,6 +10,7 @@ import {
   Musicvideo,
   Musicplayer,
   WeatherPlaylist,
+  Details,
 } from './components/'
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/artist" element={<Artist />} />
         <Route path="/musicvideo" element={<Musicvideo />} />
         <Route path="/musicplayer/:key" element={<Musicplayer />} />
+        <Route path="/artist/details/:key" element={<Details />} />
       </Routes>
     </BrowserRouter>
   )

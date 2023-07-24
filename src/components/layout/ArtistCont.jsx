@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-// import Loader from '../Loader'
-
-import 'swiper/css'
-import 'swiper/css/pagination'
-
 function ArtistItem(props) {
-  // console.log(props)
   return (
     <div className="artist unWidth">
       <img
