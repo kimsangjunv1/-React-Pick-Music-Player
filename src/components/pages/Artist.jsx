@@ -77,7 +77,7 @@ const Artist = () => {
       />
       <main id="main">
         <section id="contents">
-          <MainSearch />
+          {/* <MainSearch /> */}
 
           <div className="page_title_container">
             <Link to={`/`}>〈</Link>

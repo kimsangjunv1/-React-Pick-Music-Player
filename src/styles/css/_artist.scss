@@ -20,13 +20,16 @@
     gap: 20px;
 
     .artist {
-      width: 18.5%;
+      /* width: 70%; */
       position: relative;
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
       border-radius: 15px;
       cursor: pointer;
       border: 1px solid #252525;
       overflow: hidden;
+      a {
+        width: 236px;
+      }
 
       audio {
         position: absolute;
@@ -129,7 +132,7 @@
     background: #202023;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 220px;
+    margin: 20px 0 220px;
     cursor: pointer;
     transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     &:hover {
@@ -154,6 +157,22 @@
     .detail_container {
       width: 100%;
       position: relative;
+      .detail_title_container {
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        p {
+          color: #1cd961;
+          text-transform: uppercase;
+          font-weight: 900;
+        }
+        h2 {
+          font-size: 42px;
+          font-weight: 900;
+        }
+      }
       &::before {
         position: absolute;
         content: '';
@@ -163,10 +182,54 @@
       }
       .detail_cover_image {
         width: 100%;
-        height: 400px;
+        height: 730px;
         object-fit: cover;
         object-position: 0 -210px;
         border-radius: 20px;
+      }
+    }
+    .artist_song_item {
+      display: flex;
+      // padding: 0 20px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
+      height: 120px;
+      .item_info_container {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 109px;
+          height: 109px;
+          // background: red;
+        }
+        img {
+          border-radius: 10px;
+        }
+        .item_info_container_text {
+          display: flex;
+          align-items: start;
+          justify-content: center;
+          flex-direction: column;
+          p {
+            &:first-child {
+              color: #1cd961;
+              text-transform: uppercase;
+              font-weight: 900;
+            }
+            &:last-child {
+              color: white;
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: 14px;
+            }
+          }
+        }
       }
     }
   }
