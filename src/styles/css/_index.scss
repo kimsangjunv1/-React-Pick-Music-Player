@@ -20,21 +20,34 @@
   .item_002,
   .item_003,
   .item_004,
-  .item_005 {
+  .item_005,
+  .item_006,
+  .item_007,
+  .item_008,
+  .item_009,
+  .item_010 {
     border-radius: 15px;
     // display: flex;
     // align-items: end;
     /* background: linear-gradient(45deg, black, transparent); */
+    background: #121215;
     a {
       width: 100%;
       height: 100%;
       display: flex;
       align-items: end;
+      transition: 0.25s;
+      border: 1px solid black;
+      border-radius: 15px;
+      overflow: hidden;
+      &:hover {
+        border-radius: 15px;
+        border: 1px solid #1cd960;
+      }
       > div {
         padding: 20px;
         background: linear-gradient(360deg, black, transparent);
         width: 100%;
-        border-radius: 0 0 15px 15px;
         p {
           &:first-child {
             font-size: 14px;
@@ -257,6 +270,9 @@
 }
 .section_title {
   margin-bottom: 30px;
+  .section_title_desc {
+    color: #1cd960;
+  }
 }
 section {
   margin-bottom: 70px;

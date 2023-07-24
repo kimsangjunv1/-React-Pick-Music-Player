@@ -28,7 +28,7 @@ function MusicText({ musicDetail }) {
             src={`${musicDetail.ranking.hub.actions[1].uri}`}
             type="audio/m4a"
             controls
-            // autoPlay
+            autoPlay
           >
             <source
               src={`${musicDetail.ranking.hub.actions[1].uri}`}

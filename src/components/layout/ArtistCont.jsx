@@ -55,6 +55,7 @@ const ArtistCont = ({ test }) => {
   return (
     <div className="artist_cont unflex">
       <div className="section_title">
+        <p className="section_title_desc">지금 인기있는 아티스트는 누구?</p>
         <h2>Artist</h2>
       </div>
       <div className="artistWrap">

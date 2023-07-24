@@ -21,7 +21,8 @@ const RankCont = ({ test }) => {
   return (
     <div className="ranking_cont unflex">
       <div className="section_title">
-        <h2>Top Pick</h2>
+        <p className="section_title_desc">1위부터 10위까지 모아봤어요 XD</p>
+        <h2>Top 10</h2>
       </div>
       <div className="list_cont maxWidth">
         <ul>

@@ -12,7 +12,7 @@ const Download = () => {
       />
       <main id="main">
         <section id="contents">
-          <MainSearch />
+          {/* <MainSearch /> */}
           <div className="no_page">
             <p>🙅‍♀️</p>
             <p>이런!... 아직 준비중이에요</p>

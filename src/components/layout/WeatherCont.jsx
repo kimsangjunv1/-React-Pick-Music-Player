@@ -35,12 +35,14 @@ function WeatherListItem(props) {
         return '불명확'
     }
   }
-  const getTime = (date) => {
-    return `${new Date(date)}`
+  const getTime = (t) => {
+    let date = new Date(t * 1000)
+    let day = '0' + date.getDate()
+
+    return `${day.substr(-2)}`
   }
   return (
     <div>
-      {/* <p className="date">{Dates}</p> */}
       <p>{getTime(props.weather.date)}</p>
       <p>{getDayName(props.weather.day)}</p>
       <img
@@ -273,7 +275,7 @@ function SetTodayWeatherMusic(props) {
             </div>
           </Link>
         </div>
-        {/* <div className="item_cont2">
+        <div className="item_cont2">
           <div
             className="item_005"
             style={{
@@ -282,29 +284,29 @@ function SetTodayWeatherMusic(props) {
               backgroundPosition: 'center',
             }}
           >
-          <Link
-            to={`/musicplayer/${props.searchMusic[0].track.key}`}
-            onClick={() => {
-              dispatch(saveText({ ranking: props.searchMusic[0].track }))
-            }}
-          >
-            <div>
-              <p>{props.searchMusic[4]?.track?.subtitle}</p>
-              <p>{props.searchMusic[4]?.track?.title}</p>
-            </div>
+            <Link
+              to={`/musicplayer/${props.searchMusic[4].track.key}`}
+              onClick={() => {
+                dispatch(saveText({ ranking: props.searchMusic[4].track }))
+              }}
+            >
+              <div>
+                <p>{props.searchMusic[4]?.track?.subtitle}</p>
+                <p>{props.searchMusic[4]?.track?.title}</p>
+              </div>
             </Link>
           </div>
           <div className="item_006"></div>
-        </div> */}
+        </div>
       </div>
-      {/* <div className="playlist select_003"></div>
+      {/* <div className="playlist select_003"></div> */}
       <div className="playlist select_001">
         <div className="item_001"></div>
         <div className="item_cont">
           <div className="item_002"></div>
           <div className="item_003"></div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }
@@ -387,8 +389,10 @@ const WeatherCont = () => {
     <section>
       <div className="todayWeather_cont">
         <div className="section_title">
+          <p className="section_title_desc">
+            여기에서 날씨에 맞는 음악을 추천해드릴게요!
+          </p>
           <h2>오늘의 날씨에 맞는 음악은?</h2>
-          <p>여기에서 날씨에 맞는 음악을 추천해드릴게요!</p>
         </div>
         {todayWeather?.map((todayWeather, index) => (
           <SetTodayWeatherMusic
@@ -398,9 +402,15 @@ const WeatherCont = () => {
             searchMusic={searchMusicItem}
           />
         ))}
+      </div>
+      <div className="todayWeather_cont">
+        <div className="section_title">
+          <p className="section_title_desc">이번주 날씨를 모아봤어요 ^^b</p>
+          <h2>주간날씨</h2>
+        </div>
         <div className="weatherList_cont">
           {weather?.map((weather, index) => (
-            <WeatherListItem key={index} weather={weather} />
+            <WeatherListItem key={index} weather={weather} index={index} />
           ))}
         </div>
       </div>

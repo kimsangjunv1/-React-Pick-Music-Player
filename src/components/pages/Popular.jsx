@@ -134,7 +134,7 @@ const Popular = () => {
       />
       <main id="main">
         <section id="contents">
-          <MainSearch />
+          {/* <MainSearch /> */}
           <h2>Top 10</h2>
 
           <div className="ranking_cont">

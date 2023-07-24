@@ -7,7 +7,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
 
   return (
     <header id="header">
-      <aside id="aside" className={asideWidth ? 'minimize' : ''}>
+      <aside id="aside" className={asideWidth ? '' : ''}>
         <Link to="/" className="logo" href="">
           <h1 className="ir">logo</h1>
         </Link>

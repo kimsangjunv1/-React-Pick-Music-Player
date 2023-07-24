@@ -32,7 +32,7 @@ const Main = () => {
       />
       <main id="main">
         <section id="contents">
-          <MainSearch />
+          {/* <MainSearch /> */}
           <div className="main_cont">
             {/* 날씨 */}
             <WeatherCont />
@@ -57,10 +57,10 @@ const Main = () => {
                 </div>
               </section> */}
             </Link>
-            <AlbumCont test={songData} />
+            {/* <AlbumCont test={songData} /> */}
             <section id="ranking__temporary">
-              <RankCont test={songData} />
               <ArtistCont test={songData} />
+              <RankCont test={songData} />
             </section>
             <div className="music__control">
               <div className="progress"></div>
