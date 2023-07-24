@@ -10,9 +10,6 @@ import { Link } from 'react-router-dom'
 
 import { AlbumCont, RankCont, ArtistCont, WeatherCont } from '../'
 
-// 리덕스
-import StoreTest from '../include/StoreTest'
-
 const Main = () => {
   const [selectCategory, setSelectCategory] = useState('a')
   const [songData, setSongData] = useState(null)

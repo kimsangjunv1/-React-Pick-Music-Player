@@ -144,6 +144,8 @@ function SetTodayWeatherMusic(props) {
         return '소나기오는'
       case 'Cloudy':
         return '흐린'
+      case 'Partly Cloudy':
+        return '부분 흐린'
       default:
         return '잘 모르겠는'
     }
@@ -178,7 +180,10 @@ function SetTodayWeatherMusic(props) {
               <p>{props.weather.low}°</p>
               <p>서울</p>
             </div>
-            <p>눈 오는 날 듣기 좋은 음악을 추천 해드릴게요</p>
+            <p>
+              {getWeatherName(props.weather.text)} 날 듣기 좋은 음악을 추천
+              해드릴게요
+            </p>
           </div>
         </div>
       </div>
@@ -213,10 +218,17 @@ function SetTodayWeatherMusic(props) {
               backgroundPosition: 'center',
             }}
           >
-            <div>
-              <p>{props.searchMusic[1].track.subtitle}</p>
-              <p>{props.searchMusic[1].track.title}</p>
-            </div>
+            <Link
+              to={`/musicplayer/${props.searchMusic[1].track.key}`}
+              onClick={() => {
+                dispatch(saveText({ ranking: props.searchMusic[1].track }))
+              }}
+            >
+              <div>
+                <p>{props.searchMusic[1].track.subtitle}</p>
+                <p>{props.searchMusic[1].track.title}</p>
+              </div>
+            </Link>
           </div>
           <div
             className="item_003"
@@ -226,10 +238,17 @@ function SetTodayWeatherMusic(props) {
               backgroundPosition: 'center',
             }}
           >
-            <div>
-              <p>{props.searchMusic[2].track.subtitle}</p>
-              <p>{props.searchMusic[2].track.title}</p>
-            </div>
+            <Link
+              to={`/musicplayer/${props.searchMusic[2].track.key}`}
+              onClick={() => {
+                dispatch(saveText({ ranking: props.searchMusic[2].track }))
+              }}
+            >
+              <div>
+                <p>{props.searchMusic[2].track.subtitle}</p>
+                <p>{props.searchMusic[2].track.title}</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -242,12 +261,19 @@ function SetTodayWeatherMusic(props) {
             backgroundPosition: 'center',
           }}
         >
-          <div>
-            <p>{props.searchMusic[3].track.subtitle}</p>
-            <p>{props.searchMusic[3].track.title}</p>
-          </div>
+          <Link
+            to={`/musicplayer/${props.searchMusic[3].track.key}`}
+            onClick={() => {
+              dispatch(saveText({ ranking: props.searchMusic[3].track }))
+            }}
+          >
+            <div>
+              <p>{props.searchMusic[3].track.subtitle}</p>
+              <p>{props.searchMusic[3].track.title}</p>
+            </div>
+          </Link>
         </div>
-        <div className="item_cont2">
+        {/* <div className="item_cont2">
           <div
             className="item_005"
             style={{
@@ -256,13 +282,20 @@ function SetTodayWeatherMusic(props) {
               backgroundPosition: 'center',
             }}
           >
+          <Link
+            to={`/musicplayer/${props.searchMusic[0].track.key}`}
+            onClick={() => {
+              dispatch(saveText({ ranking: props.searchMusic[0].track }))
+            }}
+          >
             <div>
-              <p>{props.searchMusic[4].track.subtitle}</p>
-              <p>{props.searchMusic[4].track.title}</p>
+              <p>{props.searchMusic[4]?.track?.subtitle}</p>
+              <p>{props.searchMusic[4]?.track?.title}</p>
             </div>
+            </Link>
           </div>
           <div className="item_006"></div>
-        </div>
+        </div> */}
       </div>
       {/* <div className="playlist select_003"></div>
       <div className="playlist select_001">
@@ -319,10 +352,30 @@ const WeatherCont = () => {
   }
 
   const searchWeatherMusic = ([props]) => {
-    const searchKeyword = props.text
+    const getWeatherName = (date) => {
+      switch (date) {
+        case 'Sunny':
+          return '화창한'
+        case 'Clear':
+          return '맑은'
+        case 'Thunderstorms':
+          return '번개'
+        case 'Mostly Sunny':
+          return '화창'
+        case 'Showers':
+          return '소나기'
+        case 'Cloudy':
+          return '흐린'
+        case 'Partly Cloudy':
+          return '흐린'
+        default:
+          return '힘내요'
+      }
+    }
+    const searchKeyword = getWeatherName(props.text)
 
     searchAPI(
-      `search?term=${searchKeyword}&locale=ko-KR&offset=0&limit=5'`
+      `search?term=${searchKeyword}&locale=ko-KR&offset=0&limit=5`
     ).then((data) => {
       setSearchMusicItem(data.tracks.hits)
     })
