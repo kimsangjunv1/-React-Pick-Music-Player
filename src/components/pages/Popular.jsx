@@ -36,7 +36,7 @@ function RankingItem(props) {
           />
           &nbsp; Likes {props.ranking.key.slice(0, 3)}
         </div>
-        <audio
+        {/* <audio
           className="audiobox"
           src={`${props.ranking.hub.actions[1].uri}`}
           type="audio/m4a"
@@ -47,17 +47,24 @@ function RankingItem(props) {
             src={`${props.ranking.hub.actions[1].uri}`}
             type="audio/m4a"
           />
-        </audio>
+        </audio> */}
       </li>
     </Link>
   )
 }
 function FirstRankingItem(props) {
+  const dispatch = useDispatch()
   return (
-    <div className="winner_cont">
-      <p className="winner_cont_header">현재 인기 곡</p>
-      <div className="album_art_cont">
-        <audio
+    <Link
+      to={`/musicplayer/${props.ranking.key}`}
+      onClick={() => {
+        dispatch(saveText(props))
+      }}
+    >
+      <div className="winner_cont">
+        <p className="winner_cont_header">현재 인기 곡</p>
+        <div className="album_art_cont">
+          {/* <audio
           src={`${props.ranking.hub.actions[1].uri}`}
           type="audio/m4a"
           controls
@@ -67,32 +74,32 @@ function FirstRankingItem(props) {
             src={`${props.ranking.hub.actions[1].uri}`}
             type="audio/m4a"
           />
-        </audio>
-        <img src={`${props.ranking.images.coverart}`} alt="" />
-        <img
-          className="album_art_shadow"
-          src={`${props.ranking.images.coverart}`}
-          alt="앨범아트 그림자"
-        />
-      </div>
-      <h4>1위</h4>
-      <p className="artist">{props.ranking.subtitle}</p>
-      <p className="song_title">{props.ranking.title}</p>
-      <p className="refresh_time">
-        <img
-          src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/refresh.svg"
-          alt="새로고침"
-        />
-        <span>2022. 11. 13. 오후 22:02</span>
-      </p>
-      <p className="trophy_desc">
-        <img
-          src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/trophy.svg"
-          alt="트로피"
-        />
-        <span>올해 47주간 1위</span>
-      </p>
-      {/* <audio
+        </audio> */}
+          <img src={`${props.ranking.images.coverart}`} alt="" />
+          <img
+            className="album_art_shadow"
+            src={`${props.ranking.images.coverart}`}
+            alt="앨범아트 그림자"
+          />
+        </div>
+        <h4>1위</h4>
+        <p className="artist">{props.ranking.subtitle}</p>
+        <p className="song_title">{props.ranking.title}</p>
+        <p className="refresh_time">
+          <img
+            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/refresh.svg"
+            alt="새로고침"
+          />
+          <span>2022. 11. 13. 오후 22:02</span>
+        </p>
+        <p className="trophy_desc">
+          <img
+            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/trophy.svg"
+            alt="트로피"
+          />
+          <span>올해 47주간 1위</span>
+        </p>
+        {/* <audio
         src={`${props.ranking.hub.actions[1].uri}`}
         type="audio/m4a"
         controls
@@ -100,7 +107,8 @@ function FirstRankingItem(props) {
       >
         <source src={`${props.ranking.hub.actions[1].uri}`} type="audio/m4a" />
       </audio> */}
-    </div>
+      </div>
+    </Link>
   )
 }
 
