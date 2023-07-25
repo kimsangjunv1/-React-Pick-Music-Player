@@ -190,11 +190,12 @@
     }
     .artist_song_item {
       display: flex;
-      // padding: 0 20px;
+      width: 100%;
       margin-bottom: 10px;
       padding-bottom: 10px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
       height: 120px;
+      justify-content: space-between;
       .item_info_container {
         display: flex;
         gap: 20px;
@@ -228,6 +229,28 @@
               font-weight: 600;
               font-size: 14px;
             }
+          }
+        }
+      }
+      .item_share_container {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 10px;
+        a {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 10px 20px;
+          border-radius: 100px;
+          border: 1px solid #ffffff21;
+          transition: 0.25s;
+          img {
+            width: 17px;
+          }
+          &:hover {
+            background: #1cd961;
+            color: black;
           }
         }
       }

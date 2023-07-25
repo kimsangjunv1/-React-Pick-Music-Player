@@ -26,8 +26,41 @@ function ArtistSongItem(props) {
           </div>
         </div>
         <div className="item_share_container">
-          <p>{props?.item?.attributes?.previews[0].url}</p>
-          <p>{props?.item?.attributes?.url}</p>
+          {/* <p>{props?.item?.attributes?.previews[0].url}</p>
+          <p>{props?.item?.attributes?.url}</p> */}
+          <a
+            href={`${props?.item?.attributes?.previews[0].url}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/align-text-bottom.png"
+              alt="음원 다운로드"
+            />
+            다운로드
+          </a>
+          {/* <a
+              href={`${musicDetail.ranking.url}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/share.svg"
+                alt="샤잠 바로가기"
+              />
+              Shazam
+            </a> */}
+          <a
+            href={`${props?.item?.attributes?.url}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/apple.svg"
+              alt="샤잠 바로가기"
+            />
+            Apple
+          </a>
         </div>
       </div>
     </>
