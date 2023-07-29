@@ -10,11 +10,6 @@ import { useDispatch } from 'react-redux'
 import { saveText } from '../../utils/counterSlice'
 
 function WeatherListItem(props) {
-  //   console.log(props)
-  //   var timestamp = `${props.weather.date}`
-  //   var Dates = new Date(`${props.weather.date}` * 1000)
-
-  //   console.log(date)
   const getDayName = (date) => {
     switch (date) {
       case 'Mon':
@@ -35,12 +30,14 @@ function WeatherListItem(props) {
         return '불명확'
     }
   }
+
   const getTime = (t) => {
     let date = new Date(t * 1000)
     let day = '0' + date.getDate()
 
     return `${day.substr(-2)}`
   }
+
   return (
     <div>
       <p>{getTime(props.weather.date)}</p>
@@ -153,6 +150,11 @@ function SetTodayWeatherMusic(props) {
     }
   }
 
+  const isAvailiable = (item) => {
+    let a = item ? item : ''
+    return a
+  }
+
   const dispatch = useDispatch()
   return (
     <div className="weather_cont">
@@ -194,7 +196,9 @@ function SetTodayWeatherMusic(props) {
         <div
           className="item_001"
           style={{
-            backgroundImage: `url(${props.searchMusic[0].track.images.coverart})`,
+            backgroundImage: `url(${isAvailiable(
+              props.searchMusic[0].track.images.coverart
+            )})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -215,7 +219,9 @@ function SetTodayWeatherMusic(props) {
           <div
             className="item_002"
             style={{
-              backgroundImage: `url(${props.searchMusic[1].track.images.coverart})`,
+              backgroundImage: `url(${isAvailiable(
+                props.searchMusic[1]?.track?.images?.coverart
+              )})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -235,7 +241,9 @@ function SetTodayWeatherMusic(props) {
           <div
             className="item_003"
             style={{
-              backgroundImage: `url(${props.searchMusic[2].track.images.coverart})`,
+              backgroundImage: `url(${isAvailiable(
+                props.searchMusic[2]?.track?.images?.coverart
+              )})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -258,7 +266,9 @@ function SetTodayWeatherMusic(props) {
         <div
           className="item_004"
           style={{
-            backgroundImage: `url(${props.searchMusic[3].track.images.coverart})`,
+            backgroundImage: `url(${isAvailiable(
+              props.searchMusic[3]?.track?.images?.coverart
+            )})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -279,7 +289,9 @@ function SetTodayWeatherMusic(props) {
           <div
             className="item_005"
             style={{
-              backgroundImage: `url(${props.searchMusic[4].track.images.coverart})`,
+              backgroundImage: `url(${isAvailiable(
+                props.searchMusic[4]?.track?.images?.coverart
+              )})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -363,7 +375,7 @@ const WeatherCont = () => {
         case 'Thunderstorms':
           return '번개'
         case 'Mostly Sunny':
-          return '화창'
+          return '햇살'
         case 'Showers':
           return '소나기'
         case 'Cloudy':
