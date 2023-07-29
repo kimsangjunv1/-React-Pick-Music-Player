@@ -1,9 +1,21 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
+import { useDispatch } from 'react-redux'
+import { saveArtistID } from '../../utils/counterSlice'
+import { saveProps } from '../../utils/counterSlice'
+
 function ArtistItem(props) {
+  const dispatch = useDispatch()
   return (
-    <Link to="/artist" className="main_artist_item">
+    <Link
+      to={`/artist/details/${props.artist.artists[0].adamid}`}
+      onClick={() => {
+        dispatch(saveArtistID(props.artist.artists[0].adamid))
+        dispatch(saveProps(props))
+      }}
+      className="main_artist_item"
+    >
       <div className="artist_info_container">
         <h2 className="artist_name">{props.artist.subtitle}</h2>
         <div className="artist_like_container">
