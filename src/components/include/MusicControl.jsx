@@ -3,7 +3,7 @@ import React from 'react'
 const MusicControl = () => {
   return (
     <>
-      <div className="music__control">
+      <div className="control_panel">
         <div className="progress">
           <div className="bar"></div>
           <div className="timer">

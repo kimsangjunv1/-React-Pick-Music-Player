@@ -1,118 +1,117 @@
 #main {
-  // margin: 0 40px 0 200px;
+  margin: 0 auto;
+  padding: 150px 20px 0 20px;
+  max-width: 1300px;
+  width: 100%;
 
-  #contents {
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 120px;
-    padding: 120px 20px 0 20px;
-    max-width: 1300px;
-    width: 100%;
-    .page_title_container {
-      display: flex;
-      justify-content: start;
-      align-items: center;
-      width: 100%;
-      gap: 10px;
-      margin-bottom: 20px;
-      a {
-        font-weight: 900;
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        -webkit-text-stroke: thick;
+  .weather_container {
+    .weather_container_inner {
+      grid-template-columns: repeat(6, 1fr);
+      display: grid;
+      grid-gap: 10px;
+      height: 410px;
+      .item {
+        position: relative;
+        background: linear-gradient(0deg, transparent, black);
         transition: 0.25s;
-        &:hover {
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 20px;
+          right: 30px;
           background: white;
-          color: black;
-          &:active {
-            background: #1dd960;
+          height: 25px;
+          width: 8px;
+          border-radius: 100px;
+          transform: rotate(45deg);
+        }
+
+        a {
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          padding: 20px;
+          height: 100%;
+          width: 100%;
+          background: linear-gradient(180deg, #37393b54, rgb(18 33 47));
+          // border-radius: 15px;
+          .singer {
+            color: #1dd960;
+            font-weight: 700;
+          }
+          .title {
+            font-weight: 700;
+            font-size: 20px;
           }
         }
-      }
-      h2 {
-        font-size: 26px;
-        font-weight: bold;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 100%;
-        // margin-bottom: 20px;
-        em {
-          color: #1dd960;
-          padding-left: 10px;
-          font-size: 16px;
+        .coverart_blur {
+          position: absolute;
+          top: 40px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          filter: blur(20px) opacity(0.4);
+          transform: scale(0.8);
         }
-      }
-    }
-    &::after {
-      content: '';
-      background: radial-gradient(
-          108.67% 108.67% at 50% -8.67%,
-          #1dd960b5 0%,
-          rgba(57, 62, 72, 0) 48.44%
-        ),
-        rgba(0, 0, 0, 0);
-      position: absolute;
-      top: 0;
-      left: 50%;
-      filter: blur(50px);
-      transform: translate(-50%, 0);
-      width: 50%;
-      height: 380px;
-      z-index: -1;
-    }
-    &::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 50px;
-      background: linear-gradient(0deg, transparent, #ecf1f6);
-      z-index: 100;
-    }
-    .main_cont {
-      width: 100%;
-      // padding: 0 20px;
-      // max-width: 1300px;
-    }
+        &.today {
+          background: #41c6d8;
+          box-shadow: 0 20px 40px -20px #41c6d8;
+          color: rgba(0, 0, 0, 0.7254901961);
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .weather_desc {
+            h2 {
+              font-size: 42px;
+              font-weight: 700;
+            }
+          }
+          .weather_condition {
+            .degree_cont {
+              display: flex;
 
-    .search {
-      position: sticky;
-      text-align: center;
-      width: 700px;
-      margin: 0px auto 60px auto;
-      z-index: 10000;
-      top: 30px;
-
-      button {
-        position: absolute;
-        top: 50%;
-        right: 30px;
-        transform: translate(0, -50%) rotate(45deg) scale(1.5);
-      }
-
-      input {
-        border-radius: 100px;
-        padding: 10px 20px;
-        border: 0.5px solid #ffffff30;
-        background: rgb(0 0 0 / 5%);
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
-        width: 700px;
-        height: 58px;
-        transition: 0.25s;
-        &:hover {
-          color: #1dd960;
-          border: 1px solid #1dd960;
+              .degree {
+                font-size: 60px;
+              }
+              .location {
+                background: #000000bd;
+                height: fit-content;
+                /* border-radius: 100px; */
+                font-weight: 700;
+                color: white;
+                padding: 2px 6px;
+                margin-top: 19px;
+              }
+            }
+            img {
+              width: 200px;
+              filter: drop-shadow(0px 20px 20px #13565f47);
+              color: #13565f47;
+            }
+          }
+        }
+        &:nth-child(1) {
+          /* 1번 라인에서 2칸 */
+          grid-column: 1 / span 2;
+          /* 1번 라인에서 2칸 */
+          grid-row: 1 / span 2;
+        }
+        &:nth-child(2) {
+          /* 1번 라인에서 2칸 */
+          grid-column: 3 / span 2;
+          /* 1번 라인에서 2칸 */
+          // grid-row: 3 / span 3;
+        }
+        &:nth-child(4) {
+          grid-column: 6 / span 2;
+          grid-row: 1 / span 2;
+        }
+        &:nth-child(6) {
+          grid-column: 4 / span 2;
+          grid-row: 2 / span 1;
         }
       }
     }
@@ -132,17 +131,17 @@
   }
 }
 
-.music__control {
+.control_panel {
   width: 100%;
-  // height: 100px;
   position: fixed;
   bottom: 0;
   left: 0;
   padding-left: 200px;
-  background: rgba(0, 0, 0, 0.84);
+  background: rgb(224 231 239 / 80%);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   z-index: 10000;
+  color: black;
 
   .volumeCont {
     display: none;
@@ -307,10 +306,10 @@
     }
   }
 }
+
 .musicplayer_inside {
   height: 100vh;
 }
-// weather
 
 .weatherWrap {
   margin-top: 120px;
@@ -370,7 +369,7 @@
           #000000 52.1%
         );
         border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 15px;
+        // border-radius: 15px;
       }
     }
   }
@@ -415,11 +414,6 @@
       justify-content: space-between;
     }
   }
-}
-
-.main_artist_cont,
-.main_ranking_cont {
-  width: 50%;
 }
 
 .no_page {

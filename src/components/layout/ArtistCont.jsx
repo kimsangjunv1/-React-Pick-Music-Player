@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import TitleComponents from '../common/TitleComponents'
 import { Link } from 'react-router-dom'
 
 import { useDispatch } from 'react-redux'
@@ -47,10 +48,11 @@ const ArtistCont = ({ test }) => {
 
   return (
     <div className="main_artist_cont">
-      <div className="section_title">
-        <p className="section_title_desc">지금 인기있는 아티스트는 누구?</p>
-        <h2>Artist</h2>
-      </div>
+      <TitleComponents
+        title={'오늘의 날씨에 어울리는 가수는?'}
+        desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
+      />
+
       <div className="main_artist_inner">
         <div className="main_artist_item_container">
           {artistItem.map((artist, index) => (

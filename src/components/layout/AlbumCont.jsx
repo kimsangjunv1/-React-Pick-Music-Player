@@ -1,4 +1,5 @@
 import React from 'react'
+import TitleComponents from '../common/TitleComponents'
 
 function AlbumItem(props) {
   return (
@@ -20,24 +21,14 @@ const AlbumCont = ({ test }) => {
 
   return (
     <section>
-      <div className="section_title">
-        <h2>Albums</h2>
-        <p>이번에 추천하는 인기 앨범</p>
-      </div>
+      <TitleComponents
+        title={'어떤어떤 앨범이 있을까용~~?'}
+        desc={'앨범을 한번 봅시다잉'}
+      />
       <div className="album_cont">
         {test.map((album, index) => (
           <AlbumItem key={index} album={album} />
         ))}
-        <div className="album_item">
-          <img src="assets/img/album/ive_album.jpg" alt="앨범 아트" />
-          <img
-            className="shadow"
-            src="assets/img/album/ive_album.jpg"
-            alt="앨범 아트 그림자"
-          />
-          <p>IVE (아이브)</p>
-          <h2>After LIKE</h2>
-        </div>
       </div>
     </section>
   )
