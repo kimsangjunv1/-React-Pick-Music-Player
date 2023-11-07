@@ -1,0 +1,448 @@
+{
+  "data": [
+    {
+      "id": "1527238325",
+      "type": "songs",
+      "attributes": {
+        "albumName": "웃긴 밤",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝"],
+        "trackNumber": 2,
+        "releaseDate": "2016-09-19",
+        "durationInMillis": 237956,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": false,
+        "isrc": "KRB471601208",
+        "artwork": {
+          "width": 4000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/84/9c/80849c39-ed64-5e7c-75ad-f5911c111e8c/cover_4000px.jpg/{w}x{h}bb.jpg",
+          "height": 4000,
+          "textColor3": "d0cdce",
+          "textColor2": "e28c2f",
+          "textColor4": "b97228",
+          "textColor1": "ffffff",
+          "bgColor": "160a0c",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "playParams": {
+          "id": "1527238325",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/kr/album/%EB%81%9D/1527238323?i=1527238325",
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["lossless", "lossy-stereo"],
+        "name": "끝",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/10/49/11104929-370e-cb88-b4ff-a8eab39bf749/mzaf_1890211897396128156.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1480667629",
+      "type": "songs",
+      "attributes": {
+        "albumName": "나의 모양",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+        "trackNumber": 1,
+        "releaseDate": "2019-09-19",
+        "durationInMillis": 256907,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": false,
+        "isrc": "KRA381904244",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/0d/b3/2a0db314-81ac-ecb1-b593-c7eb62854b39/cover_-.jpg/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "e6a695",
+          "textColor2": "fbb299",
+          "textColor4": "e59e83",
+          "textColor1": "fcbcb0",
+          "bgColor": "8d512d",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "playParams": {
+          "id": "1480667629",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/kr/album/%EC%9A%B4%EC%9D%B4-%EC%A2%8B%EC%95%98%EC%A7%80/1480667628?i=1480667629",
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+        "name": "운이 좋았지",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/07/44/a307440d-8f6a-94c2-ef61-b6e9018a43ac/mzaf_17321080817678398658.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1689554572",
+      "type": "songs",
+      "attributes": {
+        "albumName": "멜로가 체질, Pt. 1 (Original Television Soundtrack) - Single",
+        "hasTimeSyncedLyrics": false,
+        "genreNames": ["OST", "음악"],
+        "trackNumber": 2,
+        "releaseDate": "2019-08-10",
+        "durationInMillis": 196999,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": false,
+        "isrc": "KRA491900550",
+        "artwork": {
+          "width": 1400,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/11/6b/9c116b44-7e03-e7e2-4204-b7b2552e1413/8809658315434_Cover.jpg/{w}x{h}bb.jpg",
+          "height": 1400,
+          "textColor3": "d18488",
+          "textColor2": "e69675",
+          "textColor4": "bf8569",
+          "textColor1": "fc959c",
+          "bgColor": "253e38",
+          "hasP3": false
+        },
+        "composerName": "헨",
+        "audioLocale": "zxx",
+        "playParams": {
+          "id": "1689554572",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/kr/album/%EC%9C%84%EB%A1%9C-instrumental/1689554570?i=1689554572",
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": false,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["lossless", "lossy-stereo"],
+        "name": "위로 (Instrumental)",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/88/3d/de/883ddedf-caf8-5ca8-06a6-0452fe837628/mzaf_15592168711685373571.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1505731444",
+      "type": "songs",
+      "attributes": {
+        "albumName": "뭔가 잘못됐어 - Single",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝"],
+        "trackNumber": 1,
+        "releaseDate": "2020-04-01",
+        "durationInMillis": 243880,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": false,
+        "isrc": "KRA382001012",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4f/c0/1e/4fc01e85-483e-9c33-490b-7fb88bd99f2a/cover_-_DS.jpg/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "332819",
+          "textColor2": "291810",
+          "textColor4": "483626",
+          "textColor1": "0f0700",
+          "bgColor": "c2ad7e",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "url": "https://music.apple.com/kr/album/%EB%AD%94%EA%B0%80-%EC%9E%98%EB%AA%BB%EB%90%90%EC%96%B4/1505731442?i=1505731444",
+        "playParams": {
+          "id": "1505731444",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+        "name": "뭔가 잘못됐어",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/61/5b/07615b30-6636-f610-eb1f-e3a615268711/mzaf_14270803602245427622.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1649270425",
+      "type": "songs",
+      "attributes": {
+        "albumName": "진심이었던 사람만 바보가 돼 - Single",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝"],
+        "trackNumber": 1,
+        "releaseDate": "2022-10-13",
+        "durationInMillis": 265703,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": false,
+        "isrc": "KRA382207775",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f5/22/bd/f522bd07-d49b-1cc2-0ddf-afda2f755fb5/cover_KM0016213_1.jpg/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "dadad5",
+          "textColor2": "eaecfb",
+          "textColor4": "cecfdc",
+          "textColor1": "f9faf2",
+          "bgColor": "5e5a5d",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "url": "https://music.apple.com/kr/album/%EC%A7%84%EC%8B%AC%EC%9D%B4%EC%97%88%EB%8D%98-%EC%82%AC%EB%9E%8C%EB%A7%8C-%EB%B0%94%EB%B3%B4%EA%B0%80-%EB%8F%BC/1649270424?i=1649270425",
+        "playParams": {
+          "id": "1649270425",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+        "name": "진심이었던 사람만 바보가 돼",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/df/7f/10/df7f1095-a286-0ab7-3d4a-f52421e8f7fb/mzaf_11754913002104676695.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1623110825",
+      "type": "songs",
+      "attributes": {
+        "albumName": "Da Capo",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝"],
+        "trackNumber": 10,
+        "releaseDate": "2014-11-18",
+        "durationInMillis": 267640,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": false,
+        "isrc": "KRA491402330",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/91/69/bd916985-60f4-8962-5e73-650c4cf1a3b1/cover_KM0015178_1.jpg/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "e3dfdb",
+          "textColor2": "fdeee4",
+          "textColor4": "e2d3c9",
+          "textColor1": "fefdfb",
+          "bgColor": "78695a",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "playParams": {
+          "id": "1623110825",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/kr/album/%EA%B7%B8%EB%85%80%EA%B0%80-%EB%A7%90%ED%96%88%EB%8B%A4-with-%EA%B6%8C%EC%A7%84%EC%95%84-feat-%EA%B6%8C%EC%A7%84%EC%95%84/1623110814?i=1623110825",
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["lossless", "lossy-stereo"],
+        "name": "그녀가 말했다 (With 권진아) [feat. 권진아]",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/95/ac/de/95acde9c-a286-c311-6dd9-ea06cbf93356/mzaf_10599059478448866042.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "토이"
+      }
+    },
+    {
+      "id": "1603169940",
+      "type": "songs",
+      "attributes": {
+        "albumName": "슬기로운 의사생활, Pt. 1 (Original Television Soundtrack) - Single",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["OST", "음악"],
+        "trackNumber": 1,
+        "releaseDate": "2020-03-13",
+        "durationInMillis": 242900,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": false,
+        "isrc": "KRA492000231",
+        "artwork": {
+          "width": 1400,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b1/e9/98/b1e9982a-e710-ff2c-5646-e4eaaaefccbd/8809704413251_Cover.jpg/{w}x{h}bb.jpg",
+          "height": 1400,
+          "textColor3": "2f3d5b",
+          "textColor2": "162b42",
+          "textColor4": "2a4c63",
+          "textColor1": "1c1938",
+          "bgColor": "7ad0e7",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "composerName": "김태원",
+        "url": "https://music.apple.com/kr/album/lonely-night/1603169934?i=1603169940",
+        "playParams": {
+          "id": "1603169940",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["lossless", "lossy-stereo"],
+        "name": "Lonely Night",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6d/c1/cc/6dc1ccd1-803b-ebd5-8684-bc06ce075e30/mzaf_2671825666190982142.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1554054443",
+      "type": "songs",
+      "attributes": {
+        "albumName": "우리의 방식 - EP",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝"],
+        "trackNumber": 2,
+        "releaseDate": "2021-02-18",
+        "durationInMillis": 233573,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": false,
+        "isrc": "KRA382100955",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/65/eb/8165ebce-7734-b5ff-0400-aa19bb8c78d9/cover_-.jpg/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "a99d9e",
+          "textColor2": "d3afa5",
+          "textColor4": "ab928f",
+          "textColor1": "d1bcb8",
+          "bgColor": "0a2035",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "url": "https://music.apple.com/kr/album/%EC%9E%98-%EA%B0%80/1554054441?i=1554054443",
+        "playParams": {
+          "id": "1554054443",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+        "name": "잘 가",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/70/f8/e070f87d-3918-02da-298f-d45b3da42161/mzaf_12510659370837217857.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "권진아"
+      }
+    },
+    {
+      "id": "1612614592",
+      "type": "songs",
+      "attributes": {
+        "albumName": "마음이 그래 - Single",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["R&B/소울", "음악"],
+        "trackNumber": 1,
+        "releaseDate": "2021-02-04",
+        "durationInMillis": 221053,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": false,
+        "isrc": "KRB142100001",
+        "artwork": {
+          "width": 1400,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/7b/7d/457b7db0-f177-a381-233f-c7d8e0591616/888272074628_Cover.jpg/{w}x{h}bb.jpg",
+          "height": 1400,
+          "textColor3": "192036",
+          "textColor2": "0e1020",
+          "textColor4": "24283d",
+          "textColor1": "000517",
+          "bgColor": "7d89b1",
+          "hasP3": false
+        },
+        "composerName": "권진아",
+        "audioLocale": "ko",
+        "playParams": {
+          "id": "1612614592",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/kr/album/%EB%A7%88%EC%9D%8C%EC%9D%B4-%EA%B7%B8%EB%9E%98/1612614586?i=1612614592",
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["lossless", "lossy-stereo"],
+        "name": "마음이 그래",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c5/71/4a/c5714ab9-476d-17cf-62b9-f13805ca7dd4/mzaf_15469925849814275255.plus.aac.p.m4a"
+          }
+        ],
+        "artistName": "개코 & 권진아"
+      }
+    },
+    {
+      "id": "1617049378",
+      "type": "songs",
+      "attributes": {
+        "albumName": "Pink! - Single",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+        "trackNumber": 1,
+        "releaseDate": "2022-03-31",
+        "durationInMillis": 214720,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": false,
+        "isrc": "KRA382204377",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c0/95/7b/c0957bc8-a773-de1c-d5ca-0824c6896614/cover_KM0015017_1.jpg/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "8399ad",
+          "textColor2": "94b6db",
+          "textColor4": "7792af",
+          "textColor1": "a4bfd7",
+          "bgColor": "020204",
+          "hasP3": false
+        },
+        "audioLocale": "ko",
+        "playParams": {
+          "id": "1617049378",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/kr/album/silly-silly-love/1617049377?i=1617049378",
+        "discNumber": 1,
+        "hasCredits": false,
+        "hasLyrics": true,
+        "isAppleDigitalMaster": false,
+        "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+        "name": "Silly Silly Love",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0a/21/e8/0a21e8fc-5c3f-d37f-79c5-62e927d0222f/mzaf_10696421749678085924.plus.aac.p.m4a"
+          }
+        ],
+        "contentRating": "explicit",
+        "artistName": "권진아"
+      }
+    }
+  ]
+}

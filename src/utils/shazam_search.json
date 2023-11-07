@@ -1,0 +1,547 @@
+{
+  "tracks": {
+    "hits": [
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "64759160",
+          "title": "힘내요",
+          "subtitle": "아도르",
+          "share": {
+            "subject": "힘내요 - 아도르",
+            "text": "힘내요(아도르 제공)",
+            "href": "https://www.shazam.com/track/64759160/cheer-up",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/c9/da/91c9da9f-08b8-7def-8821-9bc796c36b8a/asset.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 아도르의 힘내요을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/64759160?lang=ko-KR&country=KR",
+            "snapchat": "https://www.shazam.com/partner/sc/track/64759160"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/c9/da/91c9da9f-08b8-7def-8821-9bc796c36b8a/asset.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/c9/da/91c9da9f-08b8-7def-8821-9bc796c36b8a/asset.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/c9/da/91c9da9f-08b8-7def-8821-9bc796c36b8a/asset.jpg/400x400cc.jpg",
+            "joecolor": "b:7d4400p:ffef57s:ffe53et:e5cd45q:e5c431"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1590474881"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d2/5e/89/d25e89fc-1b9a-d3cd-f546-8f17d15933e8/mzaf_13496117175297453509.plus.aac.p.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "열기",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/kr/album/cheer-up/1590474876?i=1590474881&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/kr/album/cheer-up/1590474876?i=1590474881&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Apple Music에서 열기",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Spotify에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:%ED%9E%98%EB%82%B4%EC%9A%94%20%EC%95%84%EB%8F%84%EB%A5%B4"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Deezer에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%ED%9E%98%EB%82%B4%EC%9A%94%27%20artist%3A%27%EC%95%84%EB%8F%84%EB%A5%B4%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "504247972"
+            }
+          ],
+          "url": "https://www.shazam.com/track/64759160/cheer-up"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "319494196",
+          "title": "힘내요 (소상공인 힘내라 프로젝트)",
+          "subtitle": "sooya",
+          "share": {
+            "subject": "힘내요 (소상공인 힘내라 프로젝트) - sooya",
+            "text": "힘내요 (소상공인 힘내라 프로젝트)(sooya 제공)",
+            "href": "https://www.shazam.com/track/319494196/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%ED%9E%98%EB%82%B4%EB%9D%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/c1/3b/e3/c13be3e6-7489-ce0d-d51e-c12b825ceb19/8809482229921_Jacket.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 sooya의 힘내요 (소상공인 힘내라 프로젝트)을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/319494196?lang=ko-KR&country=KR",
+            "snapchat": "https://www.shazam.com/partner/sc/track/319494196"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/c1/3b/e3/c13be3e6-7489-ce0d-d51e-c12b825ceb19/8809482229921_Jacket.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/c1/3b/e3/c13be3e6-7489-ce0d-d51e-c12b825ceb19/8809482229921_Jacket.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/c1/3b/e3/c13be3e6-7489-ce0d-d51e-c12b825ceb19/8809482229921_Jacket.jpg/400x400cc.jpg",
+            "joecolor": "b:e3c496p:000000s:000000t:2d271eq:2d271e"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1116616746"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview30/v4/88/ef/4e/88ef4e69-558e-cdbd-14a4-41575ae60524/mzaf_7570881455558621592.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "열기",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/kr/album/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%ED%9E%98%EB%82%B4%EB%9D%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/1116616357?i=1116616746&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/kr/album/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%ED%9E%98%EB%82%B4%EB%9D%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/1116616357?i=1116616746&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Apple Music에서 열기",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Spotify에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:%ED%9E%98%EB%82%B4%EC%9A%94%20%28%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%20%ED%9E%98%EB%82%B4%EB%9D%BC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%29%20sooya"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Deezer에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%ED%9E%98%EB%82%B4%EC%9A%94+%28%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8+%ED%9E%98%EB%82%B4%EB%9D%BC+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%29%27%20artist%3A%27sooya%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "919098761"
+            }
+          ],
+          "url": "https://www.shazam.com/track/319494196/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%ED%9E%98%EB%82%B4%EB%9D%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "53439349",
+          "title": "오빠 힘내요",
+          "subtitle": "김종민",
+          "share": {
+            "subject": "오빠 힘내요 - 김종민",
+            "text": "오빠 힘내요(김종민 제공)",
+            "href": "https://www.shazam.com/track/53439349/%EC%98%A4%EB%B9%A0-%ED%9E%98%EB%82%B4%EC%9A%94",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/f0/0d/07/f00d07ce-2108-2e3b-cf9c-92f40f7a7fe3/kimjong.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 김종민의 오빠 힘내요을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/53439349?lang=ko-KR&country=KR",
+            "snapchat": "https://www.shazam.com/partner/sc/track/53439349"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/f0/0d/07/f00d07ce-2108-2e3b-cf9c-92f40f7a7fe3/kimjong.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/f0/0d/07/f00d07ce-2108-2e3b-cf9c-92f40f7a7fe3/kimjong.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/f0/0d/07/f00d07ce-2108-2e3b-cf9c-92f40f7a7fe3/kimjong.jpg/400x400cc.jpg",
+            "joecolor": "b:f1f1f1p:050504s:121110t:343433q:3e3e3d"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "941536166"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/08/92/1b/08921b7e-7488-3dcd-d6c1-302390d6a2e4/mzaf_11657585182653363145.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "열기",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/kr/album/%EC%98%A4%EB%B9%A0-%ED%9E%98%EB%82%B4%EC%9A%94/941535993?i=941536166&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/kr/album/%EC%98%A4%EB%B9%A0-%ED%9E%98%EB%82%B4%EC%9A%94/941535993?i=941536166&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Apple Music에서 열기",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Spotify에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:%EC%98%A4%EB%B9%A0%20%ED%9E%98%EB%82%B4%EC%9A%94%20%EA%B9%80%EC%A2%85%EB%AF%BC"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Deezer에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EC%98%A4%EB%B9%A0+%ED%9E%98%EB%82%B4%EC%9A%94%27%20artist%3A%27%EA%B9%80%EC%A2%85%EB%AF%BC%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "915224314"
+            }
+          ],
+          "url": "https://www.shazam.com/track/53439349/%EC%98%A4%EB%B9%A0-%ED%9E%98%EB%82%B4%EC%9A%94"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "338619304",
+          "title": "힘내요 이십대여 (feat. 나수민)",
+          "subtitle": "슈룹",
+          "share": {
+            "subject": "힘내요 이십대여 (feat. 나수민) - 슈룹",
+            "text": "힘내요 이십대여 (feat. 나수민)(슈룹 제공)",
+            "href": "https://www.shazam.com/track/338619304/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%9D%B4%EC%8B%AD%EB%8C%80%EC%97%AC-feat-%EB%82%98%EC%88%98%EB%AF%BC",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/a7/93/68a793df-cb6c-c2f5-767a-a22ec580525f/8809522715735.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 슈룹의 힘내요 이십대여 (feat. 나수민)을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/338619304?lang=ko-KR&country=KR",
+            "snapchat": "https://www.shazam.com/partner/sc/track/338619304"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/a7/93/68a793df-cb6c-c2f5-767a-a22ec580525f/8809522715735.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/a7/93/68a793df-cb6c-c2f5-767a-a22ec580525f/8809522715735.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/a7/93/68a793df-cb6c-c2f5-767a-a22ec580525f/8809522715735.jpg/400x400cc.jpg",
+            "joecolor": "b:333743p:e4e5eas:c2cfa9t:c1c2c8q:a6b095"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1539167566"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/65/29/cd/6529cd10-44ef-b767-20ad-24bec1ac67d3/mzaf_2682529665107379087.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "열기",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/kr/album/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%9D%B4%EC%8B%AD%EB%8C%80%EC%97%AC-feat-%EB%82%98%EC%88%98%EB%AF%BC/1539167565?i=1539167566&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/kr/album/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%9D%B4%EC%8B%AD%EB%8C%80%EC%97%AC-feat-%EB%82%98%EC%88%98%EB%AF%BC/1539167565?i=1539167566&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Apple Music에서 열기",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Spotify에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:%ED%9E%98%EB%82%B4%EC%9A%94%20%EC%9D%B4%EC%8B%AD%EB%8C%80%EC%97%AC%20%28feat.%20%EB%82%98%EC%88%98%EB%AF%BC%29%20%EC%8A%88%EB%A3%B9"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Deezer에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%ED%9E%98%EB%82%B4%EC%9A%94+%EC%9D%B4%EC%8B%AD%EB%8C%80%EC%97%AC+%28feat.+%EB%82%98%EC%88%98%EB%AF%BC%29%27%20artist%3A%27%EC%8A%88%EB%A3%B9%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "1190199876"
+            }
+          ],
+          "url": "https://www.shazam.com/track/338619304/%ED%9E%98%EB%82%B4%EC%9A%94-%EC%9D%B4%EC%8B%AD%EB%8C%80%EC%97%AC-feat-%EB%82%98%EC%88%98%EB%AF%BC"
+        },
+        "snippet": "힘내요 이십 대여"
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "64469142",
+          "title": "힘내요",
+          "subtitle": "송봉수",
+          "share": {
+            "subject": "힘내요 - 송봉수",
+            "text": "힘내요(송봉수 제공)",
+            "href": "https://www.shazam.com/track/64469142/%ED%9E%98%EB%82%B4%EC%9A%94",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c3/72/0d/c3720d33-150e-ef9d-a125-3c443278b070/8809499940055_cover.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 송봉수의 힘내요을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/64469142?lang=ko-KR&country=KR",
+            "snapchat": "https://www.shazam.com/partner/sc/track/64469142"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c3/72/0d/c3720d33-150e-ef9d-a125-3c443278b070/8809499940055_cover.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c3/72/0d/c3720d33-150e-ef9d-a125-3c443278b070/8809499940055_cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c3/72/0d/c3720d33-150e-ef9d-a125-3c443278b070/8809499940055_cover.jpg/400x400cc.jpg",
+            "joecolor": "b:1a1c28p:f1f6fas:98a7dbt:c6cbd0q:7f8bb7"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1657985145"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/8e/ab/6d/8eab6d67-7301-1571-05b4-793de5dbfb81/mzaf_4451972420050822242.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "열기",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/kr/album/%ED%9E%98%EB%82%B4%EC%9A%94/1657985139?i=1657985145&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/kr/album/%ED%9E%98%EB%82%B4%EC%9A%94/1657985139?i=1657985145&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Apple Music에서 열기",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Spotify에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:%ED%9E%98%EB%82%B4%EC%9A%94%20%EC%86%A1%EB%B4%89%EC%88%98"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Deezer에서 열기",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%ED%9E%98%EB%82%B4%EC%9A%94%27%20artist%3A%27%EC%86%A1%EB%B4%89%EC%88%98%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "1632584093"
+            }
+          ],
+          "url": "https://www.shazam.com/track/64469142/%ED%9E%98%EB%82%B4%EC%9A%94"
+        }
+      }
+    ]
+  }
+}

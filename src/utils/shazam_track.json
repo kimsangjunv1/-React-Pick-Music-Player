@@ -1,0 +1,815 @@
+{
+  "properties": {},
+  "tracks": [
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "677319669",
+      "title": "시간과 같은 안녕",
+      "subtitle": "권진아",
+      "share": {
+        "subject": "시간과 같은 안녕 - 권진아",
+        "text": "시간과 같은 안녕(권진아 제공)",
+        "href": "https://www.shazam.com/track/677319669/timeless-love",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/91/11/7491119d-20da-d999-a845-e20027262573/888272123326_Cover.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 권진아의 시간과 같은 안녕을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/677319669?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e2/67/a1/e267a1b1-547f-7627-da6c-f5b54a7ad8be/mzl.lkkntqyk.jpg/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/677319669"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e2/67/a1/e267a1b1-547f-7627-da6c-f5b54a7ad8be/mzl.lkkntqyk.jpg/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/91/11/7491119d-20da-d999-a845-e20027262573/888272123326_Cover.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/91/11/7491119d-20da-d999-a845-e20027262573/888272123326_Cover.jpg/400x400cc.jpg",
+        "joecolor": "b:151a13p:f4f7fcs:dcdfedt:c7cbcdq:b4b7c1"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1706280372"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7d/b8/2e/7db82edf-adcc-8471-000e-0d6cb3dd3879/mzaf_3337145384957023426.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/timeless-love/1706280128?i=1706280372&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/timeless-love/1706280128?i=1706280372&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "kwon-jin-ah",
+          "id": "42",
+          "adamid": "1424423439"
+        }
+      ],
+      "url": "https://www.shazam.com/track/677319669/timeless-love",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/1424423439/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "678086299",
+      "title": "3D",
+      "subtitle": "정국 & Jack Harlow",
+      "share": {
+        "subject": "3D - 정국 & Jack Harlow",
+        "text": "3D(정국 & Jack Harlow 제공)",
+        "href": "https://www.shazam.com/track/678086299/3d",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 정국 & Jack Harlow의 3D을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/678086299?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/4c/a3/8b/4ca38b57-59b2-fbab-217d-62c5d6752c86/74b9ee74-d818-489f-95e6-cbd97f82229c_ami-identity-be4a2146ef9622e76e6ab86b3c394556-2023-11-03T04-02-21.413Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/678086299"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/4c/a3/8b/4ca38b57-59b2-fbab-217d-62c5d6752c86/74b9ee74-d818-489f-95e6-cbd97f82229c_ami-identity-be4a2146ef9622e76e6ab86b3c394556-2023-11-03T04-02-21.413Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/400x400cc.jpg",
+        "joecolor": "b:044023p:fac659s:f3b241t:c9ab4fq:c39b3b"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1709554773"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/02/9b/b4/029bb47a-91f6-17ca-3161-5c29dc2d4aa0/mzaf_8226631799800409675.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/3d/1709554767?i=1709554773&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/3d/1709554767?i=1709554773&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": true,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "jung-kook",
+          "id": "42",
+          "adamid": "785052275"
+        },
+        {
+          "alias": "jack-harlow",
+          "id": "42",
+          "adamid": "1047679432"
+        }
+      ],
+      "url": "https://www.shazam.com/track/678086299/3d",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/785052275/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web&videoIdToFilter=1709666326",
+        "trackhighlighturl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/highlights/1709666326?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "598208196",
+      "title": "인사",
+      "subtitle": "범진",
+      "share": {
+        "subject": "인사 - 범진",
+        "text": "인사(범진 제공)",
+        "href": "https://www.shazam.com/track/598208196/a-letter",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/9b/8d/5c9b8dcb-1764-0079-7e3a-cc07ea79c07a/8809856740601.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 범진의 인사을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/598208196?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a0/bb/c0/a0bbc01b-a152-addd-5a5a-7fc14dc4fca3/mzl.droepilj.jpeg/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/598208196"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a0/bb/c0/a0bbc01b-a152-addd-5a5a-7fc14dc4fca3/mzl.droepilj.jpeg/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/9b/8d/5c9b8dcb-1764-0079-7e3a-cc07ea79c07a/8809856740601.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/9b/8d/5c9b8dcb-1764-0079-7e3a-cc07ea79c07a/8809856740601.jpg/400x400cc.jpg",
+        "joecolor": "b:2d1813p:f9f4f0s:e3ecf4t:d0c8c4q:bfc2c7"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1601565174"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9f/7a/55/9f7a5562-c441-9369-650c-984658b5f7a3/mzaf_683430761539487125.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/a-letter/1601565170?i=1601565174&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/a-letter/1601565170?i=1601565174&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "bumjin",
+          "id": "42",
+          "adamid": "1456973209"
+        }
+      ],
+      "url": "https://www.shazam.com/track/598208196/a-letter",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/1456973209/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "681090709",
+      "title": "Perfect Night",
+      "subtitle": "르세라핌",
+      "share": {
+        "subject": "Perfect Night - 르세라핌",
+        "text": "Perfect Night(르세라핌 제공)",
+        "href": "https://www.shazam.com/track/681090709/perfect-night",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/df/10/e6df10ec-20e2-4fc8-51a1-cb923ce992c4/196922680779_Cover.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 르세라핌의 Perfect Night을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/681090709?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/4e/22/30/4e2230a1-2739-bd59-1d3d-dbaeb663fdbb/16d7c1cb-62ff-42bc-9da3-4432c741fc1f_ami-identity-287a577e8436fb5d4109090a2ba96ce7-2023-10-27T04-07-53.289Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/681090709"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/4e/22/30/4e2230a1-2739-bd59-1d3d-dbaeb663fdbb/16d7c1cb-62ff-42bc-9da3-4432c741fc1f_ami-identity-287a577e8436fb5d4109090a2ba96ce7-2023-10-27T04-07-53.289Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/df/10/e6df10ec-20e2-4fc8-51a1-cb923ce992c4/196922680779_Cover.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/df/10/e6df10ec-20e2-4fc8-51a1-cb923ce992c4/196922680779_Cover.jpg/400x400cc.jpg",
+        "joecolor": "b:0a0406p:ffffffs:f9cffdt:cdcccdq:c9a6cc"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1712731159"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5a/11/a5/5a11a515-ac8a-b435-a4ba-63b10762a5c0/mzaf_8661977555640103244.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/perfect-night/1712730735?i=1712731159&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/perfect-night/1712730735?i=1712731159&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "le-sserafim",
+          "id": "42",
+          "adamid": "1616740364"
+        }
+      ],
+      "url": "https://www.shazam.com/track/681090709/perfect-night",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/1616740364/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web&videoIdToFilter=1713643361",
+        "trackhighlighturl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/highlights/1713643361?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "679241565",
+      "title": "Standing Next to You",
+      "subtitle": "정국",
+      "share": {
+        "subject": "Standing Next to You - 정국",
+        "text": "Standing Next to You(정국 제공)",
+        "href": "https://www.shazam.com/track/679241565/standing-next-to-you",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 정국의 Standing Next to You을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/679241565?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/4c/a3/8b/4ca38b57-59b2-fbab-217d-62c5d6752c86/74b9ee74-d818-489f-95e6-cbd97f82229c_ami-identity-be4a2146ef9622e76e6ab86b3c394556-2023-11-03T04-02-21.413Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/679241565"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/4c/a3/8b/4ca38b57-59b2-fbab-217d-62c5d6752c86/74b9ee74-d818-489f-95e6-cbd97f82229c_ami-identity-be4a2146ef9622e76e6ab86b3c394556-2023-11-03T04-02-21.413Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/400x400cc.jpg",
+        "joecolor": "b:044023p:fac659s:f3b241t:c9ab4fq:c39b3b"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1709554997"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/94/aa/78/94aa78cf-b2a2-0278-a40b-b8baeba1554c/mzaf_421991843190112744.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/standing-next-to-you/1709554767?i=1709554997&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/standing-next-to-you/1709554767?i=1709554997&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "jung-kook",
+          "id": "42",
+          "adamid": "785052275"
+        }
+      ],
+      "url": "https://www.shazam.com/track/679241565/standing-next-to-you",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/785052275/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web&videoIdToFilter=1714915866",
+        "trackhighlighturl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/highlights/1714915866?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "671173052",
+      "title": "地球儀 - Spinning Globe",
+      "subtitle": "요네즈 켄시",
+      "share": {
+        "subject": "地球儀 - Spinning Globe - 요네즈 켄시",
+        "text": "地球儀 - Spinning Globe(요네즈 켄시 제공)",
+        "href": "https://www.shazam.com/track/671173052/%E5%9C%B0%E7%90%83%E5%84%80-spinning-globe",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/5a/c9/455ac9fc-e38b-09c2-7e8f-79beeca04375/4547366634242.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 요네즈 켄시의 地球儀 - Spinning Globe을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/671173052?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9c/76/6a/9c766a84-fb92-ab89-5ef6-1a6e6141b46b/mzl.gogswajh.jpg/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/671173052"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9c/76/6a/9c766a84-fb92-ab89-5ef6-1a6e6141b46b/mzl.gogswajh.jpg/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/5a/c9/455ac9fc-e38b-09c2-7e8f-79beeca04375/4547366634242.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/5a/c9/455ac9fc-e38b-09c2-7e8f-79beeca04375/4547366634242.jpg/400x400cc.jpg",
+        "joecolor": "b:fffffbp:1f1f1as:33352dt:4b4c47q:5c5d56"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1695666895"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4b/25/50/4b255016-88ec-b658-2f58-53118ac0812f/mzaf_12015818074055509492.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/%E5%9C%B0%E7%90%83%E5%84%80-spinning-globe/1695666889?i=1695666895&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/%E5%9C%B0%E7%90%83%E5%84%80-spinning-globe/1695666889?i=1695666895&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "kenshi-yonezu",
+          "id": "42",
+          "adamid": "530814268"
+        }
+      ],
+      "url": "https://www.shazam.com/track/671173052/%E5%9C%B0%E7%90%83%E5%84%80-spinning-globe",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/530814268/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "678957130",
+      "title": "Off The Record",
+      "subtitle": "아이브",
+      "share": {
+        "subject": "Off The Record - 아이브",
+        "text": "Off The Record(아이브 제공)",
+        "href": "https://www.shazam.com/track/678957130/off-the-record",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/4e/1a/884e1a49-7ce1-7521-7216-cb9adc497090/cover_KM0018202_1.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 아이브의 Off The Record을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/678957130?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/e0/73/aa/e073aab8-c59e-9a1e-4684-c3698783c9e8/652695df-7e5d-4f2c-adb1-5ea1a22eef76_ami-identity-69240dba41883ac416d4effab06e1b2c-2023-10-13T03-42-00.363Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/678957130"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/e0/73/aa/e073aab8-c59e-9a1e-4684-c3698783c9e8/652695df-7e5d-4f2c-adb1-5ea1a22eef76_ami-identity-69240dba41883ac416d4effab06e1b2c-2023-10-13T03-42-00.363Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/4e/1a/884e1a49-7ce1-7521-7216-cb9adc497090/cover_KM0018202_1.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/4e/1a/884e1a49-7ce1-7521-7216-cb9adc497090/cover_KM0018202_1.jpg/400x400cc.jpg",
+        "joecolor": "b:000401p:ff3e92s:f81773t:cb3275q:c6135c"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1711153845"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/b4/ff/ffb4ff19-943f-b386-5586-d05aa9be78ce/mzaf_8318624153942966756.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/off-the-record/1711153844?i=1711153845&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/off-the-record/1711153844?i=1711153845&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "ive",
+          "id": "42",
+          "adamid": "1594159996"
+        }
+      ],
+      "url": "https://www.shazam.com/track/678957130/off-the-record",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/1594159996/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "679066831",
+      "title": "You & Me",
+      "subtitle": "제니",
+      "share": {
+        "subject": "You & Me - 제니",
+        "text": "You & Me(제니 제공)",
+        "href": "https://www.shazam.com/track/679066831/you-me",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/ff/21/81ff218c-3773-8bd7-19be-2b9d0c373a7f/JENNIE_You_Me_0922.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 제니의 You & Me을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/679066831?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/2d/e5/e3/2de5e3ef-58e8-26ce-0c0b-af109333280c/f1e7b1be-95e4-4e22-b8a3-cdacc464e020_ami-identity-fd6c71bb39caaa510d9e9f47a8921a43-2023-10-05T20-26-07.308Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/679066831"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/2d/e5/e3/2de5e3ef-58e8-26ce-0c0b-af109333280c/f1e7b1be-95e4-4e22-b8a3-cdacc464e020_ami-identity-fd6c71bb39caaa510d9e9f47a8921a43-2023-10-05T20-26-07.308Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/ff/21/81ff218c-3773-8bd7-19be-2b9d0c373a7f/JENNIE_You_Me_0922.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/ff/21/81ff218c-3773-8bd7-19be-2b9d0c373a7f/JENNIE_You_Me_0922.jpg/400x400cc.jpg",
+        "joecolor": "b:212b4fp:e7e6eds:f1deebt:c0c1cdq:c8bacc"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1709257170"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a9/2a/ea/a92aea19-cece-f680-896d-1bf023292727/mzaf_12276106209682188799.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/you-me/1709257167?i=1709257170&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/you-me/1709257167?i=1709257170&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "jennie",
+          "id": "42",
+          "adamid": "913944"
+        }
+      ],
+      "url": "https://www.shazam.com/track/679066831/you-me",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/913944/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web&videoIdToFilter=1710691561",
+        "trackhighlighturl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/highlights/1710691561?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "678406901",
+      "title": "Either Way",
+      "subtitle": "아이브",
+      "share": {
+        "subject": "Either Way - 아이브",
+        "text": "Either Way(아이브 제공)",
+        "href": "https://www.shazam.com/track/678406901/either-way",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/4e/1a/884e1a49-7ce1-7521-7216-cb9adc497090/cover_KM0018202_1.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 아이브의 Either Way을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/678406901?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/e0/73/aa/e073aab8-c59e-9a1e-4684-c3698783c9e8/652695df-7e5d-4f2c-adb1-5ea1a22eef76_ami-identity-69240dba41883ac416d4effab06e1b2c-2023-10-13T03-42-00.363Z_cropped.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/678406901"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/e0/73/aa/e073aab8-c59e-9a1e-4684-c3698783c9e8/652695df-7e5d-4f2c-adb1-5ea1a22eef76_ami-identity-69240dba41883ac416d4effab06e1b2c-2023-10-13T03-42-00.363Z_cropped.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/4e/1a/884e1a49-7ce1-7521-7216-cb9adc497090/cover_KM0018202_1.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/4e/1a/884e1a49-7ce1-7521-7216-cb9adc497090/cover_KM0018202_1.jpg/400x400cc.jpg",
+        "joecolor": "b:000401p:ff3e92s:f81773t:cb3275q:c6135c"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1711153997"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e1/88/5c/e1885c5c-62c4-65d4-bb29-f4e047b0562c/mzaf_7214934617945604073.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/either-way/1711153844?i=1711153997&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/either-way/1711153844?i=1711153997&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "ive",
+          "id": "42",
+          "adamid": "1594159996"
+        }
+      ],
+      "url": "https://www.shazam.com/track/678406901/either-way",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/1594159996/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    },
+    {
+      "layout": "5",
+      "type": "MUSIC",
+      "key": "680239447",
+      "title": "음악의 신",
+      "subtitle": "세븐틴",
+      "share": {
+        "subject": "음악의 신 - 세븐틴",
+        "text": "음악의 신(세븐틴 제공)",
+        "href": "https://www.shazam.com/track/680239447/god-of-music",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e3/76/df/e376df28-c05b-00fd-72de-9d42377a306b/196922628580_Cover.jpg/400x400cc.jpg",
+        "twitter": "@Shazam으로 세븐틴의 음악의 신을(를) 찾았어요.",
+        "html": "https://www.shazam.com/snippets/email-share/680239447?lang=ko-KR&country=KR",
+        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8f/20/4a/8f204a28-6732-f750-8cb0-7e90bef91dfe/pr_source.png/800x800cc.jpg",
+        "snapchat": "https://www.shazam.com/partner/sc/track/680239447"
+      },
+      "images": {
+        "background": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8f/20/4a/8f204a28-6732-f750-8cb0-7e90bef91dfe/pr_source.png/800x800cc.jpg",
+        "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e3/76/df/e376df28-c05b-00fd-72de-9d42377a306b/196922628580_Cover.jpg/400x400cc.jpg",
+        "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e3/76/df/e376df28-c05b-00fd-72de-9d42377a306b/196922628580_Cover.jpg/400x400cc.jpg",
+        "joecolor": "b:f1f0f5p:080a13s:10213ft:363840q:3d4b63"
+      },
+      "hub": {
+        "type": "APPLEMUSIC",
+        "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+        "actions": [
+          {
+            "name": "apple",
+            "type": "applemusicplay",
+            "id": "1711288969"
+          },
+          {
+            "name": "apple",
+            "type": "uri",
+            "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7e/14/e8/7e14e8f6-f841-03c1-ed15-782ecf5572f3/mzaf_13783372338294996528.plus.aac.ep.m4a"
+          }
+        ],
+        "options": [
+          {
+            "caption": "열기",
+            "actions": [
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "applemusicopen",
+                "uri": "https://music.apple.com/kr/album/god-of-music/1711288571?i=1711288969&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              },
+              {
+                "name": "hub:applemusic:deeplink",
+                "type": "uri",
+                "uri": "https://music.apple.com/kr/album/god-of-music/1711288571?i=1711288969&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+              }
+            ],
+            "beacondata": {
+              "type": "open",
+              "providername": "applemusic"
+            },
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+            "type": "open",
+            "listcaption": "Apple Music에서 열기",
+            "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+            "colouroverflowimage": false,
+            "providername": "applemusic"
+          }
+        ],
+        "explicit": false,
+        "displayname": "APPLE MUSIC"
+      },
+      "artists": [
+        {
+          "alias": "seventeen",
+          "id": "42",
+          "adamid": "999644772"
+        }
+      ],
+      "url": "https://www.shazam.com/track/680239447/god-of-music",
+      "highlightsurls": {
+        "artisthighlightsurl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/999644772/highlights?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web&videoIdToFilter=1713209463",
+        "trackhighlighturl": "https://cdn.shazam.com/video/v3/ko-KR/KR/web/highlights/1713209463?affiliate=mttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_web%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_web"
+      },
+      "properties": {}
+    }
+  ]
+}

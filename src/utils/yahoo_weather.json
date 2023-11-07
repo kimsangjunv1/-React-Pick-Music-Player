@@ -1,0 +1,122 @@
+{
+  "location": {
+    "city": "Seoul",
+    "woeid": 1132599,
+    "country": "South Korea",
+    "lat": 37.557121,
+    "long": 126.977379,
+    "timezone_id": "Asia/Seoul"
+  },
+  "current_observation": {
+    "pubDate": 1699353278,
+    "wind": {
+      "chill": 6,
+      "direction": "SW",
+      "speed": 4
+    },
+    "atmosphere": {
+      "humidity": 57,
+      "visibility": 21,
+      "pressure": 1022.7
+    },
+    "astronomy": {
+      "sunrise": "7:04 AM",
+      "sunset": "5:28 PM"
+    },
+    "condition": {
+      "temperature": 7,
+      "text": "Partly Cloudy",
+      "code": 30
+    }
+  },
+  "forecasts": [
+    {
+      "day": "Tue",
+      "date": 1699372800,
+      "high": 9,
+      "low": -1,
+      "text": "Mostly Clear",
+      "code": 33
+    },
+    {
+      "day": "Wed",
+      "date": 1699459200,
+      "high": 15,
+      "low": -1,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Thu",
+      "date": 1699545600,
+      "high": 18,
+      "low": 3,
+      "text": "Mostly Cloudy",
+      "code": 28
+    },
+    {
+      "day": "Fri",
+      "date": 1699632000,
+      "high": 10,
+      "low": -3,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Sat",
+      "date": 1699718400,
+      "high": 9,
+      "low": -2,
+      "text": "Mostly Sunny",
+      "code": 34
+    },
+    {
+      "day": "Sun",
+      "date": 1699804800,
+      "high": 8,
+      "low": -1,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Mon",
+      "date": 1699891200,
+      "high": 7,
+      "low": -2,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Tue",
+      "date": 1699977600,
+      "high": 9,
+      "low": -1,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Wed",
+      "date": 1700064000,
+      "high": 12,
+      "low": 3,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Thu",
+      "date": 1700150400,
+      "high": 14,
+      "low": 4,
+      "text": "Mostly Cloudy",
+      "code": 28
+    },
+    {
+      "day": "Fri",
+      "date": 1700236800,
+      "high": 11,
+      "low": 2,
+      "text": "Showers",
+      "code": 11
+    }
+  ]
+}
