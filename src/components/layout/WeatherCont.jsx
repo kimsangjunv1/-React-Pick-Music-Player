@@ -338,31 +338,56 @@ const WeatherCont = () => {
   }
 
   useEffect(() => {
+    // 실데이터
+    // fetch(
+    //   'https://yahoo-weather5.p.rapidapi.com/weather?location=seoul%2Ckr&format=json&u=c&maxResutls',
+    //   options
+    // )
+    //   .then((response) => response.json())
+    //   .then((response) => {
+    //     setWeather(response.forecasts.filter((item, index) => index > 0))
+    //     setTodayWeather(response.forecasts.filter((item, index) => index === 0))
+    //     getWeatherImage(response.forecasts.filter((item, index) => index === 0))
+    //     searchWeatherMusic(
+    //       response.forecasts.filter((item, index) => index === 0)
+    //     )
+    //   })
+    //   .catch((err) => console.error(err))
+
+    // 더미
     fetch(
-      'https://yahoo-weather5.p.rapidapi.com/weather?location=seoul%2Ckr&format=json&u=c&maxResutls',
-      options
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/yahoo_weather.json`
     )
-      .then((response) => response.json())
-      .then((response) => {
-        setWeather(response.forecasts.filter((item, index) => index > 0))
-        setTodayWeather(response.forecasts.filter((item, index) => index === 0))
-        getWeatherImage(response.forecasts.filter((item, index) => index === 0))
-        searchWeatherMusic(
-          response.forecasts.filter((item, index) => index === 0)
-        )
+      .then((res) => res.json())
+      .then((res) => {
+        setWeather(res.forecasts.filter((item, index) => index > 0))
+        setTodayWeather(res.forecasts.filter((item, index) => index === 0))
+        getWeatherImage(res.forecasts.filter((item, index) => index === 0))
+        searchWeatherMusic(res.forecasts.filter((item, index) => index === 0))
       })
-      .catch((err) => console.error(err))
   }, [])
 
   const getWeatherImage = ([props]) => {
-    const searchKeyword = props.text
+    // 실데이터
+    // const searchKeyword = props.text
+    // imageAPI(`api/search`, searchKeyword).then((data) => {
+    //   setWeatherImage(
+    //     data.results.data[Math.floor(Math.random() * 10) + 1].attributes.image
+    //       .large
+    //   )
+    // })
 
-    imageAPI(`api/search`, searchKeyword).then((data) => {
-      setWeatherImage(
-        data.results.data[Math.floor(Math.random() * 10) + 1].attributes.image
-          .large
-      )
-    })
+    // 더미
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/stock_photo.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setWeatherImage(
+          res.results.data[Math.floor(Math.random() * 10) + 1].attributes.image
+            .large
+        )
+      })
   }
 
   const searchWeatherMusic = ([props]) => {
@@ -386,13 +411,23 @@ const WeatherCont = () => {
           return '힘내요'
       }
     }
-    const searchKeyword = getWeatherName(props.text)
 
-    searchAPI(
-      `search?term=${searchKeyword}&locale=ko-KR&offset=0&limit=5`
-    ).then((data) => {
-      setSearchMusicItem(data.tracks.hits)
-    })
+    // 실데이터
+    // const searchKeyword = getWeatherName(props.text)
+    // searchAPI(
+    //   `search?term=${searchKeyword}&locale=ko-KR&offset=0&limit=5`
+    // ).then((data) => {
+    //   setSearchMusicItem(data.tracks.hits)
+    // })
+
+    // 더미
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_search.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setSearchMusicItem(res.tracks.hits)
+      })
   }
 
   if (!weather?.length) return <SkeletonWeather />

@@ -15,9 +15,19 @@ const Main = () => {
   const [songData, setSongData] = useState(null)
 
   useEffect(() => {
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
-    ).then((data) => setSongData(data.tracks))
+    // 실데이터
+    // fetchAPI(
+    //   `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
+    // ).then((data) => setSongData(data.tracks))
+
+    //더미
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_track.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setSongData(res.tracks)
+      })
   }, [])
 
   if (!songData?.length) return <Loader />
@@ -34,7 +44,7 @@ const Main = () => {
         <section id="contents">
           {/* <MainSearch /> */}
           <div className="main_cont">
-            {/* 날씨 */}
+            {/* 날씨 풀어야함*/}
             <WeatherCont />
             <Link to="/weatherplaylist">
               {/* 다가온다 크리스마스 */}
