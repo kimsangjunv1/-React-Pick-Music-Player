@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
+import logo from './../../styles/img/icon/logo.svg'
+
 const Header = ({ selectCategory, setSelectCategory }) => {
   const [asideWidth, setAsideWidth] = useState(true)
 
@@ -9,17 +11,11 @@ const Header = ({ selectCategory, setSelectCategory }) => {
     <header id="header">
       <aside id="aside" className={asideWidth ? '' : ''}>
         <Link to="/" className="logo" href="">
-          <h1 className="ir">logo</h1>
+          {/* <h1 className="ir">logo</h1> */}
+          <img src={logo} alt="로고" />
         </Link>
-        <button
-          onClick={() => {
-            asideWidth === false ? setAsideWidth(true) : setAsideWidth(false)
-          }}
-          className="minimize_btn"
-        >
-          {asideWidth === false ? '<' : '>'}
-        </button>
-        <div>
+
+        <div className="menu_container">
           <Link
             to="/"
             onClick={() => setSelectCategory('a')}

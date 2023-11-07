@@ -56,17 +56,17 @@
       content: '';
       background: radial-gradient(
           108.67% 108.67% at 50% -8.67%,
-          rgb(28 217 96 / 47%) 0%,
+          #1dd960b5 0%,
           rgba(57, 62, 72, 0) 48.44%
         ),
         rgba(0, 0, 0, 0);
       position: absolute;
       top: 0;
       left: 50%;
-      filter: blur(0px);
+      filter: blur(50px);
       transform: translate(-50%, 0);
-      width: 100%;
-      height: 500px;
+      width: 50%;
+      height: 380px;
       z-index: -1;
     }
     &::before {
@@ -76,7 +76,7 @@
       left: 0;
       width: 100%;
       height: 50px;
-      background: linear-gradient(0deg, transparent, black);
+      background: linear-gradient(0deg, transparent, #ecf1f6);
       z-index: 100;
     }
     .main_cont {
@@ -218,8 +218,6 @@
           display: flex;
           align-items: center;
           h2 {
-            padding-left: 0 !important;
-            margin-bottom: 0 !important;
             margin-right: 10px;
           }
           p {
@@ -311,7 +309,6 @@
 }
 .musicplayer_inside {
   height: 100vh;
-  margin-bottom: 0 !important;
 }
 // weather
 

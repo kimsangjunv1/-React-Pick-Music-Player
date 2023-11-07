@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SkeletonMain from '../loading/SkeletonMain'
 import SkeletonWeather from '../loading/SkeletonWeather'
 import { Link } from 'react-router-dom'
+import TitleComponents from './../common/TitleComponents'
 
 import { imageAPI } from '../../utils/imageAPI'
 import { searchAPI } from '../../utils/searchAPI'
@@ -435,12 +436,10 @@ const WeatherCont = () => {
   return (
     <section>
       <div className="todayWeather_cont">
-        <div className="section_title">
-          <p className="section_title_desc">
-            여기에서 날씨에 맞는 음악을 추천해드릴게요!
-          </p>
-          <h2>오늘의 날씨에 맞는 음악은?</h2>
-        </div>
+        <TitleComponents
+          title={'00 날인데 어떤 플레이리스트가 있을까?'}
+          desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
+        />
         {todayWeather?.map((todayWeather, index) => (
           <SetTodayWeatherMusic
             key={index}

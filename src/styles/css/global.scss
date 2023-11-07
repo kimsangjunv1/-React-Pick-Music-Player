@@ -15,7 +15,7 @@
   --white: #fff;
   --black: #000;
 
-  --bg-light: #f0eeeb;
+  --bg-light: linear-gradient(90deg, #e0e7ef, #f3f6f9);
   --bg-light-border: #dad8d1;
 
   --bg-dark: #000;
@@ -28,6 +28,6 @@
 }
 
 body {
-  background-color: var(--bg-dark);
+  background-color: var(--bg-light);
   min-height: 100vh;
 }
