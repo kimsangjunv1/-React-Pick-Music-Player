@@ -10,8 +10,8 @@
 .album_cont {
   display: flex;
   gap: 20px;
-  overflow: scroll;
-  scroll-snap-type: x mandatory;
+  // overflow: scroll;
+  // scroll-snap-type: x mandatory;
   position: relative;
   .album_item {
     position: relative;
@@ -33,8 +33,8 @@
     &::before {
       content: '';
       width: 26px;
-      height: 8px;
-      background: #000;
+      height: 3px;
+      background: white;
       // border-radius: 100px;
       position: absolute;
       top: 30px;

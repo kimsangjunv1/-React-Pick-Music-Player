@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import TitleComponents from '../common/TitleComponents'
 import { Link } from 'react-router-dom'
 
+import icon_graph from './../../styles/img/icon/icon_graph.svg'
+
 import { useDispatch } from 'react-redux'
 import { saveArtistID } from '../../utils/counterSlice'
 import { saveProps } from '../../utils/counterSlice'
@@ -18,19 +20,18 @@ function ArtistItem(props) {
       className="main_artist_item"
     >
       <div className="artist_info_container">
+        <p className="artist_eng_name">{props.artist.artists[0].alias}</p>
         <h2 className="artist_name">{props.artist.subtitle}</h2>
-        <div className="artist_like_container">
-          <img
-            src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
-            alt=""
-          />
-          <p>Likes {props.artist.key.slice(0, 3)}</p>
-        </div>
       </div>
       <img
         src={`${props.artist.images.background}`}
         alt={`${props.artist.subtitle}의 이미지`}
       />
+      <div className="artist_like_container">
+        <img className="icon" src={icon_graph} alt="그래프 아이콘" />
+        <p className="count">{props.artist.key.slice(0, 4)}</p>
+        <p className="type">view</p>
+      </div>
     </Link>
   )
 }
@@ -59,9 +60,9 @@ const ArtistCont = ({ test }) => {
             <ArtistItem key={index} artist={artist} />
           ))}
         </div>
-        <Link to="/artist" className="artist_more">
+        {/* <Link to="/artist" className="artist_more">
           더보기
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

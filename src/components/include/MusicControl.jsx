@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import PlayerComponents from './../common/PlayerComponents'
+import { useSelector } from 'react-redux'
 
 const MusicControl = () => {
+  const musicDetail = useSelector((state) => state.counter.text)
+  const [visible, setVisible] = useState(musicDetail.length ? true : false)
+  console.log('컨트롤 : ', musicDetail)
   return (
     <>
+      <PlayerComponents musicDetail={musicDetail} visibleState={visible} />
       <div className="control_panel">
         <div className="progress">
           <div className="bar"></div>
@@ -22,12 +28,24 @@ const MusicControl = () => {
           />
         </div>
         <div className="control_cont">
+          <button
+            onClick={() => {
+              console.log('클릭')
+              setVisible(visible ? false : true)
+            }}
+          >
+            위로 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ
+          </button>
           <div className="control_music">
             <img src="assets/img/test_album.png" alt="" />
             <div className="control_music_desc">
-              <p>TAEYEON</p>
+              <p>{musicDetail[0]?.ranking?.subtitle}</p>
               <div>
+                <p className="music__tit">
+                  {musicDetail[0]?.ranking?.title?.slice(0, 20)}
+                </p>
                 <h2>Weekend</h2>
+                {/* <p>TAEYEON</p> */}
                 <p>KR</p>
               </div>
             </div>

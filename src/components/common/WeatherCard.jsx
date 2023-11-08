@@ -1,14 +1,11 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 
-import { saveText } from '../../utils/counterSlice'
+import { saveText, saveMusic } from '../../utils/counterSlice'
 
 const WeatherCard = ({ props, image, type }) => {
-  console.log('넘어온값 : ', image, type, props)
-
   const getWeatherName = (date) => {
-    console.log('여기를 거침 : ', date)
     switch (date) {
       case 'Sunny':
         return '화창한'
@@ -35,6 +32,8 @@ const WeatherCard = ({ props, image, type }) => {
 
   const dispatch = useDispatch()
 
+  const musicDetail = useSelector((state) => state.counter.playList)
+
   return (
     <Fragment>
       {type !== 'today'
@@ -49,16 +48,25 @@ const WeatherCard = ({ props, image, type }) => {
                 backgroundPosition: 'center',
               }}
             >
-              <Link
+              {/* <Link
                 to={`/musicplayer/${props.track.key}`}
                 onClick={() => {
                   dispatch(saveText({ ranking: props.track }))
+                  dispatch(saveMusic({ ranking: props.track }))
+                }}
+              > */}
+              <div
+                className="info"
+                onClick={() => {
+                  dispatch(saveText({ ranking: props.track }))
+                  dispatch(saveMusic({ ranking: props.track }))
                 }}
               >
                 <p className="singer">{props.track.subtitle}</p>
                 <p className="title">{props.track.title}</p>
-                {/* <div></div> */}
-              </Link>
+              </div>
+              {/* <div></div> */}
+              {/* </Link> */}
               <img
                 className="coverart_blur"
                 src={props.track.images.coverart}

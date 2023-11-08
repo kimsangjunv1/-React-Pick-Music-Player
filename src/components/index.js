@@ -15,5 +15,6 @@ export { default as RankCont } from './layout/RankCont'
 export { default as ArtistCont } from './layout/ArtistCont'
 export { default as WeatherCont } from './layout/WeatherCont'
 export { default as PlayListCont } from './layout/PlayListCont'
+export { default as RecentCont } from './layout/RecentCont'
 
 export { default as Details } from './pages/details/Details'

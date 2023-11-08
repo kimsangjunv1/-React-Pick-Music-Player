@@ -1,5 +1,10 @@
 import React from 'react'
 import TitleComponents from '../common/TitleComponents'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 
 function AlbumItem(props) {
   return (
@@ -10,8 +15,8 @@ function AlbumItem(props) {
         src={`${props.album.images.coverart}`}
         alt="앨범 아트 그림자"
       />
-      <p>{props.album.subtitle}</p>
-      <h2>{props.album.title}</h2>
+      {/* <p>{props.album.subtitle}</p>
+      <h2>{props.album.title}</h2> */}
     </div>
   )
 }

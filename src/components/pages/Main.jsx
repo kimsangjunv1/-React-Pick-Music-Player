@@ -10,7 +10,14 @@ import SectionSpace from '../common/SectionSpace'
 
 import { Link } from 'react-router-dom'
 
-import { AlbumCont, RankCont, ArtistCont, WeatherCont, PlayListCont } from '../'
+import {
+  AlbumCont,
+  RankCont,
+  ArtistCont,
+  WeatherCont,
+  PlayListCont,
+  RecentCont,
+} from '../'
 
 const Main = () => {
   const [selectCategory, setSelectCategory] = useState('a')
@@ -43,17 +50,21 @@ const Main = () => {
         setSelectCategory={setSelectCategory}
       />
       <main id="main">
-        {/* <MainSearch /> */}
-        <WeatherCont />
-        <SectionSpace space={70} />
-        <ArtistCont test={songData} />
-        <SectionSpace space={70} />
-        <PlayListCont />
-        <SectionSpace space={70} />
-        <AlbumCont test={songData} />
+        <div className="main_inner">
+          {/* <MainSearch /> */}
+          <WeatherCont />
+          <SectionSpace space={70} />
+          <ArtistCont test={songData} />
+          <SectionSpace space={70} />
+          <RecentCont />
+          <SectionSpace space={70} />
+          <PlayListCont />
+          <SectionSpace space={70} />
+          <AlbumCont test={songData} />
 
-        {/* <RankCont test={songData} /> */}
-        <MusicControl />
+          {/* <RankCont test={songData} /> */}
+          <MusicControl />
+        </div>
       </main>
       <Footer />
     </>
