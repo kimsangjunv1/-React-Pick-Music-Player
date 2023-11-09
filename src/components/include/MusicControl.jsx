@@ -26,7 +26,11 @@ const MusicControl = () => {
         musicDetail={musicDetail}
         visibleState={visualVisible}
       />
-      <div className={`control_panel ${controlVisible ? 'show' : 'hide'}`}>
+      <div
+        className={`control_panel ${controlVisible ? 'show' : 'hide'} ${
+          visualVisible ? 'wide' : 'tight'
+        }`}
+      >
         <div className="control_cont">
           <div className="control_music">
             {/* <img
@@ -82,7 +86,7 @@ const MusicControl = () => {
               id="control-list"
               onClick={() => {
                 console.log('클릭')
-                dispatch(setControlVisible(controlVisible ? false : true))
+                // dispatch(setControlVisible(controlVisible ? false : true))
                 dispatch(setVisualVisible(visualVisible ? false : true))
                 // setControl(false)
                 // setVisual(true)
