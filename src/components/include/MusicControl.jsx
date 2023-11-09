@@ -9,7 +9,13 @@ const MusicControl = () => {
   return (
     <>
       <PlayerComponents musicDetail={musicDetail} visibleState={visible} />
-      <div className="control_panel">
+      <div
+        className="control_panel"
+        onClick={() => {
+          console.log('클릭')
+          setVisible(visible ? false : true)
+        }}
+      >
         <div className="progress">
           <div className="bar"></div>
           <div className="timer">
@@ -28,14 +34,6 @@ const MusicControl = () => {
           />
         </div>
         <div className="control_cont">
-          <button
-            onClick={() => {
-              console.log('클릭')
-              setVisible(visible ? false : true)
-            }}
-          >
-            위로 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ
-          </button>
           <div className="control_music">
             <img src="assets/img/test_album.png" alt="" />
             <div className="control_music_desc">
