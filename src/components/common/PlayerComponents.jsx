@@ -3,12 +3,6 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const PlayerComponents = ({ musicDetail, visibleState }) => {
-  const [visible, setVisible] = useState(visibleState)
-  // const musicDetail = useSelector((state) => state.counter.text)
-  console.log('musicDetail? : ', musicDetail.length)
-  console.log('musicDetail : ', musicDetail)
-  console.log('비지블', visible)
-  console.log('비지블스테이트', visibleState)
   return (
     <div className={`music_player_container ${visibleState ? 'show' : 'hide'}`}>
       {musicDetail.length && (

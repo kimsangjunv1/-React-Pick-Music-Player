@@ -1,6 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PlayerComponents from './../common/PlayerComponents'
-import { useSelector } from 'react-redux'
+
+// 상태관리
+import { useSelector, useDispatch } from 'react-redux'
+import { setVisualVisible, setControlVisible } from '../../utils/counterSlice'
+
+// 아이콘
 import icon_play from './../../styles/img/icon/icon_play.svg'
 import icon_next from './../../styles/img/icon/icon_next.svg'
 import icon_prev from './../../styles/img/icon/icon_prev.svg'
@@ -8,16 +13,24 @@ import icon_list from './../../styles/img/icon/icon_list.svg'
 
 const MusicControl = () => {
   const musicDetail = useSelector((state) => state.counter.text)
-  const [visible, setVisible] = useState(musicDetail.length ? true : false)
-  console.log('컨트롤 : ', musicDetail)
+  let controlVisible = useSelector((state) => state.counter.controlVisibleState)
+  let visualVisible = useSelector((state) => state.counter.visualVisibleState)
+  console.log('musicDetail : ', musicDetail)
+
+  const dispatch = useDispatch()
   return (
     <>
-      <PlayerComponents musicDetail={musicDetail} visibleState={visible} />
+      <PlayerComponents
+        musicDetail={musicDetail}
+        visibleState={visualVisible}
+      />
       <div
-        className="control_panel"
+        className={`control_panel ${controlVisible ? 'show' : 'hide'}`}
         onClick={() => {
           console.log('클릭')
-          setVisible(visible ? false : true)
+          dispatch(setControlVisible(false))
+          dispatch(setVisualVisible(true))
+          console.log('상태  :', controlVisible)
         }}
       >
         <div className="control_cont">

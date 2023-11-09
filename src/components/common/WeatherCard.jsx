@@ -2,7 +2,12 @@ import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 
-import { saveText, saveMusic } from '../../utils/counterSlice'
+import {
+  saveText,
+  saveMusic,
+  setVisualVisible,
+  setControlVisible,
+} from '../../utils/counterSlice'
 
 const WeatherCard = ({ props, image, type }) => {
   const getWeatherName = (date) => {
@@ -60,6 +65,8 @@ const WeatherCard = ({ props, image, type }) => {
                 onClick={() => {
                   dispatch(saveText({ ranking: props.track }))
                   dispatch(saveMusic({ ranking: props.track }))
+                  dispatch(setControlVisible(false))
+                  dispatch(setVisualVisible(true))
                 }}
               >
                 <p className="singer">{props.track.subtitle}</p>

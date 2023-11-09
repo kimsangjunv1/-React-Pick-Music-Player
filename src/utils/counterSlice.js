@@ -3,9 +3,11 @@ import { createSlice } from '@reduxjs/toolkit'
 // 기초 값
 const initialState = {
   props: {},
-  text: [],
   artistid: {},
+  text: [],
   playList: [],
+  visualVisibleState: false,
+  controlVisibleState: false,
 }
 
 // 스토어 이름
@@ -26,11 +28,23 @@ export const counterSlice = createSlice({
     saveMusic: (state, action) => {
       state.playList = [...state.playList, action.payload]
     },
+    setControlVisible: (state, action) => {
+      state.visualVisibleState = action.payload
+    },
+    setVisualVisible: (state, action) => {
+      state.controlVisibleState = action.payload
+    },
   },
 })
 
 // 저장하고자 하는 액션별 props
-export const { saveProps, saveText, saveArtistID, saveMusic } =
-  counterSlice.actions
+export const {
+  saveProps,
+  saveText,
+  saveArtistID,
+  saveMusic,
+  setControlVisible,
+  setVisualVisible,
+} = counterSlice.actions
 
 export default counterSlice.reducer

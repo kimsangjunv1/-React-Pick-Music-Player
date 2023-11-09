@@ -242,14 +242,14 @@
   left: 50%;
   transform: translate(-50%, 0);
   /* padding-left: 200px; */
-  background: rgba(235, 240, 244, 0.8705882353);
+  background: #020202de;
   border: 2px solid #1cd961;
   border-radius: 100px;
   box-shadow: 0 20px 20px -20px #1cd961a6;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   z-index: 10000;
-  color: black;
+  color: white;
   cursor: pointer;
 
   .volumeCont {
@@ -259,7 +259,7 @@
   .control_cont {
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 10px 30px;
     gap: 10px;
 
     .control_music {
@@ -273,7 +273,7 @@
           margin-bottom: 10px;
           .singer {
             font-size: 14px;
-            color: rgba(0, 0, 0, 0.3);
+            color: rgba(255, 255, 255, 0.3);
             font-weight: 500;
             margin-bottom: 5px;
           }
@@ -288,7 +288,7 @@
           border-radius: 100px;
           height: 3px;
           width: 100px;
-          background: #0000002d;
+          background: rgb(255 255 255 / 18%);
           .bar {
             width: 20%;
             height: 100%;
@@ -312,8 +312,15 @@
       // margin-top: 40px;
       i {
         // margin: 0 10px;
+        background: transparent;
+        transition: 0.25s;
+        border-radius: 100px;
+        padding: 2px;
         img {
           height: 100%;
+        }
+        &:hover {
+          background: rgba(255, 255, 255, 0.25);
         }
       }
       .timer {
