@@ -31,7 +31,7 @@ const RecentCont = () => {
             </div>
           ))
         ) : (
-          <div>최근에 들은 곡이 없습니다.</div>
+          <div className="no_item">최근에 들은 곡이 없습니다.</div>
         )}
       </div>
     </div>
