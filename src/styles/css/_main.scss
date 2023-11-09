@@ -60,7 +60,7 @@
             transform: scale(0.8);
           }
           &.today {
-            background: #41c6d8;
+            background: linear-gradient(45deg, #41c6d8, #a8f4ff);
             box-shadow: 0 20px 40px -20px #41c6d8;
             color: rgba(0, 0, 0, 0.7254901961);
             padding: 20px;
