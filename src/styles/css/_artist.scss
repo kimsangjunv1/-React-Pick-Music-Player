@@ -340,6 +340,20 @@
           color: white;
           border-radius: 100px;
           line-height: 1;
+
+          &:hover {
+            .artist_eng_name {
+              color: rgba(0, 0, 0, 0.583);
+            }
+            .artist_like_container {
+              .count {
+                color: #000;
+              }
+            }
+            background: #1cd961bd;
+            color: black;
+          }
+
           .artist_eng_name {
             text-transform: uppercase;
             font-weight: 700;
