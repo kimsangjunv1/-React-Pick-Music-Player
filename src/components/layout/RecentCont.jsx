@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { saveMusic } from '../../utils/counterSlice'
 import TitleComponents from '../common/TitleComponents'
+import RecentCard from '../common/RecentCard'
 
 const RecentCont = () => {
   const musicList = useSelector((state) => state.counter.playList)
@@ -14,22 +15,7 @@ const RecentCont = () => {
       />
       <div className="recent_container_inner">
         {musicList.length ? (
-          musicList.map((item, key) => (
-            <div className="item" key={key}>
-              <img src={item.ranking.images.background} alt="" />
-              <div className="information_container">
-                <div className="title_container">
-                  <p>{item.ranking.title}</p>
-                  <p>{item.ranking.subtitle}</p>
-                </div>
-                <div className="function_container">
-                  <button>3,000 VIEW</button>
-                  <button>SHARE</button>
-                  <button>DOWNLOAD</button>
-                </div>
-              </div>
-            </div>
-          ))
+          musicList.map((item, key) => <RecentCard item={item} key={key} />)
         ) : (
           <div className="no_item">최근에 들은 곡이 없습니다.</div>
         )}
