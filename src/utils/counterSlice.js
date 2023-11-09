@@ -29,10 +29,10 @@ export const counterSlice = createSlice({
       state.playList = [...state.playList, action.payload]
     },
     setControlVisible: (state, action) => {
-      state.visualVisibleState = action.payload
+      state.controlVisibleState = action.payload
     },
     setVisualVisible: (state, action) => {
-      state.controlVisibleState = action.payload
+      state.visualVisibleState = action.payload
     },
   },
 })

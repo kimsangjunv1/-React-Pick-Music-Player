@@ -37,7 +37,7 @@ const WeatherCard = ({ props, image, type }) => {
 
   const dispatch = useDispatch()
 
-  const musicDetail = useSelector((state) => state.counter.playList)
+  // const musicDetail = useSelector((state) => state.counter.playList)
 
   return (
     <Fragment>
@@ -65,8 +65,8 @@ const WeatherCard = ({ props, image, type }) => {
                 onClick={() => {
                   dispatch(saveText({ ranking: props.track }))
                   dispatch(saveMusic({ ranking: props.track }))
-                  dispatch(setControlVisible(false))
-                  dispatch(setVisualVisible(true))
+                  dispatch(setControlVisible(true))
+                  // dispatch(setVisualVisible(true))
                 }}
               >
                 <p className="singer">{props.track.subtitle}</p>

@@ -62,11 +62,11 @@ const PlayerComponents = ({ musicDetail, visibleState }) => {
                       <div className="greencircle"></div>
                       <div className="musicpoint"></div>
                     </div>
-                    <p>{item.ranking.subtitle}</p>
+                    {/* <p>{item.ranking.subtitle}</p>
                     <p className="music__tit">
                       {item.ranking.title.slice(0, 20)}
-                    </p>
-                    <audio
+                    </p> */}
+                    {/* <audio
                       className="audiobox"
                       src={`${item.ranking.hub.actions[1].uri}`}
                       type="audio/m4a"
@@ -77,7 +77,7 @@ const PlayerComponents = ({ musicDetail, visibleState }) => {
                         src={`${item.ranking.hub.actions[1].uri}`}
                         type="audio/m4a"
                       />
-                    </audio>
+                    </audio> */}
                   </div>
                   {/* <div className="music_player_lyric">
           <h3>Lyric</h3>
