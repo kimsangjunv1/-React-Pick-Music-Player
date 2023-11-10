@@ -7,6 +7,7 @@ import TitleComponents from './TitleComponents'
 
 const PlayerComponents = ({ musicDetail, visibleState }) => {
   const musicList = useSelector((state) => state.counter.playList)
+  console.log('들어온 노래 : ', musicDetail)
   return (
     <div className={`music_player_container ${visibleState ? 'show' : 'hide'}`}>
       {musicDetail.length && (
@@ -90,18 +91,20 @@ const PlayerComponents = ({ musicDetail, visibleState }) => {
                     title={'최근에 재생한 곡'}
                     // desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
                   />
-                  {musicList.length ? (
-                    musicList.map((item, key) => (
-                      <RecentCard
-                        item={item}
-                        key={key}
-                        type={'player'}
-                        list={musicList}
-                      />
-                    ))
-                  ) : (
-                    <div className="no_item">최근에 들은 곡이 없습니다.</div>
-                  )}
+                  <div className="item_container">
+                    {musicList.length ? (
+                      musicList.map((item, key) => (
+                        <RecentCard
+                          item={item}
+                          key={key}
+                          type={'player'}
+                          list={musicList}
+                        />
+                      ))
+                    ) : (
+                      <div className="no_item">최근에 들은 곡이 없습니다.</div>
+                    )}
+                  </div>
                 </div>
               </div>
             </>

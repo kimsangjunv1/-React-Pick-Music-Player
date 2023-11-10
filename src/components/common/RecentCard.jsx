@@ -2,14 +2,20 @@ import React from 'react'
 
 import { useSelector, useDispatch } from 'react-redux'
 
-import { removePlayList } from '../../utils/counterSlice'
+import { removePlayList, saveText } from '../../utils/counterSlice'
 import icon_close from './../../styles/img/icon/icon_close.svg'
 
 const RecentCard = ({ item, key, type, list }) => {
   const dispatch = useDispatch()
-  console.log(list)
+  console.log('최근 카드 : ', item)
   return (
-    <div className="item" key={key}>
+    <div
+      className="item"
+      key={key}
+      onClick={() => {
+        dispatch(saveText({ ranking: item.ranking }))
+      }}
+    >
       <div className="album_art_container">
         <img className="main" src={item.ranking?.images?.background} alt="" />
         <img className="sub" src={item.ranking?.images?.background} alt="" />
