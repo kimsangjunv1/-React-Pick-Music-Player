@@ -35,7 +35,7 @@ export const counterSlice = createSlice({
       state.visualVisibleState = action.payload
     },
     removePlayList: (state, action) => {
-      state.playList = [action.payload]
+      state.playList = action.payload
     },
   },
 })

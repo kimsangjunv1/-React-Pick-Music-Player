@@ -5,18 +5,19 @@ import { useSelector, useDispatch } from 'react-redux'
 import { removePlayList } from '../../utils/counterSlice'
 import icon_close from './../../styles/img/icon/icon_close.svg'
 
-const RecentCard = ({ item, key, type, musicList }) => {
+const RecentCard = ({ item, key, type, list }) => {
   const dispatch = useDispatch()
+  console.log(list)
   return (
     <div className="item" key={key}>
       <div className="album_art_container">
-        <img className="main" src={item.ranking.images.background} alt="" />
-        <img className="sub" src={item.ranking.images.background} alt="" />
+        <img className="main" src={item.ranking?.images?.background} alt="" />
+        <img className="sub" src={item.ranking?.images?.background} alt="" />
       </div>
       <div className="information_container">
         <div className="title_container">
-          <p>{item.ranking.title}</p>
-          <p>{item.ranking.subtitle}</p>
+          <p>{item.ranking?.title}</p>
+          <p>{item.ranking?.subtitle}</p>
         </div>
         {type === 'main' ? (
           <div className="function_container">
@@ -33,8 +34,8 @@ const RecentCard = ({ item, key, type, musicList }) => {
                 onClick={() => {
                   dispatch(
                     removePlayList(
-                      musicList &&
-                        musicList.filter(
+                      list &&
+                        list.filter(
                           (good) =>
                             good.ranking.artists[0].adamid !==
                             item.ranking.artists[0].adamid
