@@ -7,6 +7,7 @@ import { setVisualVisible, setControlVisible } from '../../utils/counterSlice'
 
 // 아이콘
 import icon_play from './../../styles/img/icon/icon_play.svg'
+import icon_pause from './../../styles/img/icon/icon_pause.svg'
 import icon_next from './../../styles/img/icon/icon_next.svg'
 import icon_prev from './../../styles/img/icon/icon_prev.svg'
 import icon_list from './../../styles/img/icon/icon_list.svg'
@@ -19,20 +20,13 @@ const MusicControl = () => {
   let controlVisible = useSelector((state) => state.counter.controlVisibleState)
   let visualVisible = useSelector((state) => state.counter.visualVisibleState)
 
-  // let musicAudio = musicDetail && musicDetail[0].ranking.hub.actions[1].uri //뮤직 로드
+  const audio = document.querySelector('.audio_test')
 
-  const musicPlay = (fileName) => {
-    let audio = new Audio(fileName)
-    if (playState) {
-      audio.pause()
-      setPlayState(false)
-    } else {
-      audio.load()
-      audio.volume = 1
-      audio.play()
-      setPlayState(true)
-    }
+  const audioControl = () => {
+    setPlayState(playState ? false : true)
+    playState ? audio.pause() : audio.play()
   }
+
   // --------------------------------------------------------------------------------------------------------------------------------------------
 
   //재생버튼
@@ -156,6 +150,11 @@ const MusicControl = () => {
                 type="audio/m4a"
               />
             </audio> */}
+            <audio
+              className="audio_test"
+              preload="auto"
+              src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/65/29/cd/6529cd10-44ef-b767-20ad-24bec1ac67d3/mzaf_2682529665107379087.plus.aac.ep.m4a"
+            ></audio>
             <i title="이전곡 재생" className="prev" id="control-prev">
               <img src={icon_prev} alt="이전 아이콘" />
             </i>
@@ -164,10 +163,20 @@ const MusicControl = () => {
               className="play"
               id="control-play"
               onClick={() => {
-                musicPlay(musicDetail[0].ranking.hub.actions[1].uri)
+                audioControl()
               }}
             >
               <img src={icon_play} alt="재생 아이콘" />
+            </i>
+            <i
+              title="멈춤"
+              className="pause"
+              id="control-pause"
+              onClick={() => {
+                audioControl()
+              }}
+            >
+              <img src={icon_pause} alt="멈춤 아이콘" />
             </i>
             <i title="다음곡 재생" className="next" id="control-next">
               <img src={icon_next} alt="다음 아이콘" />
