@@ -46,7 +46,7 @@
       .music_player_utility_container {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         border: 1px solid rgb(255 255 255 / 10%);
         border-radius: 100px;
         padding: 10px 20px;
@@ -82,6 +82,37 @@
           height: 100%;
           border-radius: 10000px;
         }
+        .greencircle {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: #000000a1;
+          border: 3px solid #16a248;
+          width: 20px;
+          height: 20px;
+          border-radius: 100px;
+        }
+        .musicpoint {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 3px;
+          height: 37px;
+          background: rgb(20, 236, 111);
+          transform: rotate(45deg);
+          border-radius: 100px;
+          &::after {
+            position: absolute;
+            content: '';
+            background: black;
+            width: 3px;
+            height: 37px;
+            bottom: -80px;
+            right: 0;
+            /* transform: rotate(45deg); */
+          }
+        }
         &::before {
           content: '';
           position: absolute;
@@ -89,11 +120,11 @@
           left: 50%;
           transform: translate(-50%, -50%) scale(1.03);
           opacity: 0.3;
-          background: rgb(0 255 91 / 0%);
+          background: rgb(0 255 91 / 65%);
           filter: blur(100px);
           z-index: -1;
-          width: 200%;
-          height: 200%;
+          width: 150%;
+          height: 150%;
           border-radius: 10000px;
         }
         &::after {
@@ -103,8 +134,8 @@
           left: 50%;
           transform: translate(-50%, -50%) scale(1.03);
           border: 1px solid #1cd961;
-          width: 100%;
-          height: 100%;
+          width: 105%;
+          height: 105%;
           border-radius: 10000px;
         }
       }
@@ -292,7 +323,7 @@
 
     .progress {
       border-radius: 100px;
-      height: 3px;
+      height: 2px;
       width: 100px;
       background: rgba(255, 255, 255, 0.18);
       position: absolute;
@@ -301,9 +332,13 @@
       width: 100%;
       .bar {
         width: 20%;
-        height: 100%;
-        background: #339758;
+        height: 5px;
+        background: #1cd961;
         border-radius: 100px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
       }
     }
 
@@ -339,6 +374,9 @@
         }
         &:hover {
           background: rgba(255, 255, 255, 0.25);
+        }
+        &:active {
+          background: rgba(255, 255, 255, 0.67);
         }
       }
       .timer {
