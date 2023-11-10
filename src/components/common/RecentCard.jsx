@@ -1,7 +1,12 @@
 import React from 'react'
+
+import { useSelector, useDispatch } from 'react-redux'
+
+import { removePlayList } from '../../utils/counterSlice'
 import icon_close from './../../styles/img/icon/icon_close.svg'
 
-const RecentCard = ({ item, key, type }) => {
+const RecentCard = ({ item, key, type, musicList }) => {
+  const dispatch = useDispatch()
   return (
     <div className="item" key={key}>
       <div className="album_art_container">
@@ -22,7 +27,22 @@ const RecentCard = ({ item, key, type }) => {
         ) : (
           <div className="function_container">
             <button>
-              <img src={icon_close} alt="닫기" />
+              <img
+                src={icon_close}
+                alt="닫기"
+                onClick={() => {
+                  dispatch(
+                    removePlayList(
+                      musicList &&
+                        musicList.filter(
+                          (good) =>
+                            good.ranking.artists[0].adamid !==
+                            item.ranking.artists[0].adamid
+                        )
+                    )
+                  )
+                }}
+              />
             </button>
           </div>
         )}

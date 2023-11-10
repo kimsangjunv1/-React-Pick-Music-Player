@@ -18,7 +18,7 @@ const MusicControl = () => {
   let controlVisible = useSelector((state) => state.counter.controlVisibleState)
   let visualVisible = useSelector((state) => state.counter.visualVisibleState)
 
-  console.log('컨트롤 보여짐 상태 : ', controlVisible, visualVisible)
+  // console.log('컨트롤 보여짐 상태 : ', controlVisible, visualVisible)
 
   return (
     <>
@@ -85,11 +85,7 @@ const MusicControl = () => {
               className="list"
               id="control-list"
               onClick={() => {
-                console.log('클릭')
-                // dispatch(setControlVisible(controlVisible ? false : true))
                 dispatch(setVisualVisible(visualVisible ? false : true))
-                // setControl(false)
-                // setVisual(true)
               }}
             >
               <img src={icon_list} alt="목록 아이콘" />

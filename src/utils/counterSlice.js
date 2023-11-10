@@ -34,6 +34,9 @@ export const counterSlice = createSlice({
     setVisualVisible: (state, action) => {
       state.visualVisibleState = action.payload
     },
+    removePlayList: (state, action) => {
+      state.playList = [action.payload]
+    },
   },
 })
 
@@ -45,6 +48,7 @@ export const {
   saveMusic,
   setControlVisible,
   setVisualVisible,
+  removePlayList,
 } = counterSlice.actions
 
 export default counterSlice.reducer

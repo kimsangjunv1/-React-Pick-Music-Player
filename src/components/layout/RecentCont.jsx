@@ -6,7 +6,7 @@ import RecentCard from '../common/RecentCard'
 
 const RecentCont = () => {
   const musicList = useSelector((state) => state.counter.playList)
-  console.log('여기가 나와야해 : ', musicList)
+  // console.log('여기가 나와야해 : ', musicList)
   return (
     <div className="recent_container">
       <TitleComponents
@@ -16,7 +16,12 @@ const RecentCont = () => {
       <div className="recent_container_inner">
         {musicList.length ? (
           musicList.map((item, key) => (
-            <RecentCard item={item} key={key} type={'main'} />
+            <RecentCard
+              item={item}
+              key={key}
+              type={'main'}
+              musicList={musicList}
+            />
           ))
         ) : (
           <div className="no_item">최근에 들은 곡이 없습니다.</div>
