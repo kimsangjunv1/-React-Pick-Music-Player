@@ -32,10 +32,10 @@ const PlayerComponents = ({ musicDetail, visibleState }) => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img
+                      {/* <img
                         src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/align-text-bottom.png"
                         alt="음원 다운로드"
-                      />
+                      /> */}
                       다운로드
                     </a>
                     <a
@@ -43,10 +43,10 @@ const PlayerComponents = ({ musicDetail, visibleState }) => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img
+                      {/* <img
                         src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/share.svg"
                         alt="샤잠 바로가기"
-                      />
+                      /> */}
                       Shazam
                     </a>
                     <a
@@ -54,11 +54,11 @@ const PlayerComponents = ({ musicDetail, visibleState }) => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img
+                      {/* <img
                         src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/apple.svg"
                         alt="샤잠 바로가기"
-                      />
-                      Apple
+                      /> */}
+                      Apple Music
                     </a>
                   </div>
                   <div className="music_player_album_art_container">

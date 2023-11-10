@@ -32,27 +32,18 @@ const MusicControl = () => {
         }`}
       >
         <div className="control_cont">
-          <div className="control_music">
-            {/* <img
-              className="album_art"
-              src={musicDetail[0]?.ranking?.images.background}
-              alt=""
-            /> */}
-            <div className="control_music_desc">
-              <div className="info_container">
-                <p className="singer">{musicDetail[0]?.ranking?.subtitle}</p>
-                <p className="title">
-                  {musicDetail[0]?.ranking?.title?.slice(0, 20)}
-                </p>
-              </div>
-              <div className="progress">
-                <div className="bar"></div>
-                {/* <div className="timer">
+          <div className="progress">
+            <div className="bar"></div>
+            {/* <div className="timer">
                   <span className="current">0:00</span>
                   <span className="duration">4:00</span>
                 </div> */}
-              </div>
-            </div>
+          </div>
+          <div className="info_container">
+            <p className="title">
+              {musicDetail[0]?.ranking?.title?.slice(0, 20)}
+            </p>
+            <p className="singer">{musicDetail[0]?.ranking?.subtitle}</p>
           </div>
           <div className="control">
             {/* <div className="volumeCont">
