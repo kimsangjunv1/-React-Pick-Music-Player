@@ -27,75 +27,6 @@ const MusicControl = () => {
     playState ? audio.pause() : audio.play()
   }
 
-  // --------------------------------------------------------------------------------------------------------------------------------------------
-
-  //재생버튼
-  // function playMusic() {
-  //   musicWrap.classList.add('pause')
-  //   // musicPlayer2.setAttribute("title", "정지");
-  //   // musicPlayer2.setAttribute("class", "stop");
-  //   musicAudio.play()
-  // }
-
-  // //정지버튼
-  // function pauseMusic() {
-  //   musicWrap.classList.remove('pause')
-  //   // musicPlayer2.setAttribute("title", "재생");
-  //   // musicPlayer2.setAttribute("class", "play");
-  //   musicAudio.pause()
-  // }
-
-  // //이전 곡 듣기 버튼
-  // function prevMusic() {
-  //   musicIndex == 1 ? (musicIndex = allMusic.length) : musicIndex--
-  //   loadMusic(musicIndex)
-  //   playMusic()
-  //   playListMusic()
-  // }
-  // //다음 곡 듣기 버튼
-  // function nextMusic() {
-  //   musicIndex == allMusic.length ? (musicIndex = 1) : musicIndex++
-  //   loadMusic(musicIndex)
-  //   playMusic()
-  //   playListMusic()
-  // }
-
-  // musicAudio.addEventListener("timeupdate", e => {
-
-  //   const currentTime = e.target.currentTime;
-  //   // console.log(currentTime); 시간이 지날 수록 증가(현재 진행되는 시간)
-
-  //   const duration = e.target.duration;
-  //   // console.log(duration); 전체 갯수(오디오의 총 길이)
-  //   let progressWidth = (currentTime / duration) * 100 //전체 길이에서 현재 진행되는 시간을 백분위로 나눔
-  //   musicProgressBar.style.width = `${progressWidth}%`
-  //   //전체 시간
-
-  //   musicAudio.addEventListener("loadeddata", () => {
-  //       let audioDuration = musicAudio.duration;
-  //       let totalMin = Math.floor(audioDuration / 60); //전체 시간을 분단위로 쪼개줌
-  //       let totalSec = Math.floor(audioDuration % 60); //남은 초를 저장
-  //       if (totalSec < 10) totalSec = `0${totalSec}`; //초가 한 자릿수일때 앞에 0을 붙임
-  //       musicProgressDuration.textContent = `${totalMin}:${totalSec}`; //완성된 시간 문자열을 출력
-  //   })
-  //   //진행시간
-  //   let currentMin = Math.floor(currentTime / 60);
-  //   let currentSec = Math.floor(currentTime % 60);
-  //   if (currentSec < 10) currentSec = `0${currentSec}`;
-  //   musicProgressCurrent.innerText = `${currentMin}:${currentSec}`;
-
-  //   })
-  // musicProgress.addEventListener("click", (e) => {
-  //   let progressWidth = musicProgress.clientWidth; //진행바 전체 길이
-  //   let clickedOffsetx = e.offsetX;                //진행바 기준으로 측정되는 X좌표
-  //   let songDuration = musicAudio.duration;        //오디오 전체 길이
-
-  //   musicAudio.currentTime = (clickedOffsetx / progressWidth) * songDuration; //백분위로 나눈 숫자에 다시 전체 길이를 곱해서 현재 재생값으로 바꿈
-  //   })
-  //   musicAudio.addEventListener("ended",()=>{})
-
-  // --------------------------------------------------------------------------------------------------------------------------------------------
-
   return (
     <>
       <PlayerComponents
@@ -153,7 +84,7 @@ const MusicControl = () => {
             <audio
               className="audio_test"
               preload="auto"
-              src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/65/29/cd/6529cd10-44ef-b767-20ad-24bec1ac67d3/mzaf_2682529665107379087.plus.aac.ep.m4a"
+              src={`${musicDetail[0].ranking.hub.actions[1].uri}`}
             ></audio>
             <i title="이전곡 재생" className="prev" id="control-prev">
               <img src={icon_prev} alt="이전 아이콘" />
