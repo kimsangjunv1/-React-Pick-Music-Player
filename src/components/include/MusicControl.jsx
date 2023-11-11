@@ -46,7 +46,7 @@ const MusicControl = () => {
   }
 
   // 음악시간 업데이트 및 시간 표시
-  audio.addEventListener('timeupdate', (e) => {
+  audio?.addEventListener('timeupdate', (e) => {
     const currentTime = e.target.currentTime
     // console.log(currentTime); 시간이 지날 수록 증가(현재 진행되는 시간)
 
@@ -76,7 +76,7 @@ const MusicControl = () => {
   })
 
   // 음악시간 중 프로그레스바 클릭하면
-  musicProgress.addEventListener('click', (e) => {
+  musicProgress?.addEventListener('click', (e) => {
     let progressWidth = musicProgress.clientWidth //진행바 전체 길이
     let clickedOffsetx = e.offsetX //진행바 기준으로 측정되는 X좌표
     let songDuration = audio.duration //오디오 전체 길이

@@ -358,11 +358,11 @@
       width: 100px;
       background: rgba(255, 255, 255, 0.18);
       position: absolute;
-      top: -20px;
+      top: -40px;
       left: 0;
       width: 100%;
       .bar {
-        width: 20%;
+        // width: 20%;
         height: 5px;
         background: #1cd961;
         border-radius: 100px;
@@ -370,6 +370,20 @@
         top: 50%;
         left: 0;
         transform: translate(0, -50%);
+        transition: 0.25s;
+      }
+      .timer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+        .current {
+          color: rgba(255, 255, 255, 0.53);
+        }
+        .duration {
+          color: #1cd961;
+          font-weight: 500;
+        }
       }
     }
 
@@ -385,6 +399,7 @@
         font-size: 18px;
         font-weight: 700;
         line-height: 1;
+        width: 160px;
       }
     }
 
