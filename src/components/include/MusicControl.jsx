@@ -36,23 +36,55 @@ const MusicControl = () => {
   )
 
   const audio = document.querySelector('.audio_test')
+  const musicProgress = document.querySelector('.progress')
+  const musicProgressBar = document.querySelector('.progress .bar')
 
   const audioControl = () => {
     setPlayState(playState ? false : true)
     playState ? audio.pause() : audio.play()
+    console.log('현재 : ', audio.currenttime)
   }
 
-  const prevControl = () => {
-    setPrevState(prevState ? false : true)
-  }
-  const nextControl = () => {
-    setNextState(nextState ? false : true)
-  }
+  // 음악시간 업데이트 및 시간 표시
+  audio.addEventListener('timeupdate', (e) => {
+    const currentTime = e.target.currentTime
+    // console.log(currentTime); 시간이 지날 수록 증가(현재 진행되는 시간)
+
+    const duration = e.target.duration
+    // console.log(duration); 전체 갯수(오디오의 총 길이)
+    let progressWidth = (currentTime / duration) * 100 //전체 길이에서 현재 진행되는 시간을 백분위로 나눔
+    musicProgressBar.style.width = `${progressWidth}%`
+    console.log('넓이 : ', `${progressWidth}`)
+    //전체 시간
+
+    audio.addEventListener('loadeddata', () => {
+      let audioDuration = audio.duration
+      let totalMin = Math.floor(audioDuration / 60) //전체 시간을 분단위로 쪼개줌
+      let totalSec = Math.floor(audioDuration % 60) //남은 초를 저장
+      if (totalSec < 10) totalSec = `0${totalSec}` //초가 한 자릿수일때 앞에 0을 붙임
+      document.querySelector(
+        '.duration'
+      ).textContent = `${totalMin}:${totalSec}` //완성된 시간 문자열을 출력
+      console.log('시간 : ', `${totalMin}:${totalSec}`)
+    })
+    //진행시간
+    let currentMin = Math.floor(currentTime / 60)
+    let currentSec = Math.floor(currentTime % 60)
+    if (currentSec < 10) currentSec = `0${currentSec}`
+    document.querySelector('.current').innerText = `${currentMin}:${currentSec}`
+    console.log('시간 : ', `${currentMin}:${currentSec}`)
+  })
+
+  // 음악시간 중 프로그레스바 클릭하면
+  musicProgress.addEventListener('click', (e) => {
+    let progressWidth = musicProgress.clientWidth //진행바 전체 길이
+    let clickedOffsetx = e.offsetX //진행바 기준으로 측정되는 X좌표
+    let songDuration = audio.duration //오디오 전체 길이
+
+    audio.currentTime = (clickedOffsetx / progressWidth) * songDuration //백분위로 나눈 숫자에 다시 전체 길이를 곱해서 현재 재생값으로 바꿈
+  })
 
   console.log('musicList : ', musicList)
-
-  // arr.indexOf
-  // 지금 플레이 하고 있는게 몇번째 배열인지 알아낸 후 총 길이에서 -1/+1 을 줘서 리덕스에 저장
 
   return (
     <>
@@ -69,10 +101,10 @@ const MusicControl = () => {
         <div className="control_cont">
           <div className="progress">
             <div className="bar"></div>
-            {/* <div className="timer">
-                  <span className="current">0:00</span>
-                  <span className="duration">4:00</span>
-                </div> */}
+            <div className="timer">
+              <span className="current">0:00</span>
+              <span className="duration">4:00</span>
+            </div>
           </div>
           <div className="info_container">
             <p className="title">
