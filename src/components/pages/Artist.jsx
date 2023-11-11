@@ -12,10 +12,6 @@ import { saveArtistID } from '../../utils/counterSlice'
 import { saveProps } from '../../utils/counterSlice'
 
 function ArtistItem(props) {
-  // console.log(
-  //   '프롭스 : ',
-  //   props?.artist?.images?.background ? props?.artist?.images?.background : ''
-  // )
   const dispatch = useDispatch()
   return (
     <Link
@@ -56,15 +52,23 @@ const Artist = () => {
   const [selectCategory, setSelectCategory] = useState('d')
   const [resultCount, setResultCount] = useState(5)
 
-  const fetchItem = () => {
-    setResultCount(resultCount + 5)
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=${resultCount}&startFrom=0`
-    ).then((data) => setArtist(data.tracks))
-  }
+  const fetchItem = () => {}
 
   useEffect(() => {
-    fetchItem()
+    // 실데이터
+    // fetchAPI(
+    //   `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=${resultCount}&startFrom=0`
+    //   ).then((data) => setArtist(data.tracks))
+    setResultCount(resultCount + 5)
+
+    //더미
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_track.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setArtist(res.tracks)
+      })
   }, [])
 
   if (!artist?.length) return <Loader />
@@ -85,11 +89,11 @@ const Artist = () => {
               Artist<em>{resultCount - 5}명</em>
             </h2>
           </div>
-          <div className="artistWrap">
+          <div className="artist_container">
             {/* <h3>
               Artist<em>{resultCount - 5}명</em>
             </h3> */}
-            <div className="artistinner">
+            <div className="artist_container_inner">
               {artist.map((artist, index) => (
                 <ArtistItem key={index} artist={artist} />
               ))}

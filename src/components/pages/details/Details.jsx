@@ -74,14 +74,20 @@ const Details = () => {
   const artistId = useSelector((state) => state.counter.artistid)
   const artistProps = useSelector((state) => state.counter.props)
 
-  const getArtistDetails = () => {
-    detailsAPI(`artists/get-top-songs?id=${artistId}&l=ko-KR`).then((item) =>
-      setDetails(item.data)
-    )
-  }
-
   useEffect(() => {
-    getArtistDetails()
+    // 실데이터
+    // detailsAPI(`artists/get-top-songs?id=${artistId}&l=ko-KR`).then((item) =>
+    //   setDetails(item.data)
+    // )
+
+    //더미
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_gettopsongs.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setDetails(res.data)
+      })
   }, [])
 
   if (!details?.length) return <Loader />

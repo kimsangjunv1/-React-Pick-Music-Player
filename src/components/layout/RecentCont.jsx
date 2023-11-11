@@ -8,7 +8,7 @@ const RecentCont = () => {
   const musicList = useSelector((state) => state.counter.playList)
 
   return (
-    <div className="recent_container">
+    <section className="recent_container">
       <TitleComponents
         title={'최근에 재생한 곡'}
         desc={'최대 10개까지 표시됩니다.'}
@@ -22,7 +22,7 @@ const RecentCont = () => {
           <div className="no_item">최근에 들은 곡이 없습니다.</div>
         )}
       </div>
-    </div>
+    </section>
   )
 }
 

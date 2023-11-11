@@ -48,7 +48,7 @@ const ArtistCont = ({ test }) => {
   }, [])
 
   return (
-    <div className="main_artist_cont">
+    <section className="main_artist_container">
       <TitleComponents
         title={'오늘의 날씨에 어울리는 가수는?'}
         desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
@@ -64,7 +64,7 @@ const ArtistCont = ({ test }) => {
           더보기
         </Link> */}
       </div>
-    </div>
+    </section>
   )
 }
 

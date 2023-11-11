@@ -121,6 +121,146 @@
       }
     }
 
+    .main_artist_container {
+      .main_artist_inner {
+        .main_artist_item_container {
+          grid-template-columns: repeat(8, 1fr);
+          display: grid;
+          grid-gap: 10px;
+          height: 250px;
+          .main_artist_item {
+            display: flex;
+            flex-direction: column;
+            /* width: 138px; */
+            /* height: 200px; */
+            border-radius: 100px;
+            position: relative;
+            .artist_like_container {
+              position: absolute;
+              bottom: 20px;
+              left: 50%;
+              transform: translate(-50%, 0);
+              // color: black;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              line-height: 1;
+              .icon {
+                width: 19px;
+                margin-bottom: 5px;
+              }
+              .count {
+                font-weight: bold;
+              }
+              .type {
+                font-size: 14px;
+                color: rgba(255, 255, 255, 0.468);
+              }
+            }
+            &::after {
+              content: '';
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              background: #1cd961;
+              height: 25px;
+              width: 3px;
+              border-radius: 100px;
+              transform: rotate(45deg);
+            }
+
+            > img {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              z-index: -1;
+              object-fit: cover;
+              border-radius: 100px;
+            }
+
+            .artist_info_container {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+              width: 100%;
+              height: 100%;
+              padding: 0 10px;
+              background: #00000066;
+              display: flex;
+              align-items: start;
+              flex-direction: column;
+              justify-content: center;
+              transition: 0.25s;
+              color: white;
+              border-radius: 100px;
+              line-height: 1;
+
+              &:hover {
+                .artist_eng_name {
+                  color: rgba(0, 0, 0, 0.583);
+                }
+                .artist_like_container {
+                  .count {
+                    color: #000;
+                  }
+                }
+                background: #1cd961bd;
+                color: black;
+              }
+
+              .artist_eng_name {
+                text-transform: uppercase;
+                font-weight: 700;
+                color: rgba(255, 255, 255, 0.5);
+                text-align: left;
+              }
+              .artist_name {
+                font-weight: bold;
+                text-align: left;
+                font-size: 18px;
+              }
+              .artist_like_container {
+                display: flex;
+                // gap: 5px;
+                align-items: center;
+                flex-direction: column;
+                img {
+                  height: 15px;
+                  width: 15px;
+                  object-fit: contain;
+                  position: static;
+                  filter: brightness(0.4);
+                }
+                p {
+                  // color: #125727;
+                }
+              }
+            }
+
+            &:hover {
+              .artist_info_container {
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .artist_more {
+          background: #101010;
+          width: 100%;
+          padding: 20px;
+          border-radius: 10px;
+          color: white;
+          display: block;
+          text-align: center;
+          margin-top: 20px;
+        }
+      }
+    }
+
     .recent_container {
       .recent_container_inner {
         grid-template-columns: repeat(2, 1fr);
