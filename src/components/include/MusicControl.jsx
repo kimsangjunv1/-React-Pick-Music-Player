@@ -3,7 +3,11 @@ import PlayerComponents from './../common/PlayerComponents'
 
 // 상태관리
 import { useSelector, useDispatch } from 'react-redux'
-import { setVisualVisible, setControlVisible } from '../../utils/counterSlice'
+import {
+  saveText,
+  setVisualVisible,
+  setControlVisible,
+} from '../../utils/counterSlice'
 
 // 아이콘
 import icon_play from './../../styles/img/icon/icon_play.svg'
@@ -102,7 +106,14 @@ const MusicControl = () => {
                 if (data.indexOf(musicDetail[0]?.ranking.title) == 0) {
                   console.log('첫번째 곡입니다.')
                 } else {
-                  console.log(data.indexOf(musicDetail[0]?.ranking.title) - 1)
+                  dispatch(
+                    saveText({
+                      ranking:
+                        musicList[
+                          data.indexOf(musicDetail[0]?.ranking.title) - 1
+                        ].ranking,
+                    })
+                  )
                 }
               }}
             >
@@ -134,13 +145,21 @@ const MusicControl = () => {
               id="control-next"
               onClick={() => {
                 let data = musicList.map((good) => good.ranking.title)
+                console.log('현재목록 : ', musicList)
                 if (
                   data.indexOf(musicDetail[0]?.ranking.title) ==
                   musicList.length - 1
                 ) {
                   console.log('마지막 곡입니다.')
                 } else {
-                  console.log(data.indexOf(musicDetail[0]?.ranking.title) + 1)
+                  dispatch(
+                    saveText({
+                      ranking:
+                        musicList[
+                          data.indexOf(musicDetail[0]?.ranking.title) + 1
+                        ].ranking,
+                    })
+                  )
                 }
               }}
             >
