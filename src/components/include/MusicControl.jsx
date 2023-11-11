@@ -27,7 +27,11 @@ const MusicControl = () => {
     setPlayState(playState ? false : true)
     playState ? audio.pause() : audio.play()
   }
+
   console.log('musicList : ', musicList)
+
+  // arr.indexOf
+  // 지금 플레이 하고 있는게 몇번째 배열인지 알아낸 후 총 길이에서 -1/+1 을 줘서 리덕스에 저장
 
   return (
     <>
@@ -89,7 +93,19 @@ const MusicControl = () => {
               preload="auto"
               src={`${musicDetail[0]?.ranking?.hub?.actions[1].uri}`}
             ></audio>
-            <i title="이전곡 재생" className="prev" id="control-prev">
+            <i
+              title="이전곡 재생"
+              className="prev"
+              id="control-prev"
+              onClick={() => {
+                let data = musicList.map((good) => good.ranking.title)
+                if (data.indexOf(musicDetail[0]?.ranking.title) == 0) {
+                  console.log('첫번째 곡입니다.')
+                } else {
+                  console.log(data.indexOf(musicDetail[0]?.ranking.title) - 1)
+                }
+              }}
+            >
               <img src={icon_prev} alt="이전 아이콘" />
             </i>
             <i
@@ -112,7 +128,22 @@ const MusicControl = () => {
             >
               <img src={icon_pause} alt="멈춤 아이콘" />
             </i>
-            <i title="다음곡 재생" className="next" id="control-next">
+            <i
+              title="다음곡 재생"
+              className="next"
+              id="control-next"
+              onClick={() => {
+                let data = musicList.map((good) => good.ranking.title)
+                if (
+                  data.indexOf(musicDetail[0]?.ranking.title) ==
+                  musicList.length - 1
+                ) {
+                  console.log('마지막 곡입니다.')
+                } else {
+                  console.log(data.indexOf(musicDetail[0]?.ranking.title) + 1)
+                }
+              }}
+            >
               <img src={icon_next} alt="다음 아이콘" />
             </i>
             <i

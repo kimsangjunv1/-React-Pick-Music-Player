@@ -10,6 +10,8 @@ import {
 } from '../../utils/counterSlice'
 
 const WeatherCard = ({ props, image, type }) => {
+  const musicList = useSelector((state) => state.counter.playList)
+
   const getWeatherName = (date) => {
     switch (date) {
       case 'Sunny':
@@ -30,6 +32,7 @@ const WeatherCard = ({ props, image, type }) => {
         return '힘내요'
     }
   }
+
   const isAvailiable = (item) => {
     let a = item ? item : ''
     return a
@@ -37,7 +40,22 @@ const WeatherCard = ({ props, image, type }) => {
 
   const dispatch = useDispatch()
 
-  // const musicDetail = useSelector((state) => state.counter.playList)
+  const test = (item) => {
+    // console.log('프롭스 : ', item.ranking.title)
+    // console.log('musicList?????? : ', musicList)
+
+    // let data = musicList.filter((good) => good.ranking.title)
+    // console.log('비교할 대상 : ', data)
+    let data = musicList.map((good) => good.ranking.title)
+    console.log(
+      '결과(찾는 대상이 배열에 포함되어 있는지) : ',
+      data.includes(item.ranking.title)
+    )
+    console.log(
+      '결과(몇번째 배열에 있는지) : ',
+      data.indexOf(item.ranking.title)
+    )
+  }
 
   return (
     <Fragment>
@@ -63,10 +81,13 @@ const WeatherCard = ({ props, image, type }) => {
               <div
                 className="info"
                 onClick={() => {
+                  let data = musicList.map((good) => good.ranking.title)
+
                   dispatch(saveText({ ranking: props.track }))
-                  dispatch(saveMusic({ ranking: props.track }))
+                  if (!data.includes(props.track.title)) {
+                    dispatch(saveMusic({ ranking: props.track }))
+                  }
                   dispatch(setControlVisible(true))
-                  // dispatch(setVisualVisible(true))
                 }}
               >
                 <p className="singer">{props.track.subtitle}</p>
