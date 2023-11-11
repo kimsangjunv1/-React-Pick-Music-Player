@@ -86,7 +86,7 @@ const Artist = () => {
         <section id="contents">
           {/* <MainSearch /> */}
 
-          <TitleComponents title={'Artist'} type={'page'} />
+          <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
           <div className="artist_container">
             {/* <h3>
               Artist<em>{resultCount - 5}명</em>
