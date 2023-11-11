@@ -17,7 +17,6 @@ import icon_prev from './../../styles/img/icon/icon_prev.svg'
 import icon_list from './../../styles/img/icon/icon_list.svg'
 
 const MusicControl = () => {
-  const [playState, setPlayState] = useState(false)
   const dispatch = useDispatch()
 
   const musicList = useSelector((state) => state.counter.playList)
@@ -25,11 +24,29 @@ const MusicControl = () => {
   let controlVisible = useSelector((state) => state.counter.controlVisibleState)
   let visualVisible = useSelector((state) => state.counter.visualVisibleState)
 
+  let data = musicList.map((good) => good.ranking.title)
+  const [playState, setPlayState] = useState(false)
+  const [nextState, setNextState] = useState(
+    data.indexOf(musicDetail[0]?.ranking.title) == musicList.length - 1
+      ? false
+      : true
+  )
+  const [prevState, setPrevState] = useState(
+    data.indexOf(musicDetail[0]?.ranking.title) == 0 ? false : true
+  )
+
   const audio = document.querySelector('.audio_test')
 
   const audioControl = () => {
     setPlayState(playState ? false : true)
     playState ? audio.pause() : audio.play()
+  }
+
+  const prevControl = () => {
+    setPrevState(prevState ? false : true)
+  }
+  const nextControl = () => {
+    setNextState(nextState ? false : true)
   }
 
   console.log('musicList : ', musicList)
@@ -102,7 +119,7 @@ const MusicControl = () => {
               className="prev"
               id="control-prev"
               onClick={() => {
-                let data = musicList.map((good) => good.ranking.title)
+                // let data = musicList.map((good) => good.ranking.title)
                 if (data.indexOf(musicDetail[0]?.ranking.title) == 0) {
                   console.log('첫번째 곡입니다.')
                 } else {
@@ -144,7 +161,7 @@ const MusicControl = () => {
               className="next"
               id="control-next"
               onClick={() => {
-                let data = musicList.map((good) => good.ranking.title)
+                // let data = musicList.map((good) => good.ranking.title)
                 console.log('현재목록 : ', musicList)
                 if (
                   data.indexOf(musicDetail[0]?.ranking.title) ==
@@ -152,6 +169,8 @@ const MusicControl = () => {
                 ) {
                   console.log('마지막 곡입니다.')
                 } else {
+                  console.log('다음곡 : ', nextState)
+
                   dispatch(
                     saveText({
                       ranking:

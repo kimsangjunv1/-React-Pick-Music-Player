@@ -4,20 +4,29 @@ import { useSelector, useDispatch } from 'react-redux'
 
 import { removePlayList, saveText } from '../../utils/counterSlice'
 import icon_close from './../../styles/img/icon/icon_close.svg'
+import icon_headset from './../../styles/img/icon/icon_headset.svg'
 
 const RecentCard = ({ item, key, type, list }) => {
   const dispatch = useDispatch()
   return (
-    <div
-      className="item"
-      key={key}
-      onClick={() => {
-        dispatch(saveText({ ranking: item.ranking }))
-      }}
-    >
-      <div className="album_art_container">
-        <img className="main" src={item.ranking?.images?.background} alt="" />
-        <img className="sub" src={item.ranking?.images?.background} alt="" />
+    <div className="item" key={key}>
+      <div
+        className="album_art_container"
+        onClick={() => {
+          dispatch(saveText({ ranking: item.ranking }))
+        }}
+      >
+        <img
+          className="main"
+          src={item.ranking?.images?.background}
+          alt="앨범 이미지"
+        />
+        <img
+          className="sub"
+          src={item.ranking?.images?.background}
+          alt="서브 앨범 이미지"
+        />
+        <img className="play" src={icon_headset} alt="헤드셋" />
       </div>
       <div className="information_container">
         <div className="title_container">
