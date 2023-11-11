@@ -125,6 +125,7 @@ const WeatherCont = () => {
       <TitleComponents
         title={'00 날인데 어떤 플레이리스트가 있을까?'}
         desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
+        type={'main'}
       />
       <div className="weather_container_inner">
         <WeatherCard props={todayWeather} image={weatherImage} type={'today'} />

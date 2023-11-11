@@ -29,6 +29,7 @@ const AlbumCont = ({ test }) => {
       <TitleComponents
         title={'어떤어떤 앨범이 있을까용~~?'}
         desc={'앨범을 한번 봅시다잉'}
+        type={'main'}
       />
       <div className="album_cont">
         {test.map((album, index) => (

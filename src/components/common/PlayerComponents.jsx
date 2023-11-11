@@ -85,6 +85,7 @@ const PlayerComponents = ({ musicDetail, visibleState, musicList }) => {
                 <div className="recent_container">
                   <TitleComponents
                     title={'최근에 재생한 곡'}
+                    type={'main'}
                     // desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
                   />
                   <div className="item_container">

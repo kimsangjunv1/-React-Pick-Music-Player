@@ -9,6 +9,7 @@ const PlayListCont = () => {
         <TitleComponents
           title={'비가 내리는 오늘 플레이리스트를 추천해드릴게용'}
           desc={'여기에서 플레이리스트를 들을 수 있어요!'}
+          type={'main'}
         />
 
         <div className="season_cont">

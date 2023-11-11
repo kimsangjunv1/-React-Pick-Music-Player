@@ -52,6 +52,7 @@ const ArtistCont = ({ test }) => {
       <TitleComponents
         title={'오늘의 날씨에 어울리는 가수는?'}
         desc={'여기에서 날씨에 맞는 음악을 추천해드릴게요!'}
+        type={'main'}
       />
 
       <div className="main_artist_inner">

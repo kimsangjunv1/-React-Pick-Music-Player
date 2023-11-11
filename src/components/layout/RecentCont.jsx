@@ -12,6 +12,7 @@ const RecentCont = () => {
       <TitleComponents
         title={'최근에 재생한 곡'}
         desc={'최대 10개까지 표시됩니다.'}
+        type={'main'}
       />
       <div className="recent_container_inner">
         {musicList.length ? (
