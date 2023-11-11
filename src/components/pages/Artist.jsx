@@ -5,47 +5,50 @@ import MainSearch from '../layout/MainSearch'
 import Footer from '../include/Footer'
 import { Link } from 'react-router-dom'
 
+import ArtistCard from '../common/ArtistCard'
+import TitleComponents from '../common/TitleComponents'
+
 import Loader from '../Loader'
 
-import { useDispatch } from 'react-redux'
-import { saveArtistID } from '../../utils/counterSlice'
-import { saveProps } from '../../utils/counterSlice'
+// import { useDispatch } from 'react-redux'
+// import { saveArtistID } from '../../utils/counterSlice'
+// import { saveProps } from '../../utils/counterSlice'
 
-function ArtistItem(props) {
-  const dispatch = useDispatch()
-  return (
-    <Link
-      to={`/artist/details/${props.artist.artists[0].adamid}`}
-      onClick={() => {
-        dispatch(saveArtistID(props.artist.artists[0].adamid))
-        dispatch(saveProps(props))
-      }}
-    >
-      <div className="artist">
-        <img
-          src={`${
-            props?.artist?.images?.background
-              ? props?.artist?.images?.background
-              : ''
-          }`}
-          alt=""
-        />
-        <div className="artistbox">
-          <div className="artistbox_desc">
-            <h4>{props.artist.subtitle}</h4>
-          </div>
-          <div className="like">
-            <img
-              src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
-              alt="/"
-            />
-            <p>Likes 5,677</p>
-          </div>
-        </div>
-      </div>
-    </Link>
-  )
-}
+// function ArtistItem(props) {
+//   const dispatch = useDispatch()
+//   return (
+//     <Link
+//       to={`/artist/details/${props.artist.artists[0].adamid}`}
+//       onClick={() => {
+//         dispatch(saveArtistID(props.artist.artists[0].adamid))
+//         dispatch(saveProps(props))
+//       }}
+//     >
+//       <div className="artist">
+//         <img
+//           src={`${
+//             props?.artist?.images?.background
+//               ? props?.artist?.images?.background
+//               : ''
+//           }`}
+//           alt=""
+//         />
+//         <div className="artistbox">
+//           <div className="artistbox_desc">
+//             <h4>{props.artist.subtitle}</h4>
+//           </div>
+//           <div className="like">
+//             <img
+//               src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/like.svg"
+//               alt="/"
+//             />
+//             <p>Likes 5,677</p>
+//           </div>
+//         </div>
+//       </div>
+//     </Link>
+//   )
+// }
 
 const Artist = () => {
   const [artist, setArtist] = useState(null)
@@ -83,21 +86,17 @@ const Artist = () => {
         <section id="contents">
           {/* <MainSearch /> */}
 
-          <div className="page_title_container">
-            <Link to={`/`}>〈</Link>
-            <h2>
-              Artist<em>{resultCount - 5}명</em>
-            </h2>
-          </div>
+          <TitleComponents title={'Artist'} type={'page'} />
           <div className="artist_container">
             {/* <h3>
               Artist<em>{resultCount - 5}명</em>
             </h3> */}
-            <div className="artist_container_inner">
-              {artist.map((artist, index) => (
-                <ArtistItem key={index} artist={artist} />
-              ))}
-            </div>
+            {artist.map((artist, index) => (
+              // <ArtistItem key={index} artist={artist} />
+              <ArtistCard props={artist} />
+            ))}
+            {/* <div className="artist_container_inner">
+            </div> */}
           </div>
           <button
             className={resultCount > 20 ? 'more_btn disabled' : 'more_btn'}
