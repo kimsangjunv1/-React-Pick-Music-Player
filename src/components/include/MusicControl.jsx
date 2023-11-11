@@ -26,6 +26,7 @@ const MusicControl = () => {
     setPlayState(playState ? false : true)
     playState ? audio.pause() : audio.play()
   }
+  console.log('musicDetail : ', musicDetail)
 
   return (
     <>
@@ -91,7 +92,7 @@ const MusicControl = () => {
             </i>
             <i
               title="재생"
-              className="play"
+              className={`play ${playState ? 'hide' : 'show'}`}
               id="control-play"
               onClick={() => {
                 audioControl()
@@ -101,7 +102,7 @@ const MusicControl = () => {
             </i>
             <i
               title="멈춤"
-              className="pause"
+              className={`pause ${playState ? 'show' : 'hide'}`}
               id="control-pause"
               onClick={() => {
                 audioControl()

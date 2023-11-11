@@ -363,6 +363,9 @@
       align-items: center;
       justify-content: space-between;
       gap: 20px;
+      .hide {
+        display: none;
+      }
       i {
         // margin: 0 10px;
         background: transparent;
