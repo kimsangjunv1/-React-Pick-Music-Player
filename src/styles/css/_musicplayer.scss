@@ -327,7 +327,7 @@
   &.wide {
     display: flex;
     justify-content: center;
-    // width: 100%;
+    background: transparent;
     border: 2px solid transparent;
     box-shadow: 0 0 0 0 transparent;
     transform: translate(-50%, -10vh);
