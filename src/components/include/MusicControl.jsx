@@ -84,7 +84,7 @@ const MusicControl = () => {
             <audio
               className="audio_test"
               preload="auto"
-              src={`${musicDetail[0].ranking.hub.actions[1].uri}`}
+              src={`${musicDetail[0]?.ranking?.hub?.actions[1].uri}`}
             ></audio>
             <i title="이전곡 재생" className="prev" id="control-prev">
               <img src={icon_prev} alt="이전 아이콘" />
