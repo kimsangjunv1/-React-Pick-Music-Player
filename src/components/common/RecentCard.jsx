@@ -7,7 +7,6 @@ import icon_close from './../../styles/img/icon/icon_close.svg'
 
 const RecentCard = ({ item, key, type, list }) => {
   const dispatch = useDispatch()
-  console.log('최근 카드 : ', item)
   return (
     <div
       className="item"

@@ -16,6 +16,7 @@ const MusicControl = () => {
   const [playState, setPlayState] = useState(false)
   const dispatch = useDispatch()
 
+  const musicList = useSelector((state) => state.counter.playList)
   const musicDetail = useSelector((state) => state.counter.text)
   let controlVisible = useSelector((state) => state.counter.controlVisibleState)
   let visualVisible = useSelector((state) => state.counter.visualVisibleState)
@@ -26,11 +27,12 @@ const MusicControl = () => {
     setPlayState(playState ? false : true)
     playState ? audio.pause() : audio.play()
   }
-  console.log('musicDetail : ', musicDetail)
+  console.log('musicList : ', musicList)
 
   return (
     <>
       <PlayerComponents
+        musicList={musicList}
         musicDetail={musicDetail}
         visibleState={visualVisible}
       />

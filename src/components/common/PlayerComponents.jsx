@@ -1,13 +1,9 @@
-import React, { useState } from 'react'
-// import { useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import React from 'react'
+
 import RecentCard from '../common/RecentCard'
-import { useSelector, useDispatch } from 'react-redux'
 import TitleComponents from './TitleComponents'
 
-const PlayerComponents = ({ musicDetail, visibleState }) => {
-  const musicList = useSelector((state) => state.counter.playList)
-  console.log('들어온 노래 : ', musicDetail)
+const PlayerComponents = ({ musicDetail, visibleState, musicList }) => {
   return (
     <div className={`music_player_container ${visibleState ? 'show' : 'hide'}`}>
       {musicDetail.length && (
