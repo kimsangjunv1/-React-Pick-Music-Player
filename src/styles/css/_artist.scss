@@ -103,5 +103,91 @@
         color: #4c4c58;
       }
     }
+
+    .detail_container {
+      color: black;
+      .title {
+        font-size: 32px;
+        font-weight: 500;
+      }
+      .songs_container {
+      }
+      .albums_container {
+        grid-template-columns: repeat(5, 1fr);
+        display: grid;
+        grid-gap: 5px;
+        /* height: 410px; */
+        .item {
+          position: relative;
+          transition: 0.25s;
+          overflow: hidden;
+          cursor: pointer;
+          border: 2px solid transparent;
+          > img {
+            transition: 0.25s;
+            filter: blur(0px);
+            transform: scale(1);
+          }
+          &:hover {
+            border: 2px solid #1cd961;
+
+            > img {
+              filter: blur(5px);
+              transform: scale(1.05);
+            }
+            .album_desc {
+              // opacity: 0.2;
+            }
+          }
+          .album_desc {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            /* backdrop-filter: blur(1px); */
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            -webkit-mask: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 12.5%,
+              red 75%,
+              red 37.5%,
+              rgb(255, 18, 18) 50%
+            );
+            mask: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 12.5%,
+              black 25%,
+              black 37.5%,
+              rgba(0, 0, 0, 0) 50%
+            );
+            color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+            padding: 20px;
+
+            .title {
+              font-size: 19px;
+              margin-bottom: 5px;
+            }
+            .genre_container {
+              border: 1px solid white;
+              margin-bottom: 10px;
+              span {
+                display: inline-block;
+                font-size: 14px;
+              }
+            }
+            .copyright {
+              font-size: 12px;
+              color: #ffffff5e;
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -23,20 +23,6 @@
   position: relative;
 }
 
-.album_desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  h2 {
-    margin-bottom: 10px;
-  }
-  .album_like {
-    display: flex;
-    margin-right: 10px;
-    color: rgba(255, 255, 255, 0.494);
-  }
-}
-
 .heart {
   width: 20px;
   margin-right: 10px;

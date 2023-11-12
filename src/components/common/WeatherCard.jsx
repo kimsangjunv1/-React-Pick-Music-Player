@@ -40,6 +40,7 @@ const WeatherCard = ({ props, image, type }) => {
 
   const dispatch = useDispatch()
 
+  console.log('props : ', props)
   const test = (item) => {
     // console.log('프롭스 : ', item.ranking.title)
     // console.log('musicList?????? : ', musicList)
