@@ -106,7 +106,11 @@ const Details = () => {
           <h2>{artistProps?.artist?.subtitle}</h2>
         </div>
         <img
-          src={`${artistProps?.images?.background}`}
+          src={`${
+            artistProps?.images?.background
+              ? artistProps?.images?.background
+              : artistProps?.artist?.images?.background
+          }`}
           alt=""
           className="detail_cover_image"
         />
