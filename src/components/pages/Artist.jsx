@@ -39,12 +39,6 @@ const Artist = () => {
 
   return (
     <>
-      {/* <Header
-        selectCategory={selectCategory}
-        setSelectCategory={setSelectCategory}
-      /> */}
-      {/* <main id="main">
-        <section id="contents"> */}
       <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
       <div className="artist_container">
         {artist.map((artist, index) => (
@@ -65,10 +59,6 @@ const Artist = () => {
           ? '더 보기는 최대 20명 까지만 지원합니다.'
           : '더 보기'}
       </button>
-      {/* </section> */}
-      {/* <MusicControl /> */}
-      {/* </main> */}
-      {/* <Footer /> */}
     </>
   )
 }

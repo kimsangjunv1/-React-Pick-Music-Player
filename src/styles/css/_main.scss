@@ -31,6 +31,17 @@
             transform: rotate(45deg);
           }
 
+          &:hover {
+            .info {
+              filter: opacity(0.2);
+            }
+          }
+          &:active {
+            .info {
+              filter: opacity(0);
+            }
+          }
+
           .info {
             display: flex;
             flex-direction: column;
@@ -39,6 +50,7 @@
             height: 100%;
             width: 100%;
             background: linear-gradient(180deg, #37393b54, rgb(18 33 47));
+            transition: 0.25s;
             // border-radius: 15px;
             .singer {
               color: rgba(255, 255, 255, 0.484);

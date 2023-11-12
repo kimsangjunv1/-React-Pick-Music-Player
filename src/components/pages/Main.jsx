@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Loader from '../Loader'
-import MusicControl from '../include/MusicControl'
 import SectionSpace from '../common/SectionSpace'
 
 import {
@@ -44,7 +43,6 @@ const Main = () => {
       <PlayListCont />
       <SectionSpace space={70} />
       <AlbumCont test={songData} />
-      <MusicControl />
     </>
   )
 }
