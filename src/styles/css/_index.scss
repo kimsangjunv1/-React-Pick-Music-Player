@@ -54,10 +54,10 @@
     }
   }
 }
-.section_title {
-  color: black;
+.section_title_container {
   margin-bottom: 20px;
-  h2 {
+  .section_title {
+    color: black;
     font-size: 32px;
     font-weight: 700;
   }

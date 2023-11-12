@@ -5,12 +5,13 @@ import Loader from '../../Loader'
 import MainSearch from '../../layout/MainSearch'
 import { detailsAPI } from '../../../utils/detailsAPI'
 import { Link } from 'react-router-dom'
+import TitleComponents from '../../common/TitleComponents'
+import MusicControl from '../../include/MusicControl'
 
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 
 function ArtistSongItem(props) {
-  console.log('props : ', props)
   const getUrl = (url) => {
     const replaceUrl = url.replace('{w}x{h}', '300x300')
     return replaceUrl
@@ -74,6 +75,8 @@ const Details = () => {
   const artistId = useSelector((state) => state.counter.artistid)
   const artistProps = useSelector((state) => state.counter.props)
 
+  console.log('이게 들어와야함 :', artistProps)
+
   useEffect(() => {
     // 실데이터
     // detailsAPI(`artists/get-top-songs?id=${artistId}&l=ko-KR`).then((item) =>
@@ -99,21 +102,15 @@ const Details = () => {
       />
       <main id="main">
         <section id="contents">
-          <div className="page_title_container">
-            <Link to={`/artist`}>〈</Link>
-            <h2>상세보기</h2>
-          </div>
+          <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
+
           <div className="detail_container">
             <div className="detail_title_container">
               <p>{artistProps?.artist?.artists[0].alias}</p>
               <h2>{artistProps?.artist?.subtitle}</h2>
             </div>
             <img
-              src={`${
-                artistProps?.artist?.images?.background
-                  ? artistProps?.artist?.images?.background
-                  : ''
-              }`}
+              src={`${artistProps?.images?.background}`}
               alt=""
               className="detail_cover_image"
             />
@@ -125,6 +122,7 @@ const Details = () => {
             <ArtistSongItem key={index} item={item} />
           ))}
         </section>
+        <MusicControl />
       </main>
       <Footer />
     </>
