@@ -1,88 +1,233 @@
 {
   "data": [
     {
-      "id": "1523244770",
+      "id": "1424423439",
       "type": "artists"
     }
   ],
   "resources": {
     "artists": {
-      "1523244770": {
-        "id": "1523244770",
+      "1424423439": {
+        "id": "1424423439",
         "type": "artists",
         "attributes": {
           "genreNames": ["K-Pop"],
-          "name": "싹쓰리",
+          "name": "권진아",
           "artwork": {
-            "width": 1659,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/29/b4/db/29b4db04-7563-d65d-85bc-d61f29c22d3a/pr_source.png/{w}x{h}bb.jpg",
-            "height": 1659,
-            "textColor3": "c3d4df",
-            "textColor2": "e1ebc9",
-            "textColor4": "b7c7be",
-            "textColor1": "f1fbf2",
-            "bgColor": "0d3895",
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e2/67/a1/e267a1b1-547f-7627-da6c-f5b54a7ad8be/mzl.lkkntqyk.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "3c363b",
+            "textColor2": "2b1819",
+            "textColor4": "524346",
+            "textColor1": "10080c",
+            "bgColor": "efeffb",
             "hasP3": false
           },
-          "url": "https://music.apple.com/kr/artist/%EC%8B%B9%EC%93%B0%EB%A6%AC/1523244770"
+          "url": "https://music.apple.com/kr/artist/%EA%B6%8C%EC%A7%84%EC%95%84/1424423439"
         },
         "relationships": {
           "albums": {
             "data": [
               {
-                "id": "1526085540",
+                "id": "1554054441",
                 "type": "albums"
               },
               {
-                "id": "1525161568",
+                "id": "1617049377",
                 "type": "albums"
               },
               {
-                "id": "1524236596",
+                "id": "1674117565",
                 "type": "albums"
               },
               {
-                "id": "1523244769",
+                "id": "1480667628",
+                "type": "albums"
+              },
+              {
+                "id": "1527238323",
+                "type": "albums"
+              },
+              {
+                "id": "1659360910",
+                "type": "albums"
+              },
+              {
+                "id": "1706280128",
+                "type": "albums"
+              },
+              {
+                "id": "1700850428",
+                "type": "albums"
+              },
+              {
+                "id": "1622259369",
+                "type": "albums"
+              },
+              {
+                "id": "1649270424",
+                "type": "albums"
+              },
+              {
+                "id": "1644863760",
+                "type": "albums"
+              },
+              {
+                "id": "1489630950",
+                "type": "albums"
+              },
+              {
+                "id": "1611487115",
+                "type": "albums"
+              },
+              {
+                "id": "1668025857",
+                "type": "albums"
+              },
+              {
+                "id": "1661306211",
+                "type": "albums"
+              },
+              {
+                "id": "1496071631",
+                "type": "albums"
+              },
+              {
+                "id": "1527242778",
+                "type": "albums"
+              },
+              {
+                "id": "1515954550",
+                "type": "albums"
+              },
+              {
+                "id": "1598089101",
+                "type": "albums"
+              },
+              {
+                "id": "1447094476",
+                "type": "albums"
+              },
+              {
+                "id": "1575864540",
+                "type": "albums"
+              },
+              {
+                "id": "1603169934",
+                "type": "albums"
+              },
+              {
+                "id": "1689554570",
+                "type": "albums"
+              },
+              {
+                "id": "1612614586",
+                "type": "albums"
+              },
+              {
+                "id": "1655636010",
                 "type": "albums"
               }
             ]
           }
         },
         "views": {
-          "latest-release": {
-            "attributes": {
-              "title": "신규 발매"
-            },
-            "data": []
-          },
           "top-songs": {
             "attributes": {
               "title": "인기곡"
             },
             "data": [
               {
-                "id": "1524236597",
+                "id": "1527238325",
                 "type": "songs"
               },
               {
-                "id": "1525161569",
+                "id": "1480667629",
                 "type": "songs"
               },
               {
-                "id": "1523244772",
+                "id": "1689554572",
                 "type": "songs"
               },
               {
-                "id": "1523244771",
+                "id": "1505731444",
                 "type": "songs"
               },
               {
-                "id": "1524236598",
+                "id": "1649270425",
                 "type": "songs"
               },
               {
-                "id": "1525161570",
+                "id": "1623110825",
                 "type": "songs"
+              },
+              {
+                "id": "1603169940",
+                "type": "songs"
+              },
+              {
+                "id": "1554054443",
+                "type": "songs"
+              },
+              {
+                "id": "1612614592",
+                "type": "songs"
+              },
+              {
+                "id": "1617049378",
+                "type": "songs"
+              },
+              {
+                "id": "1527237003",
+                "type": "songs"
+              },
+              {
+                "id": "1578443483",
+                "type": "songs"
+              },
+              {
+                "id": "1527250295",
+                "type": "songs"
+              },
+              {
+                "id": "1554054445",
+                "type": "songs"
+              },
+              {
+                "id": "1527242780",
+                "type": "songs"
+              },
+              {
+                "id": "1554054446",
+                "type": "songs"
+              },
+              {
+                "id": "1480667847",
+                "type": "songs"
+              },
+              {
+                "id": "1617049379",
+                "type": "songs"
+              },
+              {
+                "id": "1603348872",
+                "type": "songs"
+              },
+              {
+                "id": "1480667631",
+                "type": "songs"
+              }
+            ]
+          },
+          "latest-release": {
+            "attributes": {
+              "title": "신규 발매"
+            },
+            "data": [
+              {
+                "id": "1706280128",
+                "type": "albums"
               }
             ]
           }
@@ -95,268 +240,1384 @@
       }
     },
     "albums": {
-      "1523244769": {
-        "id": "1523244769",
+      "1447094476": {
+        "id": "1447094476",
         "type": "albums",
         "attributes": {
-          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
-          "genreNames": ["K-Pop", "음악", "팝"],
-          "releaseDate": "2020-07-11",
-          "upc": "8804775146404",
+          "copyright": "℗ 2018 안테나(Antenna),under license to Kakao M Corp.",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "releaseDate": "2018-12-17",
+          "upc": "8804775099946",
           "isMasteredForItunes": false,
           "artwork": {
             "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/de/9e/ddde9ef7-d981-24c3-671d-8d3bb85c89da/cover_-.jpg/{w}x{h}bb.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ae/18/f9/ae18f928-cf26-d949-f9a2-f1e2883182d8/cover-_DS_NEW.jpg/{w}x{h}bb.jpg",
             "height": 3000,
-            "textColor3": "424345",
-            "textColor2": "002e68",
-            "textColor4": "325785",
-            "textColor1": "131518",
-            "bgColor": "fcfcfc",
+            "textColor3": "c5b4ad",
+            "textColor2": "e3c3b6",
+            "textColor4": "bca299",
+            "textColor1": "efd9cf",
+            "bgColor": "201f27",
             "hasP3": false
           },
-          "url": "https://music.apple.com/kr/album/in-the-summer-single/1523244769",
+          "url": "https://music.apple.com/kr/album/this-winter-single/1447094476",
           "playParams": {
-            "id": "1523244769",
+            "id": "1447094476",
             "kind": "album"
           },
-          "recordLabel": "MBC (문화방송)",
+          "recordLabel": "안테나(Antenna)",
+          "trackCount": 1,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "이번 겨울 - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1480667628": {
+        "id": "1480667628",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2019 안테나(Antenna),under license to Kakao M Corp.",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "releaseDate": "2019-09-19",
+          "upc": "8804775134685",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/0d/b3/2a0db314-81ac-ecb1-b593-c7eb62854b39/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "e6a695",
+            "textColor2": "fbb299",
+            "textColor4": "e59e83",
+            "textColor1": "fcbcb0",
+            "bgColor": "8d512d",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1480667628",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/shape-of-me/1480667628",
+          "recordLabel": "안테나(Antenna)",
+          "isCompilation": false,
+          "trackCount": 10,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "나의 모양",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1489630950": {
+        "id": "1489630950",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2019 Private Curve",
+          "genreNames": ["팝", "음악"],
+          "releaseDate": "2019-11-21",
+          "upc": "190295303327",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/29/08/b8/2908b8df-c298-3669-b252-b90be77d510a/190295303327.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "bacbaa",
+            "textColor2": "d9e5bc",
+            "textColor4": "bbc2a1",
+            "textColor1": "d8f0c7",
+            "bgColor": "413634",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/say-youll-be-mine-feat-kwon-jin-ah-single/1489630950",
+          "playParams": {
+            "id": "1489630950",
+            "kind": "album"
+          },
+          "recordLabel": "WM Korea",
+          "isCompilation": false,
+          "trackCount": 1,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "Say You'll Be Mine (feat. Kwon Jin Ah) - Single",
+          "artistName": "Mamas Gun",
+          "isComplete": false
+        }
+      },
+      "1496071631": {
+        "id": "1496071631",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 ALLWAYS",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2020-01-28",
+          "upc": "00602508751950",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/65/94/b7/6594b791-f9e3-7947-3884-d855c5beab82/20UMGIM04227.rgb.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "b8b7b7",
+            "textColor2": "c8c8c5",
+            "textColor4": "a4a4a1",
+            "textColor1": "e2e0e1",
+            "bgColor": "121212",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/teddy-bear-feat-jin-ah-kwon-single/1496071631",
+          "playParams": {
+            "id": "1496071631",
+            "kind": "album"
+          },
+          "recordLabel": "Universal Music Ltd.",
+          "isCompilation": false,
+          "trackCount": 1,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "Teddy Bear (feat. Jin Ah Kwon) - Single",
+          "artistName": "다비",
+          "isComplete": false
+        }
+      },
+      "1515954550": {
+        "id": "1515954550",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 MUSIC&NEW",
+          "genreNames": ["TV OST", "음악", "OST", "팝", "K-Pop"],
+          "releaseDate": "2020-06-03",
+          "isMasteredForItunes": false,
+          "upc": "8809717462109",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fc/99/c2/fc99c2ef-a082-5363-142b-2b2ccdc8ddd8/8809717462109.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "30332c",
+            "textColor2": "062723",
+            "textColor4": "304b3e",
+            "textColor1": "06090d",
+            "bgColor": "d9ddaa",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1515954550",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/oh-my-baby-original-television-soundtrack-pt-4-single/1515954550",
+          "recordLabel": "뮤직앤뉴, 스튜디오앤뉴",
           "isCompilation": false,
           "trackCount": 2,
           "isPrerelease": false,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
           "isSingle": false,
-          "name": "여름 안에서 - Single",
-          "artistName": "싹쓰리",
+          "name": "오 마이 베이비 (Original Television Soundtrack), Pt. 4 - Single",
+          "artistName": "권진아",
           "isComplete": false
         }
       },
-      "1524236596": {
-        "id": "1524236596",
+      "1527238323": {
+        "id": "1527238323",
         "type": "albums",
         "attributes": {
-          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "copyright": "℗ 2016 Antenna, under licenced Kakao-M",
           "genreNames": ["K-Pop", "음악", "팝"],
-          "releaseDate": "2020-07-18",
+          "releaseDate": "2016-09-19",
           "isMasteredForItunes": false,
-          "upc": "8804775146466",
+          "upc": "8804775184758",
           "artwork": {
-            "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/91/e7/2f91e770-0455-d558-a943-2104b29f18ee/cover_-_DS.jpg/{w}x{h}bb.jpg",
-            "height": 3000,
-            "textColor3": "cdd0d6",
-            "textColor2": "f1fcec",
-            "textColor4": "c2cec7",
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/84/9c/80849c39-ed64-5e7c-75ad-f5911c111e8c/cover_4000px.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "d0cdce",
+            "textColor2": "e28c2f",
+            "textColor4": "b97228",
             "textColor1": "ffffff",
-            "bgColor": "0a1735",
+            "bgColor": "160a0c",
             "hasP3": false
           },
-          "url": "https://music.apple.com/kr/album/beach-again-single/1524236596",
+          "url": "https://music.apple.com/kr/album/one-strange-night/1527238323",
           "playParams": {
-            "id": "1524236596",
+            "id": "1527238323",
             "kind": "album"
           },
-          "recordLabel": "MBC (문화방송)",
+          "recordLabel": "Antenna",
           "isCompilation": false,
-          "trackCount": 2,
+          "trackCount": 7,
           "isPrerelease": false,
-          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "audioTraits": ["lossless", "lossy-stereo"],
           "isSingle": false,
-          "name": "다시 여기 바닷가 - Single",
-          "artistName": "싹쓰리",
+          "name": "웃긴 밤",
+          "artistName": "권진아",
           "isComplete": false
         }
       },
-      "1525161568": {
-        "id": "1525161568",
+      "1527242778": {
+        "id": "1527242778",
         "type": "albums",
         "attributes": {
-          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "copyright": "℗ 2017 Antenna, under licenced Kakao-M",
           "genreNames": ["K-Pop", "음악", "팝"],
-          "releaseDate": "2020-07-25",
-          "upc": "8804775147173",
+          "releaseDate": "2017-05-02",
+          "upc": "8804775184659",
           "isMasteredForItunes": false,
           "artwork": {
-            "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/d6/9d/0ad69d95-24e4-c6aa-235b-d81b62236c8a/cover_-_DS.jpg/{w}x{h}bb.jpg",
-            "height": 3000,
-            "textColor3": "2f2f2d",
-            "textColor2": "161615",
-            "textColor4": "383836",
-            "textColor1": "0b0b0a",
-            "bgColor": "bebebc",
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/35/53/bc/3553bcf0-53f5-c192-0dd0-b7d2e9b3fae8/Fly_Away_cover_4000px.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "af96c4",
+            "textColor2": "a1acf5",
+            "textColor4": "8d8ace",
+            "textColor1": "ccbbe9",
+            "bgColor": "3c0231",
             "hasP3": false
           },
+          "url": "https://music.apple.com/kr/album/fly-away-single/1527242778",
           "playParams": {
-            "id": "1525161568",
+            "id": "1527242778",
             "kind": "album"
           },
-          "url": "https://music.apple.com/kr/album/play-the-summer-single/1525161568",
-          "recordLabel": "MBC (문화방송)",
+          "recordLabel": "Antenna",
           "isCompilation": false,
           "trackCount": 2,
           "isPrerelease": false,
-          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "audioTraits": ["lossless", "lossy-stereo"],
           "isSingle": false,
-          "name": "그 여름을 틀어줘 - Single",
-          "artistName": "싹쓰리",
+          "name": "Fly Away - Single",
+          "artistName": "권진아",
           "isComplete": false
         }
       },
-      "1526085540": {
-        "id": "1526085540",
+      "1554054441": {
+        "id": "1554054441",
         "type": "albums",
         "attributes": {
-          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "copyright": "℗ 2021 안테나(Antenna),under license to Kakao M Corp.",
           "genreNames": ["K-Pop", "음악", "팝"],
-          "releaseDate": "2020-08-01",
-          "upc": "8804775147791",
+          "releaseDate": "2021-02-18",
+          "upc": "8804775157721",
           "isMasteredForItunes": false,
           "artwork": {
             "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/11/b7/1211b771-2b90-5290-b86e-18cf98891f35/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/65/eb/8165ebce-7734-b5ff-0400-aa19bb8c78d9/cover_-.jpg/{w}x{h}bb.jpg",
             "height": 3000,
-            "textColor3": "24b1c3",
-            "textColor2": "31c9dc",
-            "textColor4": "28a5ba",
-            "textColor1": "2cd9e8",
-            "bgColor": "061331",
+            "textColor3": "a99d9e",
+            "textColor2": "d3afa5",
+            "textColor4": "ab928f",
+            "textColor1": "d1bcb8",
+            "bgColor": "0a2035",
             "hasP3": false
           },
+          "url": "https://music.apple.com/kr/album/the-way-for-us-ep/1554054441",
           "playParams": {
-            "id": "1526085540",
+            "id": "1554054441",
             "kind": "album"
           },
-          "url": "https://music.apple.com/kr/album/du-ri-jyu-wa-x-linda-x-lets-dance/1526085540",
-          "recordLabel": "MBC (문화방송)",
+          "recordLabel": "안테나(Antenna)",
           "isCompilation": false,
-          "trackCount": 8,
+          "trackCount": 6,
           "isPrerelease": false,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
           "isSingle": false,
-          "name": "두리쥬와 X LINDA X 신난다",
-          "artistName": "싹쓰리",
+          "name": "우리의 방식 - EP",
+          "artistName": "권진아",
+          "editorialNotes": {
+            "short": "전곡 작사 작곡 및 메인 프로듀싱으로 보여주는 권진아의 방식."
+          },
+          "isComplete": false
+        }
+      },
+      "1575864540": {
+        "id": "1575864540",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2021 안테나(Antenna),under license to Kakao Entertainment",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2021-07-09",
+          "upc": "8804775164613",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/32/02/04320281-4246-a4d5-bfb0-4f4fe5fb0596/cover-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "33362f",
+            "textColor2": "241715",
+            "textColor4": "453e35",
+            "textColor1": "0d0d0d",
+            "bgColor": "cadbb7",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/walk-home-with-me-pt-1-single/1575864540",
+          "playParams": {
+            "id": "1575864540",
+            "kind": "album"
+          },
+          "recordLabel": "안테나(Antenna)",
+          "trackCount": 2,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "집에 같이 갈래, Pt.1 - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1598089101": {
+        "id": "1598089101",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2021 Antenna,under license to Kakao Entertainment",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "releaseDate": "2021-12-01",
+          "upc": "8804775223792",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/2f/19/fc2f1943-3241-7698-ef92-761681ba9845/cover_KM0014398_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "d0d1d1",
+            "textColor2": "d2b39d",
+            "textColor4": "ad9483",
+            "textColor1": "feffff",
+            "bgColor": "1a1a1a",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/hello-antenna-hello-christmas-single/1598089101",
+          "playParams": {
+            "id": "1598089101",
+            "kind": "album"
+          },
+          "recordLabel": "Antenna",
+          "isCompilation": false,
+          "trackCount": 1,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "다음 겨울에도 여기서 만나 - Single",
+          "artistName": "유희열, 유재석, 정재형, 루시드폴, 페퍼톤스, 박새별, 샘김, 이진아, 권진아, 정승환, 윤석철, 적재, 미주 & 서동환",
+          "isComplete": false
+        }
+      },
+      "1603169934": {
+        "id": "1603169934",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 Studio MaumC, eggiscoming, Stone Music Entertainment",
+          "genreNames": ["OST", "음악"],
+          "releaseDate": "2020-03-13",
+          "upc": "8809704413251",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b1/e9/98/b1e9982a-e710-ff2c-5646-e4eaaaefccbd/8809704413251_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "2f3d5b",
+            "textColor2": "162b42",
+            "textColor4": "2a4c63",
+            "textColor1": "1c1938",
+            "bgColor": "7ad0e7",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1603169934",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/hospital-playlist-pt-1-original-television-soundtrack/1603169934",
+          "recordLabel": "Genie Music",
+          "isCompilation": false,
+          "trackCount": 2,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "슬기로운 의사생활, Pt. 1 (Original Television Soundtrack) - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1611487115": {
+        "id": "1611487115",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2022 MUSIC&NEW",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2022-02-25",
+          "upc": "8809856775603",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cd/f0/92/cdf092a4-7fe2-d833-7802-5cc1d4cac96c/8809856775603.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "dbccbb",
+            "textColor2": "fee2ba",
+            "textColor4": "dfc8a9",
+            "textColor1": "f9e7d0",
+            "bgColor": "626266",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/end-of-night-with-kwon-jin-ah-single/1611487115",
+          "playParams": {
+            "id": "1611487115",
+            "kind": "album"
+          },
+          "recordLabel": "NUPLAY, 뮤직카우, 바이포엠",
+          "trackCount": 1,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "밤의 한계 (with 권진아) - Single",
+          "artistName": "에코브릿지",
+          "isComplete": false
+        }
+      },
+      "1612614586": {
+        "id": "1612614586",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2021 Amoeba Culture",
+          "genreNames": ["R&B/소울", "음악"],
+          "releaseDate": "2021-02-04",
+          "isMasteredForItunes": false,
+          "upc": "888272074628",
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/7b/7d/457b7db0-f177-a381-233f-c7d8e0591616/888272074628_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "192036",
+            "textColor2": "0e1020",
+            "textColor4": "24283d",
+            "textColor1": "000517",
+            "bgColor": "7d89b1",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1612614586",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/i-feel-like-single/1612614586",
+          "recordLabel": "Genie Music",
+          "isCompilation": false,
+          "trackCount": 1,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "마음이 그래 - Single",
+          "artistName": "개코 & 권진아",
+          "isComplete": false
+        }
+      },
+      "1617049377": {
+        "id": "1617049377",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2022 Antenna,under license to Kakao Entertainment",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "releaseDate": "2022-03-31",
+          "upc": "8804775225550",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c0/95/7b/c0957bc8-a773-de1c-d5ca-0824c6896614/cover_KM0015017_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "8399ad",
+            "textColor2": "94b6db",
+            "textColor4": "7792af",
+            "textColor1": "a4bfd7",
+            "bgColor": "020204",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1617049377",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/pink-single/1617049377",
+          "recordLabel": "Antenna",
+          "trackCount": 3,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "Pink! - Single",
+          "artistName": "권진아",
+          "contentRating": "explicit",
+          "isComplete": false
+        }
+      },
+      "1622259369": {
+        "id": "1622259369",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2018 스페이스오디티",
+          "genreNames": ["OST", "음악", "팝", "K-Pop"],
+          "releaseDate": "2018-02-02",
+          "upc": "888618203675",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 1600,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6c/7a/53/6c7a53bb-13fb-d1c0-8aaf-ed1aca6bacc7/888618203675.png/{w}x{h}bb.jpg",
+            "height": 1600,
+            "textColor3": "442d27",
+            "textColor2": "27303f",
+            "textColor4": "4e535a",
+            "textColor1": "1a0100",
+            "bgColor": "ecddc6",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/%EC%9D%B4%EB%9F%B0-%EA%BD%83-%EA%B0%99%EC%9D%80-%EC%97%94%EB%94%A9-music-from-the-original-tv-series-%EC%9B%B9%EB%93%9C%EB%9D%BC%EB%A7%88-%EC%9D%B4%EB%9F%B0/1622259369",
+          "playParams": {
+            "id": "1622259369",
+            "kind": "album"
+          },
+          "recordLabel": "스페이스오디티",
+          "trackCount": 3,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "이런 꽃 같은 엔딩 (Music from the Original TV Series 웹드라마 이런 꽃 같은 엔딩), Pt. 2 - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1644863760": {
+        "id": "1644863760",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2017 Stone Music Entertainment, 안테나",
+          "genreNames": ["OST", "음악", "팝", "K-Pop"],
+          "releaseDate": "2017-02-11",
+          "upc": "8809534462597",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b6/b8/2f/b6b82f0f-f34d-a8e5-9fce-02c8d2cd72f6/8809534462597_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "4b413c",
+            "textColor2": "2d221f",
+            "textColor4": "4e4644",
+            "textColor1": "281b15",
+            "bgColor": "d5d9d8",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/the-lovebirds-year-1-x-antenna-original-television/1644863760",
+          "playParams": {
+            "id": "1644863760",
+            "kind": "album"
+          },
+          "recordLabel": "Genie Music",
+          "trackCount": 6,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "신혼일기 X 안테나 (Original Television Soundtrack) - EP",
+          "artistName": "권진아 & 샘김",
+          "isComplete": false
+        }
+      },
+      "1649270424": {
+        "id": "1649270424",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2022 Antenna,under license to Kakao Entertainment",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2022-10-13",
+          "isMasteredForItunes": false,
+          "upc": "8804775273353",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f5/22/bd/f522bd07-d49b-1cc2-0ddf-afda2f755fb5/cover_KM0016213_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "dadad5",
+            "textColor2": "eaecfb",
+            "textColor4": "cecfdc",
+            "textColor1": "f9faf2",
+            "bgColor": "5e5a5d",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1649270424",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/stupid-love-single/1649270424",
+          "recordLabel": "Antenna",
+          "isCompilation": false,
+          "trackCount": 1,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "진심이었던 사람만 바보가 돼 - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1655636010": {
+        "id": "1655636010",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2022 SBS Contentes Hub, Antenna",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2022-11-14",
+          "upc": "00602448977229",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/35/9d/1b359dbe-475f-1c89-9cb7-815a7d6c8362/22UM1IM33829.rgb.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "c4bebc",
+            "textColor2": "d79578",
+            "textColor4": "ae7962",
+            "textColor1": "f3ebe9",
+            "bgColor": "0a0a0a",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/cheer-up-original-soundtrack-part-7-single/1655636010",
+          "playParams": {
+            "id": "1655636010",
+            "kind": "album"
+          },
+          "recordLabel": "Universal Music Ltd.",
+          "isCompilation": false,
+          "trackCount": 2,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "치얼업 (Original Soundtrack Part.7) - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1659360910": {
+        "id": "1659360910",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2022 SBS Contentes Hub, Antenna",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2022-12-14",
+          "isMasteredForItunes": false,
+          "upc": "00602455004147",
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/28/7b/5d/287b5d9d-d36e-ded0-3482-47939dd16cc3/22UM1IM42364.rgb.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "363237",
+            "textColor2": "061a42",
+            "textColor4": "374868",
+            "textColor1": "040005",
+            "bgColor": "fefefe",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1659360910",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/cheer-up/1659360910",
+          "recordLabel": "Universal Music Ltd.",
+          "trackCount": 39,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "치얼업",
+          "artistName": "페퍼톤스, 신재평, 샘김, Mi Joo Lee, 스텔라장, 유다빈밴드, 테이아, 권진아, 이정훈, 박민주, 조유진 & 천민정",
+          "isComplete": false
+        }
+      },
+      "1661306211": {
+        "id": "1661306211",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2022 Antenna, under license to YG PLUS",
+          "genreNames": ["R&B/소울", "음악", "팝", "K-Pop"],
+          "releaseDate": "2022-12-24",
+          "isMasteredForItunes": false,
+          "upc": "8809848751677",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b1/7f/97/b17f9776-4c8d-ba3b-dda0-55e0d51bdc26/Pretend_To_Be_Sleep_Mix.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "a3b3bd",
+            "textColor2": "97c3d2",
+            "textColor4": "799ead",
+            "textColor1": "cbdde5",
+            "bgColor": "030b1d",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1661306211",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/pretend-to-be-sleep-mix-single/1661306211",
+          "recordLabel": "Antenna",
+          "trackCount": 1,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "어른처럼 (Sleep Mix) - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1668025857": {
+        "id": "1668025857",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2023 Studio LuluLala",
+          "genreNames": ["OST", "음악", "팝"],
+          "releaseDate": "2023-01-28",
+          "isMasteredForItunes": false,
+          "upc": "5054197538476",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/fb/63/affb63e5-5726-21ee-06f4-63034db49cba/5054197538476.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "d1cec9",
+            "textColor2": "e4ccc6",
+            "textColor4": "c8b3ad",
+            "textColor1": "efeee9",
+            "bgColor": "585146",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1668025857",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/agency-original-television-soundtrack-pt-4-single/1668025857",
+          "recordLabel": "ADA Korea",
+          "isCompilation": false,
+          "trackCount": 2,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "대행사 (Original Television Soundtrack, Pt. 4) - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1674117565": {
+        "id": "1674117565",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2023 Antenna,under license to Kakao Entertainment",
+          "genreNames": ["K-Pop", "음악", "팝", "록"],
+          "releaseDate": "2023-03-02",
+          "upc": "8804775264825",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9d/9b/19/9d9b199e-d7cc-f6d9-7cd1-d70888985e8c/cover_KM0016923_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "2d363d",
+            "textColor2": "532627",
+            "textColor4": "6d494c",
+            "textColor1": "030f15",
+            "bgColor": "d5d5e1",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/the-flag-ep/1674117565",
+          "playParams": {
+            "id": "1674117565",
+            "kind": "album"
+          },
+          "recordLabel": "Antenna",
+          "trackCount": 5,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "The Flag - EP",
+          "artistName": "권진아",
+          "editorialNotes": {
+            "short": "꿈을 향해 나아가는 모든 이들에게 보내는 응원. 전곡 작사, 작곡, 프로듀싱으로 선보이는 권진아의 새 EP."
+          },
+          "isComplete": false
+        }
+      },
+      "1689554570": {
+        "id": "1689554570",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2019 Stone Music Entertainment, SAMHWA NETWORKS",
+          "genreNames": ["OST", "음악"],
+          "releaseDate": "2019-08-10",
+          "upc": "8809658315434",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/11/6b/9c116b44-7e03-e7e2-4204-b7b2552e1413/8809658315434_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "d18488",
+            "textColor2": "e69675",
+            "textColor4": "bf8569",
+            "textColor1": "fc959c",
+            "bgColor": "253e38",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/be-melodramatic-pt-1-original-television-soundtrack/1689554570",
+          "playParams": {
+            "id": "1689554570",
+            "kind": "album"
+          },
+          "recordLabel": "Genie Music",
+          "trackCount": 2,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "멜로가 체질, Pt. 1 (Original Television Soundtrack) - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1700850428": {
+        "id": "1700850428",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2023 Antenna,under license to Kakao Entertainment",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "releaseDate": "2023-08-10",
+          "isMasteredForItunes": false,
+          "upc": "8804775281419",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0c/05/92/0c059205-39f7-2d03-4c1d-40200a313166/cover_KM0018003_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "38353f",
+            "textColor2": "24181d",
+            "textColor4": "494047",
+            "textColor1": "0e0b12",
+            "bgColor": "dedff1",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1700850428",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/love-me-love-me-single/1700850428",
+          "recordLabel": "Antenna",
+          "trackCount": 1,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": true,
+          "name": "Love Me Love Me - Single",
+          "artistName": "권진아",
+          "isComplete": false
+        }
+      },
+      "1706280128": {
+        "id": "1706280128",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2023 Stone Music Entertainment",
+          "genreNames": ["OST", "음악"],
+          "releaseDate": "2023-09-12",
+          "isMasteredForItunes": false,
+          "upc": "888272123326",
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/91/11/7491119d-20da-d999-a845-e20027262573/888272123326_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "c7cbcd",
+            "textColor2": "dcdfed",
+            "textColor4": "b4b7c1",
+            "textColor1": "f4f7fc",
+            "bgColor": "151a13",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1706280128",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/street-woman-fighter2-swf2-original-television-soundtrack/1706280128",
+          "recordLabel": "Genie Music",
+          "trackCount": 4,
+          "isCompilation": false,
+          "isPrerelease": false,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "스트릿 우먼 파이터2 (SWF2) [Original Television Soundtrack] - EP",
+          "contentRating": "explicit",
+          "artistName": "CAMO, 조유리, 권진아 & INI",
           "isComplete": false
         }
       }
     },
     "songs": {
-      "1523244771": {
-        "id": "1523244771",
+      "1480667629": {
+        "id": "1480667629",
         "type": "songs",
         "attributes": {
           "hasTimeSyncedLyrics": true,
-          "albumName": "여름 안에서 - Single",
-          "genreNames": ["K-Pop", "음악", "팝"],
+          "albumName": "나의 모양",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
           "trackNumber": 1,
-          "releaseDate": "2020-07-11",
-          "durationInMillis": 281016,
+          "releaseDate": "2019-09-19",
+          "durationInMillis": 256907,
           "isVocalAttenuationAllowed": true,
           "isMasteredForItunes": false,
-          "isrc": "KRA382002526",
+          "isrc": "KRA381904244",
           "artwork": {
             "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/de/9e/ddde9ef7-d981-24c3-671d-8d3bb85c89da/cover_-.jpg/{w}x{h}bb.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/0d/b3/2a0db314-81ac-ecb1-b593-c7eb62854b39/cover_-.jpg/{w}x{h}bb.jpg",
             "height": 3000,
-            "textColor3": "424345",
-            "textColor2": "002e68",
-            "textColor4": "325785",
-            "textColor1": "131518",
-            "bgColor": "fcfcfc",
+            "textColor3": "e6a695",
+            "textColor2": "fbb299",
+            "textColor4": "e59e83",
+            "textColor1": "fcbcb0",
+            "bgColor": "8d512d",
             "hasP3": false
           },
           "audioLocale": "ko",
           "playParams": {
-            "id": "1523244771",
+            "id": "1480667629",
             "kind": "song"
           },
-          "url": "https://music.apple.com/kr/album/%EC%97%AC%EB%A6%84-%EC%95%88%EC%97%90%EC%84%9C-feat-%ED%99%A9%EA%B4%91%ED%9D%AC/1523244769?i=1523244771",
+          "url": "https://music.apple.com/kr/album/%EC%9A%B4%EC%9D%B4-%EC%A2%8B%EC%95%98%EC%A7%80/1480667628?i=1480667629",
           "discNumber": 1,
           "hasCredits": false,
           "isAppleDigitalMaster": false,
           "hasLyrics": true,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
-          "name": "여름 안에서 (feat. 황광희)",
+          "name": "운이 좋았지",
           "previews": [
             {
-              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6e/ab/b0/6eabb0a6-a13c-6f06-f7ca-bd67e915c9f3/mzaf_15026775083156653.plus.aac.p.m4a"
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/07/44/a307440d-8f6a-94c2-ef61-b6e9018a43ac/mzaf_17321080817678398658.plus.aac.p.m4a"
             }
           ],
-          "artistName": "싹쓰리"
+          "artistName": "권진아"
         }
       },
-      "1523244772": {
-        "id": "1523244772",
+      "1480667631": {
+        "id": "1480667631",
         "type": "songs",
         "attributes": {
-          "albumName": "여름 안에서 - Single",
-          "hasTimeSyncedLyrics": false,
-          "genreNames": ["K-Pop", "음악", "팝"],
+          "hasTimeSyncedLyrics": true,
+          "albumName": "나의 모양",
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
           "trackNumber": 2,
-          "releaseDate": "2020-07-11",
-          "durationInMillis": 281016,
+          "releaseDate": "2019-09-19",
+          "durationInMillis": 247720,
           "isVocalAttenuationAllowed": false,
           "isMasteredForItunes": false,
-          "isrc": "KRA382002527",
+          "isrc": "KRA381904245",
           "artwork": {
             "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/de/9e/ddde9ef7-d981-24c3-671d-8d3bb85c89da/cover_-.jpg/{w}x{h}bb.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/0d/b3/2a0db314-81ac-ecb1-b593-c7eb62854b39/cover_-.jpg/{w}x{h}bb.jpg",
             "height": 3000,
-            "textColor3": "424345",
-            "textColor2": "002e68",
-            "textColor4": "325785",
-            "textColor1": "131518",
-            "bgColor": "fcfcfc",
+            "textColor3": "e6a695",
+            "textColor2": "fbb299",
+            "textColor4": "e59e83",
+            "textColor1": "fcbcb0",
+            "bgColor": "8d512d",
             "hasP3": false
           },
-          "audioLocale": "zxx",
-          "url": "https://music.apple.com/kr/album/%EC%97%AC%EB%A6%84-%EC%95%88%EC%97%90%EC%84%9C-instrumental/1523244769?i=1523244772",
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/%EC%8B%9C%EA%B3%84-%EB%B0%94%EB%8A%98/1480667628?i=1480667631",
           "playParams": {
-            "id": "1523244772",
+            "id": "1480667631",
             "kind": "song"
           },
           "discNumber": 1,
           "hasCredits": false,
           "isAppleDigitalMaster": false,
-          "hasLyrics": false,
+          "hasLyrics": true,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
-          "name": "여름 안에서 (Instrumental)",
+          "name": "시계 바늘",
           "previews": [
             {
-              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/50/f9/cf50f9db-5c3f-7dbe-c81b-064408969d93/mzaf_15575948711658471618.plus.aac.p.m4a"
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e0/95/25/e09525d7-9b55-1a18-b400-3fb30354759e/mzaf_17873752878389554109.plus.aac.p.m4a"
             }
           ],
-          "artistName": "싹쓰리"
+          "artistName": "권진아"
         }
       },
-      "1524236597": {
-        "id": "1524236597",
+      "1480667847": {
+        "id": "1480667847",
         "type": "songs",
         "attributes": {
-          "albumName": "다시 여기 바닷가 - Single",
+          "albumName": "나의 모양",
           "hasTimeSyncedLyrics": true,
-          "genreNames": ["K-Pop", "음악", "팝"],
-          "trackNumber": 1,
-          "releaseDate": "2020-07-18",
-          "durationInMillis": 233853,
-          "isVocalAttenuationAllowed": true,
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "trackNumber": 8,
+          "releaseDate": "2019-02-28",
+          "durationInMillis": 256413,
+          "isVocalAttenuationAllowed": false,
           "isMasteredForItunes": false,
-          "isrc": "KRA382002998",
+          "isrc": "KRA381904251",
           "artwork": {
             "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/91/e7/2f91e770-0455-d558-a943-2104b29f18ee/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/0d/b3/2a0db314-81ac-ecb1-b593-c7eb62854b39/cover_-.jpg/{w}x{h}bb.jpg",
             "height": 3000,
-            "textColor3": "cdd0d6",
-            "textColor2": "f1fcec",
-            "textColor4": "c2cec7",
+            "textColor3": "e6a695",
+            "textColor2": "fbb299",
+            "textColor4": "e59e83",
+            "textColor1": "fcbcb0",
+            "bgColor": "8d512d",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1480667847",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EC%98%A4%EB%8A%98-%EB%AD%90-%ED%96%88%EB%8A%94%EC%A7%80-%EB%A7%90%ED%95%B4%EB%B4%90/1480667628?i=1480667847",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "오늘 뭐 했는지 말해봐",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1a/8d/61/1a8d61da-2eba-08ca-0c46-d5f53cdaa95c/mzaf_3298014045242684062.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1505731444": {
+        "id": "1505731444",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "뭔가 잘못됐어 - Single",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 1,
+          "releaseDate": "2020-04-01",
+          "durationInMillis": 243880,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382001012",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4f/c0/1e/4fc01e85-483e-9c33-490b-7fb88bd99f2a/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "332819",
+            "textColor2": "291810",
+            "textColor4": "483626",
+            "textColor1": "0f0700",
+            "bgColor": "c2ad7e",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1505731444",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EB%AD%94%EA%B0%80-%EC%9E%98%EB%AA%BB%EB%90%90%EC%96%B4/1505731442?i=1505731444",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "뭔가 잘못됐어",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/61/5b/07615b30-6636-f610-eb1f-e3a615268711/mzaf_14270803602245427622.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1527237003": {
+        "id": "1527237003",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "I AM SAM - EP",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 6,
+          "durationInMillis": 258962,
+          "releaseDate": "2016-03-25",
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRB471600373",
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/64/4e/81/644e81a2-1f59-6fc9-583d-b550db039e2c/i_am_sam_cover_4000px.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "d0d0d0",
+            "textColor2": "d2d2d2",
+            "textColor4": "b1b1b1",
+            "textColor1": "fafafa",
+            "bgColor": "2a2a2a",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/your-song-with-lee-jin-ah-jung-seung-hwan-kwon-jin-ah/1527236997?i=1527237003",
+          "playParams": {
+            "id": "1527237003",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "Your Song (with Lee Jin Ah, Jung Seung Hwan & Kwon Jin Ah)",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/c4/67/a7c46772-c717-83c1-dacc-11108f63417b/mzaf_13552097862761406119.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "샘김"
+        }
+      },
+      "1527238325": {
+        "id": "1527238325",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "웃긴 밤",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 2,
+          "releaseDate": "2016-09-19",
+          "durationInMillis": 237956,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRB471601208",
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/84/9c/80849c39-ed64-5e7c-75ad-f5911c111e8c/cover_4000px.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "d0cdce",
+            "textColor2": "e28c2f",
+            "textColor4": "b97228",
             "textColor1": "ffffff",
-            "bgColor": "0a1735",
+            "bgColor": "160a0c",
             "hasP3": false
           },
           "audioLocale": "ko",
-          "url": "https://music.apple.com/kr/album/%EB%8B%A4%EC%8B%9C-%EC%97%AC%EA%B8%B0-%EB%B0%94%EB%8B%B7%EA%B0%80/1524236596?i=1524236597",
+          "url": "https://music.apple.com/kr/album/%EB%81%9D/1527238323?i=1527238325",
           "playParams": {
-            "id": "1524236597",
+            "id": "1527238325",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "끝",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/10/49/11104929-370e-cb88-b4ff-a8eab39bf749/mzaf_1890211897396128156.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1527242780": {
+        "id": "1527242780",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "Fly Away - Single",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 1,
+          "releaseDate": "2017-05-02",
+          "durationInMillis": 220845,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRB471700637",
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/35/53/bc/3553bcf0-53f5-c192-0dd0-b7d2e9b3fae8/Fly_Away_cover_4000px.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "af96c4",
+            "textColor2": "a1acf5",
+            "textColor4": "8d8ace",
+            "textColor1": "ccbbe9",
+            "bgColor": "3c0231",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/fly-away/1527242778?i=1527242780",
+          "playParams": {
+            "id": "1527242780",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "Fly Away",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/6b/d2/30/6bd2307f-8ce2-95e9-a0ac-b1ead15094c7/mzaf_7732608517488986178.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1527250295": {
+        "id": "1527250295",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "여기까지 - Single",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 1,
+          "releaseDate": "2016-07-18",
+          "durationInMillis": 231629,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRB471600961",
+          "artwork": {
+            "width": 4000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e7/21/49e721f1-c156-0e4a-9a99-ac8dc423a205/4000px._cover.jpg/{w}x{h}bb.jpg",
+            "height": 4000,
+            "textColor3": "9397a1",
+            "textColor2": "83b3d1",
+            "textColor4": "698fa7",
+            "textColor1": "b8bdca",
+            "bgColor": "000000",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1527250295",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EC%97%AC%EA%B8%B0%EA%B9%8C%EC%A7%80/1527250292?i=1527250295",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "여기까지",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/91/61/bb/9161bbb3-81e0-75ad-50b1-2016fc64a74d/mzaf_6555893744809506898.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아 & 샘김"
+        }
+      },
+      "1554054443": {
+        "id": "1554054443",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "우리의 방식 - EP",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 2,
+          "releaseDate": "2021-02-18",
+          "durationInMillis": 233573,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382100955",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/65/eb/8165ebce-7734-b5ff-0400-aa19bb8c78d9/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "a99d9e",
+            "textColor2": "d3afa5",
+            "textColor4": "ab928f",
+            "textColor1": "d1bcb8",
+            "bgColor": "0a2035",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1554054443",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EC%9E%98-%EA%B0%80/1554054441?i=1554054443",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "잘 가",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/70/f8/e070f87d-3918-02da-298f-d45b3da42161/mzaf_12510659370837217857.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1554054445": {
+        "id": "1554054445",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "우리의 방식 - EP",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 4,
+          "durationInMillis": 197933,
+          "releaseDate": "2021-02-18",
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382100957",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/65/eb/8165ebce-7734-b5ff-0400-aa19bb8c78d9/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "a99d9e",
+            "textColor2": "d3afa5",
+            "textColor4": "ab928f",
+            "textColor1": "d1bcb8",
+            "bgColor": "0a2035",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1554054445",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/you-already-have/1554054441?i=1554054445",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "You Already Have",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/7d/2f/817d2f39-aae9-1159-7057-6ef7c9dfdeda/mzaf_4550024919999586172.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1554054446": {
+        "id": "1554054446",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "우리의 방식 - EP",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 5,
+          "durationInMillis": 202000,
+          "releaseDate": "2021-02-18",
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382100958",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/65/eb/8165ebce-7734-b5ff-0400-aa19bb8c78d9/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "a99d9e",
+            "textColor2": "d3afa5",
+            "textColor4": "ab928f",
+            "textColor1": "d1bcb8",
+            "bgColor": "0a2035",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/%EC%96%B4%EB%A5%B8%EC%B2%98%EB%9F%BC-with-%EC%A3%A0%EC%A7%80/1554054441?i=1554054446",
+          "playParams": {
+            "id": "1554054446",
             "kind": "song"
           },
           "discNumber": 1,
@@ -364,145 +1625,414 @@
           "isAppleDigitalMaster": false,
           "hasLyrics": true,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
-          "name": "다시 여기 바닷가",
+          "name": "어른처럼 (with. 죠지)",
           "previews": [
             {
-              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/56/44/ed/5644edbd-0d30-8b6e-9b28-0d5619ec2de7/mzaf_3581313392093673444.plus.aac.p.m4a"
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cb/91/e7/cb91e72f-555e-f317-6986-0d9548a46b4c/mzaf_18438465024598810505.plus.aac.p.m4a"
             }
           ],
-          "artistName": "싹쓰리"
+          "artistName": "권진아"
         }
       },
-      "1524236598": {
-        "id": "1524236598",
+      "1578443483": {
+        "id": "1578443483",
         "type": "songs",
         "attributes": {
-          "albumName": "다시 여기 바닷가 - Single",
-          "hasTimeSyncedLyrics": false,
+          "hasTimeSyncedLyrics": true,
+          "albumName": "KNOCK (with Park Moonchi) - Single",
           "genreNames": ["K-Pop", "음악", "팝"],
-          "trackNumber": 2,
-          "releaseDate": "2020-07-18",
-          "durationInMillis": 233840,
-          "isVocalAttenuationAllowed": false,
+          "trackNumber": 1,
+          "releaseDate": "2021-07-27",
+          "durationInMillis": 205960,
+          "isVocalAttenuationAllowed": true,
           "isMasteredForItunes": false,
-          "isrc": "KRA382002999",
+          "isrc": "KRA382159780",
           "artwork": {
-            "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/91/e7/2f91e770-0455-d558-a943-2104b29f18ee/cover_-_DS.jpg/{w}x{h}bb.jpg",
-            "height": 3000,
-            "textColor3": "cdd0d6",
-            "textColor2": "f1fcec",
-            "textColor4": "c2cec7",
-            "textColor1": "ffffff",
-            "bgColor": "0a1735",
+            "width": 4477,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/66/62/c86662a6-82e8-d3c3-01c7-eab989430daf/cover-_-_KNOCK_With.jpg/{w}x{h}bb.jpg",
+            "height": 4477,
+            "textColor3": "4a4040",
+            "textColor2": "3a201a",
+            "textColor4": "5e4944",
+            "textColor1": "221615",
+            "bgColor": "ececec",
             "hasP3": false
           },
-          "audioLocale": "zxx",
+          "audioLocale": "ko",
           "playParams": {
-            "id": "1524236598",
+            "id": "1578443483",
             "kind": "song"
           },
-          "url": "https://music.apple.com/kr/album/%EB%8B%A4%EC%8B%9C-%EC%97%AC%EA%B8%B0-%EB%B0%94%EB%8B%B7%EA%B0%80-instrumental/1524236596?i=1524236598",
+          "url": "https://music.apple.com/kr/album/knock-with-park-moonchi/1578443482?i=1578443483",
           "discNumber": 1,
           "hasCredits": false,
           "isAppleDigitalMaster": false,
-          "hasLyrics": false,
+          "hasLyrics": true,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
-          "name": "다시 여기 바닷가 (Instrumental)",
+          "name": "KNOCK (with Park Moonchi)",
           "previews": [
             {
-              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/52/20/d0522022-e2bc-0937-0967-76751514c233/mzaf_9535928783638568697.plus.aac.p.m4a"
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/8b/35/c88b35e1-6647-394c-0a6f-7129b9ff55ec/mzaf_17028709216432346296.plus.aac.p.m4a"
             }
           ],
-          "artistName": "싹쓰리"
+          "artistName": "권진아"
         }
       },
-      "1525161569": {
-        "id": "1525161569",
+      "1603169940": {
+        "id": "1603169940",
         "type": "songs",
         "attributes": {
-          "albumName": "그 여름을 틀어줘 - Single",
+          "hasTimeSyncedLyrics": true,
+          "albumName": "슬기로운 의사생활, Pt. 1 (Original Television Soundtrack) - Single",
+          "genreNames": ["OST", "음악"],
+          "trackNumber": 1,
+          "releaseDate": "2020-03-13",
+          "durationInMillis": 242900,
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA492000231",
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b1/e9/98/b1e9982a-e710-ff2c-5646-e4eaaaefccbd/8809704413251_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "2f3d5b",
+            "textColor2": "162b42",
+            "textColor4": "2a4c63",
+            "textColor1": "1c1938",
+            "bgColor": "7ad0e7",
+            "hasP3": false
+          },
+          "composerName": "김태원",
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/lonely-night/1603169934?i=1603169940",
+          "playParams": {
+            "id": "1603169940",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "Lonely Night",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6d/c1/cc/6dc1ccd1-803b-ebd5-8684-bc06ce075e30/mzaf_2671825666190982142.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1603348872": {
+        "id": "1603348872",
+        "type": "songs",
+        "attributes": {
+          "albumName": "슬기로운 의사생활 (Original Television Soundtrack)",
+          "hasTimeSyncedLyrics": true,
+          "genreNames": ["OST", "음악"],
+          "trackNumber": 1,
+          "releaseDate": "2020-03-13",
+          "durationInMillis": 242900,
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA492000231",
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/26/99/d7/2699d781-b047-4161-2ac4-6fd319dbb565/8809704414364_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "504b80",
+            "textColor2": "1a2f4c",
+            "textColor4": "485870",
+            "textColor1": "241e61",
+            "bgColor": "ffffff",
+            "hasP3": false
+          },
+          "composerName": "김태원",
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1603348872",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/lonely-night/1603348685?i=1603348872",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "Lonely Night",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cd/af/7d/cdaf7d80-513c-0637-fe45-a08560d1b309/mzaf_10874201037199129814.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1612614592": {
+        "id": "1612614592",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "마음이 그래 - Single",
+          "genreNames": ["R&B/소울", "음악"],
+          "trackNumber": 1,
+          "releaseDate": "2021-02-04",
+          "durationInMillis": 221053,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRB142100001",
+          "artwork": {
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/7b/7d/457b7db0-f177-a381-233f-c7d8e0591616/888272074628_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "192036",
+            "textColor2": "0e1020",
+            "textColor4": "24283d",
+            "textColor1": "000517",
+            "bgColor": "7d89b1",
+            "hasP3": false
+          },
+          "composerName": "권진아",
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1612614592",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EB%A7%88%EC%9D%8C%EC%9D%B4-%EA%B7%B8%EB%9E%98/1612614586?i=1612614592",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "마음이 그래",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c5/71/4a/c5714ab9-476d-17cf-62b9-f13805ca7dd4/mzaf_15469925849814275255.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "개코 & 권진아"
+        }
+      },
+      "1617049378": {
+        "id": "1617049378",
+        "type": "songs",
+        "attributes": {
+          "albumName": "Pink! - Single",
+          "hasTimeSyncedLyrics": true,
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "trackNumber": 1,
+          "releaseDate": "2022-03-31",
+          "durationInMillis": 214720,
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382204377",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c0/95/7b/c0957bc8-a773-de1c-d5ca-0824c6896614/cover_KM0015017_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "8399ad",
+            "textColor2": "94b6db",
+            "textColor4": "7792af",
+            "textColor1": "a4bfd7",
+            "bgColor": "020204",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/silly-silly-love/1617049377?i=1617049378",
+          "playParams": {
+            "id": "1617049378",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "Silly Silly Love",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0a/21/e8/0a21e8fc-5c3f-d37f-79c5-62e927d0222f/mzaf_10696421749678085924.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아",
+          "contentRating": "explicit"
+        }
+      },
+      "1617049379": {
+        "id": "1617049379",
+        "type": "songs",
+        "attributes": {
+          "albumName": "Pink! - Single",
+          "hasTimeSyncedLyrics": true,
+          "genreNames": ["K-Pop", "음악", "팝", "R&B/소울"],
+          "trackNumber": 2,
+          "durationInMillis": 174800,
+          "releaseDate": "2022-03-31",
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382204378",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c0/95/7b/c0957bc8-a773-de1c-d5ca-0824c6896614/cover_KM0015017_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "8399ad",
+            "textColor2": "94b6db",
+            "textColor4": "7792af",
+            "textColor1": "a4bfd7",
+            "bgColor": "020204",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/pink/1617049377?i=1617049379",
+          "playParams": {
+            "id": "1617049379",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "Pink!",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/fb/50/08/fb500886-9821-0bf8-fd5d-040cae6d24be/mzaf_13430764929881312860.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "권진아"
+        }
+      },
+      "1623110825": {
+        "id": "1623110825",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "Da Capo",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 10,
+          "durationInMillis": 267640,
+          "releaseDate": "2014-11-18",
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA491402330",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/91/69/bd916985-60f4-8962-5e73-650c4cf1a3b1/cover_KM0015178_1.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "e3dfdb",
+            "textColor2": "fdeee4",
+            "textColor4": "e2d3c9",
+            "textColor1": "fefdfb",
+            "bgColor": "78695a",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1623110825",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EA%B7%B8%EB%85%80%EA%B0%80-%EB%A7%90%ED%96%88%EB%8B%A4-with-%EA%B6%8C%EC%A7%84%EC%95%84-feat-%EA%B6%8C%EC%A7%84%EC%95%84/1623110814?i=1623110825",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "그녀가 말했다 (With 권진아) [feat. 권진아]",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/95/ac/de/95acde9c-a286-c311-6dd9-ea06cbf93356/mzaf_10599059478448866042.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "토이"
+        }
+      },
+      "1649270425": {
+        "id": "1649270425",
+        "type": "songs",
+        "attributes": {
+          "albumName": "진심이었던 사람만 바보가 돼 - Single",
           "hasTimeSyncedLyrics": true,
           "genreNames": ["K-Pop", "음악", "팝"],
           "trackNumber": 1,
-          "releaseDate": "2020-07-25",
-          "durationInMillis": 204227,
-          "isVocalAttenuationAllowed": true,
+          "durationInMillis": 265703,
+          "releaseDate": "2022-10-13",
+          "isVocalAttenuationAllowed": false,
           "isMasteredForItunes": false,
-          "isrc": "KRA382003179",
+          "isrc": "KRA382207775",
           "artwork": {
             "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/d6/9d/0ad69d95-24e4-c6aa-235b-d81b62236c8a/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f5/22/bd/f522bd07-d49b-1cc2-0ddf-afda2f755fb5/cover_KM0016213_1.jpg/{w}x{h}bb.jpg",
             "height": 3000,
-            "textColor3": "2f2f2d",
-            "textColor2": "161615",
-            "textColor4": "383836",
-            "textColor1": "0b0b0a",
-            "bgColor": "bebebc",
+            "textColor3": "dadad5",
+            "textColor2": "eaecfb",
+            "textColor4": "cecfdc",
+            "textColor1": "f9faf2",
+            "bgColor": "5e5a5d",
             "hasP3": false
           },
           "audioLocale": "ko",
           "playParams": {
-            "id": "1525161569",
+            "id": "1649270425",
             "kind": "song"
           },
-          "url": "https://music.apple.com/kr/album/%EA%B7%B8-%EC%97%AC%EB%A6%84%EC%9D%84-%ED%8B%80%EC%96%B4%EC%A4%98/1525161568?i=1525161569",
+          "url": "https://music.apple.com/kr/album/%EC%A7%84%EC%8B%AC%EC%9D%B4%EC%97%88%EB%8D%98-%EC%82%AC%EB%9E%8C%EB%A7%8C-%EB%B0%94%EB%B3%B4%EA%B0%80-%EB%8F%BC/1649270424?i=1649270425",
           "discNumber": 1,
           "hasCredits": false,
           "isAppleDigitalMaster": false,
           "hasLyrics": true,
           "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
-          "name": "그 여름을 틀어줘",
+          "name": "진심이었던 사람만 바보가 돼",
           "previews": [
             {
-              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/75/c7/b175c7fa-420f-4a61-42e8-8cb20d53964f/mzaf_3465804397479677198.plus.aac.p.m4a"
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/df/7f/10/df7f1095-a286-0ab7-3d4a-f52421e8f7fb/mzaf_11754913002104676695.plus.aac.p.m4a"
             }
           ],
-          "artistName": "싹쓰리"
+          "artistName": "권진아"
         }
       },
-      "1525161570": {
-        "id": "1525161570",
+      "1689554572": {
+        "id": "1689554572",
         "type": "songs",
         "attributes": {
           "hasTimeSyncedLyrics": false,
-          "albumName": "그 여름을 틀어줘 - Single",
-          "genreNames": ["K-Pop", "음악", "팝"],
+          "albumName": "멜로가 체질, Pt. 1 (Original Television Soundtrack) - Single",
+          "genreNames": ["OST", "음악"],
           "trackNumber": 2,
-          "releaseDate": "2020-07-25",
-          "durationInMillis": 204227,
+          "releaseDate": "2019-08-10",
+          "durationInMillis": 196999,
           "isVocalAttenuationAllowed": false,
           "isMasteredForItunes": false,
-          "isrc": "KRA382003180",
+          "isrc": "KRA491900550",
           "artwork": {
-            "width": 3000,
-            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/d6/9d/0ad69d95-24e4-c6aa-235b-d81b62236c8a/cover_-_DS.jpg/{w}x{h}bb.jpg",
-            "height": 3000,
-            "textColor3": "2f2f2d",
-            "textColor2": "161615",
-            "textColor4": "383836",
-            "textColor1": "0b0b0a",
-            "bgColor": "bebebc",
+            "width": 1400,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/11/6b/9c116b44-7e03-e7e2-4204-b7b2552e1413/8809658315434_Cover.jpg/{w}x{h}bb.jpg",
+            "height": 1400,
+            "textColor3": "d18488",
+            "textColor2": "e69675",
+            "textColor4": "bf8569",
+            "textColor1": "fc959c",
+            "bgColor": "253e38",
             "hasP3": false
           },
+          "composerName": "헨",
           "audioLocale": "zxx",
+          "url": "https://music.apple.com/kr/album/%EC%9C%84%EB%A1%9C-instrumental/1689554570?i=1689554572",
           "playParams": {
-            "id": "1525161570",
+            "id": "1689554572",
             "kind": "song"
           },
-          "url": "https://music.apple.com/kr/album/%EA%B7%B8-%EC%97%AC%EB%A6%84%EC%9D%84-%ED%8B%80%EC%96%B4%EC%A4%98-instrumental/1525161568?i=1525161570",
           "discNumber": 1,
           "hasCredits": false,
           "isAppleDigitalMaster": false,
           "hasLyrics": false,
-          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
-          "name": "그 여름을 틀어줘 (Instrumental)",
+          "audioTraits": ["lossless", "lossy-stereo"],
+          "name": "위로 (Instrumental)",
           "previews": [
             {
-              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/9d/58/1a9d5880-62ab-d4db-a900-8d3c6e9beb72/mzaf_6109542173720994412.plus.aac.p.m4a"
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/88/3d/de/883ddedf-caf8-5ca8-06a6-0452fe837628/mzaf_15592168711685373571.plus.aac.p.m4a"
             }
           ],
-          "artistName": "싹쓰리"
+          "artistName": "권진아"
         }
       }
     }

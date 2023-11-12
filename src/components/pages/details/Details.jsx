@@ -82,10 +82,20 @@ const Details = () => {
     // detailsAPI(`artists/get-top-songs?id=${artistId}&l=ko-KR`).then((item) =>
     //   setDetails(item.data)
     // )
+    // detailsAPI(`artists/get-summary?id=${artistId}&l=ko-KR`).then((item) =>
+    //   setDetails(item.data)
+    // )
 
     //더미
+    // fetch(
+    //   `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_gettopsongs.json`
+    // )
+    //   .then((res) => res.json())
+    //   .then((res) => {
+    //     setDetails(res.data)
+    //   })
     fetch(
-      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_gettopsongs.json`
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_getsummary.json`
     )
       .then((res) => res.json())
       .then((res) => {
