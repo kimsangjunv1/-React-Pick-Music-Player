@@ -5,7 +5,7 @@
   width: 100%;
 
   .main_inner {
-    position: relative;
+    // position: relative;
 
     .weather_container {
       .weather_container_inner {
@@ -397,7 +397,8 @@
       width: 100%;
       height: 100px;
       background: linear-gradient(0deg, transparent, white);
-      z-index: 100;
+
+      z-index: -1000;
     }
   }
 }

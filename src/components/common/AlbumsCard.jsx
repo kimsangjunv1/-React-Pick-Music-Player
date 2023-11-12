@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AlbumsCard = ({ item, key }) => {
-  console.log('albums : ', item)
+  // console.log('albums : ', item)
   const getUrl = (url) => {
     const replaceUrl = url.replace('{w}x{h}', '300x300')
     return replaceUrl
@@ -12,6 +12,7 @@ const AlbumsCard = ({ item, key }) => {
       {/* <p>{item.attributes.artwork.url}</p> */}
 
       <img src={`${getUrl(item.attributes.artwork.url)}`} alt="앨범아트" />
+
       <div
         className="album_desc"
         style={{ background: `#${item.attributes.artwork.bgColor}cc` }}
