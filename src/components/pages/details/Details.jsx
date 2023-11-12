@@ -96,35 +96,29 @@ const Details = () => {
   if (!details?.length) return <Loader />
   return (
     <>
-      <Header
-        selectCategory={selectCategory}
-        setSelectCategory={setSelectCategory}
-      />
-      <main id="main">
-        <section id="contents">
-          <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
+      {/* <main id="main">
+        <section id="contents"> */}
+      <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
 
-          <div className="detail_container">
-            <div className="detail_title_container">
-              <p>{artistProps?.artist?.artists[0].alias}</p>
-              <h2>{artistProps?.artist?.subtitle}</h2>
-            </div>
-            <img
-              src={`${artistProps?.images?.background}`}
-              alt=""
-              className="detail_cover_image"
-            />
-          </div>
-          <div className="detail_title_container">
-            <h2>LIST</h2>
-          </div>
-          {details.map((item, index) => (
-            <ArtistSongItem key={index} item={item} />
-          ))}
-        </section>
-        <MusicControl />
-      </main>
-      <Footer />
+      <div className="detail_container">
+        <div className="detail_title_container">
+          <p>{artistProps?.artist?.artists[0].alias}</p>
+          <h2>{artistProps?.artist?.subtitle}</h2>
+        </div>
+        <img
+          src={`${artistProps?.images?.background}`}
+          alt=""
+          className="detail_cover_image"
+        />
+      </div>
+      <div className="detail_title_container">
+        <h2>LIST</h2>
+      </div>
+      {details.map((item, index) => (
+        <ArtistSongItem key={index} item={item} />
+      ))}
+      {/* </section>
+      </main> */}
     </>
   )
 }

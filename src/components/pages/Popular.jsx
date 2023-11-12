@@ -136,42 +136,32 @@ const Popular = () => {
   // if (!firstranking?.length) return <Loader />
   return (
     <>
-      <Header
-        selectCategory={selectCategory}
-        setSelectCategory={setSelectCategory}
-      />
-      <main id="main">
-        <section id="contents">
-          <div className="page_title_container">
-            <Link to={`/`}>〈</Link>
-            <h2>Top 10</h2>
-          </div>
+      <div className="page_title_container">
+        <Link to={`/`}>〈</Link>
+        <h2>Top 10</h2>
+      </div>
 
-          <div className="ranking_cont">
-            {firstranking.map((ranking, index) => (
-              <FirstRankingItem key={index} ranking={ranking} />
-            ))}
-            <div className="list_cont">
-              <div className="ranking_list_header">
-                <div>순위</div>
-                <div>썸넬</div>
-                <div>곡명</div>
-                {/* <div>앨범</div> */}
-                <div>아티스트</div>
-                <div>LIKE</div>
-                <div>Play</div>
-              </div>
-              <ul>
-                {ranking.map((ranking, index) => (
-                  <RankingItem key={index} ranking={ranking} index={index} />
-                ))}
-              </ul>
-            </div>
+      <div className="ranking_cont">
+        {firstranking.map((ranking, index) => (
+          <FirstRankingItem key={index} ranking={ranking} />
+        ))}
+        <div className="list_cont">
+          <div className="ranking_list_header">
+            <div>순위</div>
+            <div>썸넬</div>
+            <div>곡명</div>
+            {/* <div>앨범</div> */}
+            <div>아티스트</div>
+            <div>LIKE</div>
+            <div>Play</div>
           </div>
-          {/* <MusicControl /> */}
-        </section>
-      </main>
-      <Footer />
+          <ul>
+            {ranking.map((ranking, index) => (
+              <RankingItem key={index} ranking={ranking} index={index} />
+            ))}
+          </ul>
+        </div>
+      </div>
     </>
   )
 }

@@ -39,36 +39,36 @@ const Artist = () => {
 
   return (
     <>
-      <Header
+      {/* <Header
         selectCategory={selectCategory}
         setSelectCategory={setSelectCategory}
-      />
-      <main id="main">
-        <section id="contents">
-          <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
-          <div className="artist_container">
-            {artist.map((artist, index) => (
-              <ArtistCard props={artist} />
-            ))}
-          </div>
-          <button
-            className={resultCount > 20 ? 'more_btn disabled' : 'more_btn'}
-            onClick={() => {
-              if (resultCount <= 20) {
-                setResultCount(resultCount + 5)
-                fetchItem()
-                console.log('성공')
-              }
-            }}
-          >
-            {resultCount > 20
-              ? '더 보기는 최대 20명 까지만 지원합니다.'
-              : '더 보기'}
-          </button>
-        </section>
-        <MusicControl />
-      </main>
-      <Footer />
+      /> */}
+      {/* <main id="main">
+        <section id="contents"> */}
+      <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
+      <div className="artist_container">
+        {artist.map((artist, index) => (
+          <ArtistCard props={artist} />
+        ))}
+      </div>
+      <button
+        className={resultCount > 20 ? 'more_btn disabled' : 'more_btn'}
+        onClick={() => {
+          if (resultCount <= 20) {
+            setResultCount(resultCount + 5)
+            fetchItem()
+            console.log('성공')
+          }
+        }}
+      >
+        {resultCount > 20
+          ? '더 보기는 최대 20명 까지만 지원합니다.'
+          : '더 보기'}
+      </button>
+      {/* </section> */}
+      {/* <MusicControl /> */}
+      {/* </main> */}
+      {/* <Footer /> */}
     </>
   )
 }
