@@ -1,0 +1,510 @@
+{
+  "data": [
+    {
+      "id": "1523244770",
+      "type": "artists"
+    }
+  ],
+  "resources": {
+    "artists": {
+      "1523244770": {
+        "id": "1523244770",
+        "type": "artists",
+        "attributes": {
+          "genreNames": ["K-Pop"],
+          "name": "싹쓰리",
+          "artwork": {
+            "width": 1659,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/29/b4/db/29b4db04-7563-d65d-85bc-d61f29c22d3a/pr_source.png/{w}x{h}bb.jpg",
+            "height": 1659,
+            "textColor3": "c3d4df",
+            "textColor2": "e1ebc9",
+            "textColor4": "b7c7be",
+            "textColor1": "f1fbf2",
+            "bgColor": "0d3895",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/artist/%EC%8B%B9%EC%93%B0%EB%A6%AC/1523244770"
+        },
+        "relationships": {
+          "albums": {
+            "data": [
+              {
+                "id": "1526085540",
+                "type": "albums"
+              },
+              {
+                "id": "1525161568",
+                "type": "albums"
+              },
+              {
+                "id": "1524236596",
+                "type": "albums"
+              },
+              {
+                "id": "1523244769",
+                "type": "albums"
+              }
+            ]
+          }
+        },
+        "views": {
+          "latest-release": {
+            "attributes": {
+              "title": "신규 발매"
+            },
+            "data": []
+          },
+          "top-songs": {
+            "attributes": {
+              "title": "인기곡"
+            },
+            "data": [
+              {
+                "id": "1524236597",
+                "type": "songs"
+              },
+              {
+                "id": "1525161569",
+                "type": "songs"
+              },
+              {
+                "id": "1523244772",
+                "type": "songs"
+              },
+              {
+                "id": "1523244771",
+                "type": "songs"
+              },
+              {
+                "id": "1524236598",
+                "type": "songs"
+              },
+              {
+                "id": "1525161570",
+                "type": "songs"
+              }
+            ]
+          }
+        },
+        "meta": {
+          "views": {
+            "order": ["latest-release", "top-songs"]
+          }
+        }
+      }
+    },
+    "albums": {
+      "1523244769": {
+        "id": "1523244769",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2020-07-11",
+          "upc": "8804775146404",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/de/9e/ddde9ef7-d981-24c3-671d-8d3bb85c89da/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "424345",
+            "textColor2": "002e68",
+            "textColor4": "325785",
+            "textColor1": "131518",
+            "bgColor": "fcfcfc",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/in-the-summer-single/1523244769",
+          "playParams": {
+            "id": "1523244769",
+            "kind": "album"
+          },
+          "recordLabel": "MBC (문화방송)",
+          "isCompilation": false,
+          "trackCount": 2,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "여름 안에서 - Single",
+          "artistName": "싹쓰리",
+          "isComplete": false
+        }
+      },
+      "1524236596": {
+        "id": "1524236596",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2020-07-18",
+          "isMasteredForItunes": false,
+          "upc": "8804775146466",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/91/e7/2f91e770-0455-d558-a943-2104b29f18ee/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "cdd0d6",
+            "textColor2": "f1fcec",
+            "textColor4": "c2cec7",
+            "textColor1": "ffffff",
+            "bgColor": "0a1735",
+            "hasP3": false
+          },
+          "url": "https://music.apple.com/kr/album/beach-again-single/1524236596",
+          "playParams": {
+            "id": "1524236596",
+            "kind": "album"
+          },
+          "recordLabel": "MBC (문화방송)",
+          "isCompilation": false,
+          "trackCount": 2,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "다시 여기 바닷가 - Single",
+          "artistName": "싹쓰리",
+          "isComplete": false
+        }
+      },
+      "1525161568": {
+        "id": "1525161568",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2020-07-25",
+          "upc": "8804775147173",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/d6/9d/0ad69d95-24e4-c6aa-235b-d81b62236c8a/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "2f2f2d",
+            "textColor2": "161615",
+            "textColor4": "383836",
+            "textColor1": "0b0b0a",
+            "bgColor": "bebebc",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1525161568",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/play-the-summer-single/1525161568",
+          "recordLabel": "MBC (문화방송)",
+          "isCompilation": false,
+          "trackCount": 2,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "그 여름을 틀어줘 - Single",
+          "artistName": "싹쓰리",
+          "isComplete": false
+        }
+      },
+      "1526085540": {
+        "id": "1526085540",
+        "type": "albums",
+        "attributes": {
+          "copyright": "℗ 2020 MBC (문화방송),under license to Kakao M Corp.",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "releaseDate": "2020-08-01",
+          "upc": "8804775147791",
+          "isMasteredForItunes": false,
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/11/b7/1211b771-2b90-5290-b86e-18cf98891f35/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "24b1c3",
+            "textColor2": "31c9dc",
+            "textColor4": "28a5ba",
+            "textColor1": "2cd9e8",
+            "bgColor": "061331",
+            "hasP3": false
+          },
+          "playParams": {
+            "id": "1526085540",
+            "kind": "album"
+          },
+          "url": "https://music.apple.com/kr/album/du-ri-jyu-wa-x-linda-x-lets-dance/1526085540",
+          "recordLabel": "MBC (문화방송)",
+          "isCompilation": false,
+          "trackCount": 8,
+          "isPrerelease": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "isSingle": false,
+          "name": "두리쥬와 X LINDA X 신난다",
+          "artistName": "싹쓰리",
+          "isComplete": false
+        }
+      }
+    },
+    "songs": {
+      "1523244771": {
+        "id": "1523244771",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": true,
+          "albumName": "여름 안에서 - Single",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 1,
+          "releaseDate": "2020-07-11",
+          "durationInMillis": 281016,
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382002526",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/de/9e/ddde9ef7-d981-24c3-671d-8d3bb85c89da/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "424345",
+            "textColor2": "002e68",
+            "textColor4": "325785",
+            "textColor1": "131518",
+            "bgColor": "fcfcfc",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1523244771",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EC%97%AC%EB%A6%84-%EC%95%88%EC%97%90%EC%84%9C-feat-%ED%99%A9%EA%B4%91%ED%9D%AC/1523244769?i=1523244771",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "여름 안에서 (feat. 황광희)",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6e/ab/b0/6eabb0a6-a13c-6f06-f7ca-bd67e915c9f3/mzaf_15026775083156653.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "싹쓰리"
+        }
+      },
+      "1523244772": {
+        "id": "1523244772",
+        "type": "songs",
+        "attributes": {
+          "albumName": "여름 안에서 - Single",
+          "hasTimeSyncedLyrics": false,
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 2,
+          "releaseDate": "2020-07-11",
+          "durationInMillis": 281016,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382002527",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/de/9e/ddde9ef7-d981-24c3-671d-8d3bb85c89da/cover_-.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "424345",
+            "textColor2": "002e68",
+            "textColor4": "325785",
+            "textColor1": "131518",
+            "bgColor": "fcfcfc",
+            "hasP3": false
+          },
+          "audioLocale": "zxx",
+          "url": "https://music.apple.com/kr/album/%EC%97%AC%EB%A6%84-%EC%95%88%EC%97%90%EC%84%9C-instrumental/1523244769?i=1523244772",
+          "playParams": {
+            "id": "1523244772",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "여름 안에서 (Instrumental)",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/50/f9/cf50f9db-5c3f-7dbe-c81b-064408969d93/mzaf_15575948711658471618.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "싹쓰리"
+        }
+      },
+      "1524236597": {
+        "id": "1524236597",
+        "type": "songs",
+        "attributes": {
+          "albumName": "다시 여기 바닷가 - Single",
+          "hasTimeSyncedLyrics": true,
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 1,
+          "releaseDate": "2020-07-18",
+          "durationInMillis": 233853,
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382002998",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/91/e7/2f91e770-0455-d558-a943-2104b29f18ee/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "cdd0d6",
+            "textColor2": "f1fcec",
+            "textColor4": "c2cec7",
+            "textColor1": "ffffff",
+            "bgColor": "0a1735",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "url": "https://music.apple.com/kr/album/%EB%8B%A4%EC%8B%9C-%EC%97%AC%EA%B8%B0-%EB%B0%94%EB%8B%B7%EA%B0%80/1524236596?i=1524236597",
+          "playParams": {
+            "id": "1524236597",
+            "kind": "song"
+          },
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "다시 여기 바닷가",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/56/44/ed/5644edbd-0d30-8b6e-9b28-0d5619ec2de7/mzaf_3581313392093673444.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "싹쓰리"
+        }
+      },
+      "1524236598": {
+        "id": "1524236598",
+        "type": "songs",
+        "attributes": {
+          "albumName": "다시 여기 바닷가 - Single",
+          "hasTimeSyncedLyrics": false,
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 2,
+          "releaseDate": "2020-07-18",
+          "durationInMillis": 233840,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382002999",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/91/e7/2f91e770-0455-d558-a943-2104b29f18ee/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "cdd0d6",
+            "textColor2": "f1fcec",
+            "textColor4": "c2cec7",
+            "textColor1": "ffffff",
+            "bgColor": "0a1735",
+            "hasP3": false
+          },
+          "audioLocale": "zxx",
+          "playParams": {
+            "id": "1524236598",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EB%8B%A4%EC%8B%9C-%EC%97%AC%EA%B8%B0-%EB%B0%94%EB%8B%B7%EA%B0%80-instrumental/1524236596?i=1524236598",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "다시 여기 바닷가 (Instrumental)",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/52/20/d0522022-e2bc-0937-0967-76751514c233/mzaf_9535928783638568697.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "싹쓰리"
+        }
+      },
+      "1525161569": {
+        "id": "1525161569",
+        "type": "songs",
+        "attributes": {
+          "albumName": "그 여름을 틀어줘 - Single",
+          "hasTimeSyncedLyrics": true,
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 1,
+          "releaseDate": "2020-07-25",
+          "durationInMillis": 204227,
+          "isVocalAttenuationAllowed": true,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382003179",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/d6/9d/0ad69d95-24e4-c6aa-235b-d81b62236c8a/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "2f2f2d",
+            "textColor2": "161615",
+            "textColor4": "383836",
+            "textColor1": "0b0b0a",
+            "bgColor": "bebebc",
+            "hasP3": false
+          },
+          "audioLocale": "ko",
+          "playParams": {
+            "id": "1525161569",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EA%B7%B8-%EC%97%AC%EB%A6%84%EC%9D%84-%ED%8B%80%EC%96%B4%EC%A4%98/1525161568?i=1525161569",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": true,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "그 여름을 틀어줘",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/75/c7/b175c7fa-420f-4a61-42e8-8cb20d53964f/mzaf_3465804397479677198.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "싹쓰리"
+        }
+      },
+      "1525161570": {
+        "id": "1525161570",
+        "type": "songs",
+        "attributes": {
+          "hasTimeSyncedLyrics": false,
+          "albumName": "그 여름을 틀어줘 - Single",
+          "genreNames": ["K-Pop", "음악", "팝"],
+          "trackNumber": 2,
+          "releaseDate": "2020-07-25",
+          "durationInMillis": 204227,
+          "isVocalAttenuationAllowed": false,
+          "isMasteredForItunes": false,
+          "isrc": "KRA382003180",
+          "artwork": {
+            "width": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/d6/9d/0ad69d95-24e4-c6aa-235b-d81b62236c8a/cover_-_DS.jpg/{w}x{h}bb.jpg",
+            "height": 3000,
+            "textColor3": "2f2f2d",
+            "textColor2": "161615",
+            "textColor4": "383836",
+            "textColor1": "0b0b0a",
+            "bgColor": "bebebc",
+            "hasP3": false
+          },
+          "audioLocale": "zxx",
+          "playParams": {
+            "id": "1525161570",
+            "kind": "song"
+          },
+          "url": "https://music.apple.com/kr/album/%EA%B7%B8-%EC%97%AC%EB%A6%84%EC%9D%84-%ED%8B%80%EC%96%B4%EC%A4%98-instrumental/1525161568?i=1525161570",
+          "discNumber": 1,
+          "hasCredits": false,
+          "isAppleDigitalMaster": false,
+          "hasLyrics": false,
+          "audioTraits": ["hi-res-lossless", "lossless", "lossy-stereo"],
+          "name": "그 여름을 틀어줘 (Instrumental)",
+          "previews": [
+            {
+              "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/9d/58/1a9d5880-62ab-d4db-a900-8d3c6e9beb72/mzaf_6109542173720994412.plus.aac.p.m4a"
+            }
+          ],
+          "artistName": "싹쓰리"
+        }
+      }
+    }
+  }
+}
