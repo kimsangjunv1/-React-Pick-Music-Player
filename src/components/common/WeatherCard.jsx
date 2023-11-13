@@ -13,21 +13,24 @@ const WeatherCard = ({ props, image, type }) => {
   const musicList = useSelector((state) => state.counter.playList)
 
   const getWeatherName = (date) => {
+    let hours = new Date().getHours() // 시
     switch (date) {
       case 'Sunny':
-        return '화창한'
+        return `${hours <= 18 ? '화창한' : '화창했던'}`
       case 'Clear':
-        return '맑은'
+        return `${hours <= 18 ? '깨끗한' : '맑았던'}`
       case 'Thunderstorms':
-        return '번개'
+        return `${hours <= 18 ? '감성 넘친' : '눈물'}`
       case 'Mostly Sunny':
-        return '햇살'
+        return `${hours <= 18 ? '눈부신' : '눈부셨던'}`
       case 'Showers':
-        return '소나기'
+        return `${hours <= 18 ? '술 땡기는' : '비 내린'}`
       case 'Cloudy':
-        return '흐린'
+        return `${hours <= 18 ? '흐린' : '흐렸던'}`
       case 'Partly Cloudy':
-        return '흐린'
+        return `${hours <= 18 ? '구름낀' : '구름꼈던'}`
+      case 'Mostly Clear':
+        return `${hours <= 18 ? '기분좋은' : '행복했던'}`
       default:
         return '힘내요'
     }
@@ -115,7 +118,7 @@ const WeatherCard = ({ props, image, type }) => {
               }
             >
               <div className="weather_desc">
-                <h2>오늘 같이 {getWeatherName(props.text)} 날!</h2>
+                <h2>오늘은 {getWeatherName(props.text)} 날</h2>
                 <p>
                   {getWeatherName(props.text)} 날 듣기 좋은 플레이리스트를 정리
                   해~보았다
