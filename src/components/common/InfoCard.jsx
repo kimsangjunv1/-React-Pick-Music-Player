@@ -6,7 +6,7 @@ const InfoCard = ({ title, items, type }) => {
       <p>{title}</p>
       {type !== 'image' && <p>{items}</p>}
       {type == 'image' && (
-        <img href={items} alt="앨범 아트" className="album_artwork" />
+        <img src={items} alt="앨범 아트" className="album_artwork" />
       )}
     </div>
   )
