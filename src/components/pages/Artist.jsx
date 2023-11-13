@@ -13,7 +13,7 @@ import Loader from '../Loader'
 
 const Artist = () => {
   const [artist, setArtist] = useState(null)
-  const [selectCategory, setSelectCategory] = useState('d')
+  // const [selectCategory, setSelectCategory] = useState('d')
   const [resultCount, setResultCount] = useState(5)
 
   const fetchItem = () => {}
@@ -35,6 +35,7 @@ const Artist = () => {
       })
   }, [])
 
+  // return <Loader />
   if (!artist?.length) return <Loader />
 
   return (

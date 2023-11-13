@@ -425,13 +425,16 @@
 
 .main_loader {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 360px;
-  height: 100vh;
-  position: relative;
+  position: absolute;
   margin: 0 auto;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 111111;
+  height: 100%;
+  backdrop-filter: blur(11px);
+  overflow: hidden;
 }
 .balls {
   display: flex;
@@ -444,8 +447,8 @@
   top: -50px;
   width: 30px;
   height: 30px;
-  background: white;
-  border-radius: 50%;
+  background: rgb(0 0 0 / 70%);
+  border-radius: 0%;
   margin: 0 20px;
   animation: ball 4s infinite;
 }

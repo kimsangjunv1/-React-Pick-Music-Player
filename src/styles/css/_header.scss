@@ -38,10 +38,10 @@
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
 
+        font-weight: 700;
         &:hover {
-          border: 1px solid #1dd960;
-          background: #1dd960;
-          color: black;
+          filter: drop-shadow(0 0px 6px #1dd960);
+          color: #01471a;
           &:active {
             background: #333;
             border: 1px solid #333;

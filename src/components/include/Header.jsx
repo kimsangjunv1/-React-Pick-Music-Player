@@ -19,7 +19,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           <Link
             to="/"
             onClick={() => setSelectCategory('a')}
-            className={'a' === selectCategory ? 'test' : ''}
+            // className={'a' === selectCategory ? 'test' : ''}
           >
             {/* <img
               src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/record.png"
@@ -41,7 +41,7 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           <Link
             to="/artist"
             onClick={() => setSelectCategory('d')}
-            className={'d' === selectCategory ? 'test' : ''}
+            // className={'d' === selectCategory ? 'test' : ''}
           >
             {/* <img
               src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/personal-collection.png"
