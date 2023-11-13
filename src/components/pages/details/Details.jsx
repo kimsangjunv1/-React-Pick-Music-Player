@@ -23,38 +23,9 @@ const Details = () => {
   const artistId = useSelector((state) => state.counter.artistid)
   const artistProps = useSelector((state) => state.counter.props)
 
-  console.log('이게 들어와야함 :', artistProps)
-
   const transferArray = (array) => {
     let data = Object.keys(array).map((item) => array[item])
     return data
-  }
-  const getUrl = (url) => {
-    const replaceUrl = url.replace('{w}x{h}', '2000x2000')
-    return replaceUrl
-  }
-  const elapsedTime = (date) => {
-    const start = new Date(date)
-    const end = new Date()
-
-    const diff = (end - start) / 1000
-
-    const times = [
-      { name: '년', milliSeconds: 60 * 60 * 24 * 365 },
-      { name: '개월', milliSeconds: 60 * 60 * 24 * 30 },
-      { name: '일', milliSeconds: 60 * 60 * 24 },
-      { name: '시간', milliSeconds: 60 * 60 },
-      { name: '분', milliSeconds: 60 },
-    ]
-
-    for (const value of times) {
-      const betweenTime = Math.floor(diff / value.milliSeconds)
-
-      if (betweenTime > 0) {
-        return `${betweenTime}${value.name} 전`
-      }
-    }
-    return '방금 전'
   }
 
   useEffect(() => {
@@ -87,92 +58,13 @@ const Details = () => {
         setSongs(transferArray(res.resources.songs))
       })
   }, [])
-  // console.log('결과1 : ', artists)
-  // console.log('결과2 : ', albums)
-  // console.log('결과2 : ', albums[albums.length - 1])
-  console.log('결과3 : ', songs)
 
   if (!albums?.length && !artists?.length && !songs?.length) return <Loader />
   return (
     <>
       <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
       <section className="detail_section">
-        <div
-          className="selected_container"
-          style={
-            {
-              // background: `#${artists[0]?.attributes?.artwork?.bgColor}cc`,
-            }
-          }
-        >
-          <div className="sub_background_container">
-            <img
-              src={`${getUrl(artists[0]?.attributes?.artwork?.url)}`}
-              alt="서브 아티스트 사진"
-              className="sub_artist"
-            />
-          </div>
-          <div
-            className="desc"
-            style={
-              {
-                // background: `#${artists[0]?.attributes?.artwork?.textColor2}cc`,
-              }
-            }
-          >
-            <div className="profile_image_container">
-              <img
-                src={`${getUrl(artists[0]?.attributes?.artwork?.url)}`}
-                alt="메인 아티스트 사진"
-                className="main_artist"
-              />
-              <img
-                src={`${getUrl(artists[0]?.attributes?.artwork?.url)}`}
-                alt="메인 아티스트 사진"
-                className="shadow_artist"
-              />
-            </div>
-
-            <div className="desc_container">
-              <div className="info_container">
-                <p>NAME</p>
-                <p>{artists[0]?.attributes?.name}</p>
-              </div>
-              <div className="info_container">
-                <p>GenRe</p>
-                <p>
-                  {artists[0].attributes.genreNames.map((item) => (
-                    <>
-                      <p>{item}</p>
-                    </>
-                  ))}
-                </p>
-              </div>
-              <div className="info_container">
-                <p className="title">SNS</p>
-                <p>{artists[0]?.attributes?.url}</p>
-              </div>
-              <div className="info_container">
-                <p className="title">RECENT ALBUM</p>
-                <img
-                  src={`${getUrl(
-                    albums[albums.length - 1].attributes.artwork.url
-                  )}`}
-                  alt="앨범 아트"
-                  className="album_artwork"
-                />
-              </div>
-              <div className="info_container">
-                {albums[albums.length - 1].attributes.name}
-                {albums[albums.length - 1].attributes.copyright}
-                {albums[albums.length - 1].attributes.releaseDate}•
-                {`${elapsedTime(
-                  albums[albums.length - 1].attributes.releaseDate
-                )}`}
-              </div>
-            </div>
-          </div>
-        </div>
+        <DetailComponents type={'Artists'} items={{ artists, albums }} />
 
         <div className="detail_container">
           <DetailComponents type={'Songs'} items={songs} />
