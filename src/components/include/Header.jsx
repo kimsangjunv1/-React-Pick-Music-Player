@@ -25,19 +25,19 @@ const Header = ({ selectCategory, setSelectCategory }) => {
               src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/record.png"
               alt=""
             /> */}
-            <span>MAIN</span>
+            <span>메인</span>
           </Link>
-          <Link
+          {/* <Link
             to="/popular"
             onClick={() => setSelectCategory('b')}
             className={'b' === selectCategory ? 'test' : ''}
           >
-            {/* <img
+            <img
               src="https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/styles/img/icon/trophy.png"
               alt=""
-            /> */}
-            <span>POPULAR</span>
-          </Link>
+            />
+            <span>인기순위</span>
+          </Link> */}
           <Link
             to="/artist"
             onClick={() => setSelectCategory('d')}
