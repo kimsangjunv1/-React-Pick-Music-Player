@@ -43,13 +43,13 @@
           filter: drop-shadow(0 0px 6px #1dd960);
           color: #01471a;
           &:active {
-            background: #333;
-            border: 1px solid #333;
+            // background: #333;
+            // border: 1px solid #333;
+            filter: drop-shadow(0 0px 20px #1dd960);
           }
         }
         &:active {
-          background: #333;
-          border: 1px solid #333;
+          filter: drop-shadow(0 0px 20px #1dd960);
         }
         &.test {
           // background: #1dd960;
