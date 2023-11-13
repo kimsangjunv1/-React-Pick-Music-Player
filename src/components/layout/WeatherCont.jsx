@@ -95,7 +95,7 @@ const WeatherCont = () => {
       case 'Partly Cloudy':
         return `${hours <= 18 ? '애매하게 맑은' : '구름 '}`
       case 'Mostly Clear':
-        return `${hours <= 18 ? '기분이 좋았던' : '행복했던'}`
+        return `${hours <= 18 ? '기분이 좋은' : '행복했던'}`
       default:
         return '힘내요'
     }
