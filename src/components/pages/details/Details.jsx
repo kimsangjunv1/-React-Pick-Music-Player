@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import TitleComponents from '../../common/TitleComponents'
 import MusicControl from '../../include/MusicControl'
 import DetailComponents from '../../common/DetailComponents'
+import SectionSpace from './../../common/SectionSpace'
 
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
@@ -65,9 +66,11 @@ const Details = () => {
       <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
       <section className="detail_section">
         <DetailComponents type={'Artists'} items={{ artists, albums }} />
+        <SectionSpace space={20} />
 
         <div className="detail_container">
           <DetailComponents type={'Songs'} items={songs} />
+          <SectionSpace space={20} />
           <DetailComponents type={'Albums'} items={albums} />
         </div>
       </section>

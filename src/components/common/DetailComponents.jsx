@@ -1,6 +1,7 @@
 import React from 'react'
 import AlbumsCard from '../common/AlbumsCard'
 import SongsCard from '../common/SongsCard'
+import InfoCard from './InfoCard'
 import { useSelector, useDispatch } from 'react-redux'
 
 const DetailComponents = ({ type, items }) => {
@@ -39,6 +40,15 @@ const DetailComponents = ({ type, items }) => {
       <div className={`${type == 'Songs' ? 'songs' : 'albums'}_container`}>
         {type == 'Songs' && (
           <>
+            <div className="item grid_header">
+              <span>썸네일</span>
+              <span>이름</span>
+              <span>앨범</span>
+              <span>가수</span>
+              <span>출시일</span>
+              <span>다운로드</span>
+              <span> 애플뮤직</span>
+            </div>
             {items.map((item, key) => (
               <>
                 <SongsCard item={item} key={key} musicList={musicList} />
@@ -98,48 +108,54 @@ const DetailComponents = ({ type, items }) => {
                 </div>
 
                 <div className="desc_container">
-                  <div className="info_container">
-                    <p>NAME</p>
-                    <p>{items.artists[0]?.attributes?.name}</p>
-                  </div>
-                  <div className="info_container">
-                    <p>GenRe</p>
-                    <p>
-                      {items.artists[0].attributes.genreNames.map((item) => (
-                        <>
-                          <p>{item}</p>
-                        </>
-                      ))}
-                    </p>
-                  </div>
-                  <div className="info_container">
-                    <p className="title">SNS</p>
-                    <p>{items.artists[0]?.attributes?.url}</p>
-                  </div>
-                  <div className="info_container">
-                    <p className="title">RECENT ALBUM</p>
-                    <img
-                      src={`${getUrl(
-                        items.albums[items.albums.length - 1].attributes.artwork
-                          .url
-                      )}`}
-                      alt="앨범 아트"
-                      className="album_artwork"
-                    />
-                  </div>
-                  <div className="info_container">
-                    {items.albums[items.albums.length - 1].attributes.name}
-                    {items.albums[items.albums.length - 1].attributes.copyright}
-                    {
+                  <InfoCard
+                    title={'name'}
+                    items={items.artists[0]?.attributes?.name}
+                  />
+                  <InfoCard
+                    title={'GenRe'}
+                    items={items.artists[0].attributes.genreNames.map(
+                      (item) => item
+                    )}
+                  />
+                  <InfoCard
+                    title={'sns'}
+                    items={items.artists[0]?.attributes?.url}
+                  />
+                  <InfoCard
+                    title={'RECENT ALBUM'}
+                    items={`${getUrl(
+                      items.albums[items.albums.length - 1].attributes.artwork
+                        .url
+                    )}`}
+                    type={'image'}
+                  />
+                  <InfoCard
+                    title={'앨범이름'}
+                    items={
+                      items.albums[items.albums.length - 1].attributes.name
+                    }
+                  />
+                  <InfoCard
+                    title={'저작권'}
+                    items={
+                      items.albums[items.albums.length - 1].attributes.copyright
+                    }
+                  />
+                  <InfoCard
+                    title={'출시일'}
+                    items={
                       items.albums[items.albums.length - 1].attributes
                         .releaseDate
                     }
-                    •
-                    {`${elapsedTime(
+                  />
+                  <InfoCard
+                    title={'경과시간'}
+                    items={`${elapsedTime(
                       items.albums[items.albums.length - 1].attributes
                         .releaseDate
                     )}`}
-                  </div>
+                  />
                 </div>
               </div>
             </div>

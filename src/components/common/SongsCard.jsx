@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 const SongsCard = ({ item, key, musicList }) => {
   const [count, setCount] = useState(1)
@@ -46,18 +47,25 @@ const SongsCard = ({ item, key, musicList }) => {
         // dispatch(setControlVisible(true))
       }}
     >
-      <img src={`${getUrl(item.attributes.artwork.url)}`} alt="앨범아트" />
-      <div className="desc_container">
-        <span className="name">{item.attributes.name}</span>
-        <span className="album">{item.attributes.albumName}</span>
-        <span className="artist">{item.attributes.artistName}</span>
-        <span className="download">{item.attributes.previews[0].url}</span>
-        <span className="sns_apple">{item.attributes.url}</span>
-        <span className="release_date">{item.attributes.releaseDate}</span>
-        <span className="release_date_estimated">
-          {`${elapsedTime(item.attributes.releaseDate)}`}
-        </span>
-      </div>
+      <img
+        className="album_art"
+        src={`${getUrl(item.attributes.artwork.url)}`}
+        alt="앨범아트"
+      />
+      <span className="artist">{item.attributes.artistName}</span>
+      <span className="album">{item.attributes.albumName}</span>
+      <span className="name">{item.attributes.name}</span>
+      <span className="release_date">
+        {item.attributes.releaseDate}•
+        {`${elapsedTime(item.attributes.releaseDate)}`}
+      </span>
+
+      <a className="download" href={item.attributes.previews[0].url}>
+        다운로드
+      </a>
+      <a className="sns_apple" href={item.attributes.url}>
+        바로가기
+      </a>
     </div>
   )
 }

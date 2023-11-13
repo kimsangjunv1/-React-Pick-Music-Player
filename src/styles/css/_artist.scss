@@ -174,20 +174,51 @@
         .songs_container {
           grid-template-columns: repeat(1, 1fr);
           display: grid;
-          grid-gap: 5px;
+          grid-gap: 10px;
           .item {
-            /* border: 1px solid rgba(31, 47, 64, 0.1960784314); */
-            color: #1f2f40;
-            display: flex;
-            align-items: center;
-            gap: 10px;
+            color: rgba(0, 0, 0, 0.7);
+            height: -moz-fit-content;
             height: fit-content;
             cursor: pointer;
             position: relative;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 50px 0.5fr 1fr 2.3fr 0.5fr 80px 80px;
+            align-items: center;
+            transition: 0.25s;
+            padding: 3px;
+            border-radius: 5px;
+
+            &:hover {
+              background: rgba(0, 0, 0, 0.1);
+              // color: white;
+            }
+
             > img {
               height: 40px;
-              border-radius: 100px;
+              border-radius: 5px;
             }
+
+            &.grid_header {
+              font-size: 12px;
+              font-weight: 700;
+              text-transform: uppercase;
+
+              color: rgba(0, 0, 0, 0.5);
+              .album_art {
+                color: transparent;
+              }
+              .name {
+                // color: black;
+                color: rgba(0, 0, 0, 0.5);
+              }
+            }
+
+            .name {
+              color: rgba(0, 0, 0, 0.7);
+              font-weight: 700;
+            }
+
             .desc_container {
               span {
                 display: inline-block;
@@ -201,6 +232,25 @@
                 font-weight: 700;
                 color: rgba(0, 0, 0, 0.696);
                 font-size: 14px;
+              }
+            }
+            .release_date {
+              background: rgb(0 0 0 / 10%);
+              /* color: white; */
+              border-radius: 5px;
+              font-size: 12px;
+              text-align: center;
+            }
+            a {
+              border: 1px solid rgb(0 0 0 / 10%);
+              text-align: center;
+              color: rgba(0, 0, 0, 0.7);
+              transition: 0.25s;
+              font-size: 14px;
+              border-radius: 5px;
+              &:hover {
+                background: rgba(0, 0, 0, 0.7);
+                color: white;
               }
             }
           }
@@ -270,13 +320,14 @@
               .genre_container {
                 border: 1px solid rgba(255, 255, 255, 0.256);
                 margin-bottom: 10px;
-                padding: 2px 5px;
+                padding: 0px 6px 3px 6px;
+
                 span {
                   display: inline-block;
-                  font-size: 14px;
-                  margin-right: 5px;
-                  padding-right: 5px;
-                  border-right: 1px solid rgb(255 255 255 / 9%);
+                  font-size: 12px;
+                  margin-right: 3px;
+                  padding-right: 3px;
+                  border-right: 1px solid rgba(255, 255, 255, 0.09);
                   &:last-child {
                     margin-right: 0px;
                     padding-right: 0px;
