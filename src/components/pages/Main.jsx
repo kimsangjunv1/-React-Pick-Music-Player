@@ -39,10 +39,10 @@ const Main = () => {
       <ArtistCont test={songData} />
       <SectionSpace space={70} />
       <RecentCont />
-      <SectionSpace space={70} />
+      {/* <SectionSpace space={70} />
       <PlayListCont />
       <SectionSpace space={70} />
-      <AlbumCont test={songData} />
+      <AlbumCont test={songData} /> */}
     </>
   )
 }
