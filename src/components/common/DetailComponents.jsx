@@ -36,7 +36,7 @@ const DetailComponents = ({ type, items }) => {
   }
   return (
     <>
-      <p className="title">{type}</p>
+      {/* <p className="title">{type}</p> */}
       <div className={`${type == 'Songs' ? 'songs' : 'albums'}_container`}>
         {type == 'Songs' && (
           <>
@@ -111,51 +111,75 @@ const DetailComponents = ({ type, items }) => {
                   <InfoCard
                     title={'name'}
                     items={items.artists[0]?.attributes?.name}
+                    type={'text'}
                   />
                   <InfoCard
                     title={'GenRe'}
                     items={items.artists[0].attributes.genreNames.map(
                       (item) => item
                     )}
+                    type={'text'}
                   />
                   <InfoCard
                     title={'sns'}
                     items={items.artists[0]?.attributes?.url}
+                    type={'sns'}
                   />
-                  <InfoCard
+                </div>
+                <div className="recent_album_container">
+                  <h2 className="title">RECENT ALBUM</h2>
+                  {/* <InfoCard
                     title={'RECENT ALBUM'}
                     items={`${getUrl(
                       items.albums[items.albums.length - 1].attributes.artwork
                         .url
                     )}`}
                     type={'image'}
-                  />
-                  <InfoCard
-                    title={'앨범이름'}
-                    items={
-                      items.albums[items.albums.length - 1].attributes.name
-                    }
-                  />
-                  <InfoCard
-                    title={'저작권'}
-                    items={
-                      items.albums[items.albums.length - 1].attributes.copyright
-                    }
-                  />
-                  <InfoCard
-                    title={'출시일'}
-                    items={
-                      items.albums[items.albums.length - 1].attributes
-                        .releaseDate
-                    }
-                  />
-                  <InfoCard
-                    title={'경과시간'}
-                    items={`${elapsedTime(
-                      items.albums[items.albums.length - 1].attributes
-                        .releaseDate
-                    )}`}
-                  />
+                    
+                  /> */}
+                  <div className="recent_album_container_inner">
+                    <img
+                      src={`${getUrl(
+                        items.albums[items.albums.length - 1].attributes.artwork
+                          .url
+                      )}`}
+                      alt="앨범 아트"
+                      className="album_artwork"
+                    />
+                    <div className="album_information_container">
+                      <InfoCard
+                        title={'앨범이름'}
+                        items={
+                          items.albums[items.albums.length - 1].attributes.name
+                        }
+                        type={'text'}
+                      />
+                      <InfoCard
+                        title={'저작권'}
+                        items={
+                          items.albums[items.albums.length - 1].attributes
+                            .copyright
+                        }
+                        type={'text'}
+                      />
+                      <InfoCard
+                        title={'출시일'}
+                        items={
+                          items.albums[items.albums.length - 1].attributes
+                            .releaseDate
+                        }
+                        type={'text'}
+                      />
+                      <InfoCard
+                        title={'경과시간'}
+                        items={`${elapsedTime(
+                          items.albums[items.albums.length - 1].attributes
+                            .releaseDate
+                        )}`}
+                        type={'text'}
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
