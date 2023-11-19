@@ -3,7 +3,7 @@ import React from 'react'
 const SectionSpace = ({ space }) => {
   console.log('?? ', space)
   return (
-    <div
+    <section
       className="space"
       style={{
         margin: `${space}px 0`,
@@ -12,7 +12,7 @@ const SectionSpace = ({ space }) => {
       }}
     >
       {/* SectionSpace */}
-    </div>
+    </section>
   )
 }
 
