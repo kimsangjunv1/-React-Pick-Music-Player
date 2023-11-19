@@ -16,9 +16,9 @@ const Header = ({ selectCategory, setSelectCategory }) => {
         </Link>
 
         <div className="menu_container">
-          <Link to="/" onClick={() => setSelectCategory('a')}>
+          {/* <Link to="/" onClick={() => setSelectCategory('a')}>
             <span>메인</span>
-          </Link>
+          </Link> */}
           {/* <Link
             to="/popular"
             onClick={() => setSelectCategory('b')}
@@ -26,9 +26,9 @@ const Header = ({ selectCategory, setSelectCategory }) => {
           >
             <span>인기순위</span>
           </Link> */}
-          <Link to="/artist" onClick={() => setSelectCategory('d')}>
+          {/* <Link to="/artist" onClick={() => setSelectCategory('d')}>
             <span>아티스트</span>
-          </Link>
+          </Link> */}
           {/* <Link
             to="/musicvideo"
             onClick={() => setSelectCategory('e')}

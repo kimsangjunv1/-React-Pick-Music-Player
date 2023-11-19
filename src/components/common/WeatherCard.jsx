@@ -16,7 +16,7 @@ const WeatherCard = ({ props, image, type }) => {
     let hours = new Date().getHours() // 시
     switch (date) {
       case 'Sunny':
-        return `${hours <= 18 ? '화창한' : '화창했던'}`
+        return `${hours <= 18 ? '기분 좋은' : '행복했던'}`
       case 'Clear':
         return `${hours <= 18 ? '깨끗한' : '맑았던'}`
       case 'Thunderstorms':
