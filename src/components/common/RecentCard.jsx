@@ -35,9 +35,9 @@ const RecentCard = ({ item, key, type, list }) => {
         </div>
         {type === 'main' ? (
           <div className="function_container">
-            <button>3,000 VIEW</button>
+            {/* <button>3,000 VIEW</button>
             <button>SHARE</button>
-            <button>DOWNLOAD</button>
+            <button>DOWNLOAD</button> */}
           </div>
         ) : (
           <div className="function_container">
