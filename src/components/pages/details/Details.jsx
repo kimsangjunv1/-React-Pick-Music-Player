@@ -49,19 +49,21 @@ const Details = () => {
     //     setDetails(res.data)
     //   })
 
-    fetch(
-      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_getsummary.json`
-    )
-      .then((res) => res.json())
-      .then((res) => {
-        // setDetails(res.data)
-        setAlbums(transferArray(res.resources.albums))
-        setArtists(transferArray(res.resources.artists))
-        setSongs(transferArray(res.resources.songs))
-      })
+    // fetch(
+    //   `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_getsummary.json`
+    // )
+    //   .then((res) => res.json())
+    //   .then((res) => {
+    //     // setDetails(res.data)
+    //     setAlbums(transferArray(res.resources.albums))
+    //     setArtists(transferArray(res.resources.artists))
+    //     setSongs(transferArray(res.resources.songs))
+    //   })
   }, [])
 
-  if (!albums?.length && !artists?.length && !songs?.length) return <Loader />
+  // if (!songs?.length) return <Loader />
+  if (!albums?.length || !artists?.length || !songs?.length) return <Loader />
+  // if (!albums?.length || !artists?.length || !songs?.length) return <Loader />
   return (
     <>
       <TitleComponents title={'Artist'} type={'page'} page={'artist'} />
