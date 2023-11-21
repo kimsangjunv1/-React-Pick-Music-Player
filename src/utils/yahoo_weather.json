@@ -8,115 +8,115 @@
     "timezone_id": "Asia/Seoul"
   },
   "current_observation": {
-    "pubDate": 1699353278,
+    "pubDate": 1700584622,
     "wind": {
       "chill": 6,
-      "direction": "SW",
+      "direction": "NNE",
       "speed": 4
     },
     "atmosphere": {
-      "humidity": 57,
-      "visibility": 21,
-      "pressure": 1022.7
+      "humidity": 59,
+      "visibility": 13.98,
+      "pressure": 1019.3
     },
     "astronomy": {
-      "sunrise": "7:04 AM",
-      "sunset": "5:28 PM"
+      "sunrise": "7:18 AM",
+      "sunset": "5:17 PM"
     },
     "condition": {
-      "temperature": 7,
-      "text": "Partly Cloudy",
-      "code": 30
+      "temperature": 6,
+      "text": "Clear",
+      "code": 31
     }
   },
   "forecasts": [
     {
-      "day": "Tue",
-      "date": 1699372800,
+      "day": "Wed",
+      "date": 1700582400,
+      "high": 16,
+      "low": 1,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Thu",
+      "date": 1700668800,
+      "high": 16,
+      "low": -5,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Fri",
+      "date": 1700755200,
+      "high": 1,
+      "low": -7,
+      "text": "Mostly Sunny",
+      "code": 34
+    },
+    {
+      "day": "Sat",
+      "date": 1700841600,
+      "high": 4,
+      "low": -4,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Sun",
+      "date": 1700928000,
       "high": 9,
+      "low": 3,
+      "text": "Sunny",
+      "code": 32
+    },
+    {
+      "day": "Mon",
+      "date": 1701014400,
+      "high": 10,
+      "low": -3,
+      "text": "Haze",
+      "code": 21
+    },
+    {
+      "day": "Tue",
+      "date": 1701100800,
+      "high": 4,
       "low": -1,
-      "text": "Mostly Clear",
-      "code": 33
+      "text": "Sunny",
+      "code": 32
     },
     {
       "day": "Wed",
-      "date": 1699459200,
-      "high": 15,
+      "date": 1701187200,
+      "high": 10,
       "low": -1,
       "text": "Partly Cloudy",
       "code": 30
     },
     {
       "day": "Thu",
-      "date": 1699545600,
-      "high": 18,
-      "low": 3,
-      "text": "Mostly Cloudy",
-      "code": 28
+      "date": 1701273600,
+      "high": 7,
+      "low": -2,
+      "text": "Mostly Sunny",
+      "code": 34
     },
     {
       "day": "Fri",
-      "date": 1699632000,
-      "high": 10,
+      "date": 1701360000,
+      "high": 5,
       "low": -3,
       "text": "Partly Cloudy",
       "code": 30
     },
     {
       "day": "Sat",
-      "date": 1699718400,
-      "high": 9,
-      "low": -2,
-      "text": "Mostly Sunny",
-      "code": 34
-    },
-    {
-      "day": "Sun",
-      "date": 1699804800,
-      "high": 8,
+      "date": 1701446400,
+      "high": 6,
       "low": -1,
-      "text": "Sunny",
-      "code": 32
-    },
-    {
-      "day": "Mon",
-      "date": 1699891200,
-      "high": 7,
-      "low": -2,
-      "text": "Sunny",
-      "code": 32
-    },
-    {
-      "day": "Tue",
-      "date": 1699977600,
-      "high": 9,
-      "low": -1,
-      "text": "Sunny",
-      "code": 32
-    },
-    {
-      "day": "Wed",
-      "date": 1700064000,
-      "high": 12,
-      "low": 3,
-      "text": "Partly Cloudy",
-      "code": 30
-    },
-    {
-      "day": "Thu",
-      "date": 1700150400,
-      "high": 14,
-      "low": 4,
-      "text": "Mostly Cloudy",
-      "code": 28
-    },
-    {
-      "day": "Fri",
-      "date": 1700236800,
-      "high": 11,
-      "low": 2,
-      "text": "Showers",
-      "code": 11
+      "text": "Cloudy",
+      "code": 26
     }
   ]
 }
