@@ -64,9 +64,10 @@ const WeatherCard = ({ props, image, type }) => {
   return (
     <Fragment>
       {type !== 'today'
-        ? props.map((props) => (
+        ? props.map((props, key) => (
             <div
               className="item"
+              key={key}
               style={{
                 backgroundImage: `url(${isAvailiable(
                   props.track.images.coverart
@@ -106,9 +107,10 @@ const WeatherCard = ({ props, image, type }) => {
               />
             </div>
           ))
-        : props.map((props) => (
+        : props.map((props, key) => (
             <div
               className="item today"
+              key={key}
               style={
                 {
                   // backgroundImage: `url(${image})`,
