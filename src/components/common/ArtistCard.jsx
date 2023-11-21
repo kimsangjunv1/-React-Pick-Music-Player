@@ -7,7 +7,7 @@ import { saveArtistID, saveProps } from '../../utils/counterSlice'
 
 const ArtistCard = ({ props }) => {
   const dispatch = useDispatch()
-  console.log('들어옴 : ', props)
+  // console.log('들어옴 : ', props)
   return (
     <Link
       to={`/artist/details/${props.artists[0]?.adamid}`}
