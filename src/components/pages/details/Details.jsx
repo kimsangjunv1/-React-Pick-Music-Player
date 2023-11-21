@@ -34,11 +34,11 @@ const Details = () => {
     // detailsAPI(`artists/get-top-songs?id=${artistId}&l=ko-KR`).then((item) =>
     //   setDetails(item.data)
     // )
-    // detailsAPI(`artists/get-summary?id=${artistId}&l=ko-KR`).then((res) => {
-    //   setAlbums(transferArray(res.resources.albums))
-    //   setArtists(transferArray(res.resources.artists))
-    //   setSongs(transferArray(res.resources.songs))
-    // })
+    detailsAPI(`artists/get-summary?id=${artistId}&l=ko-KR`).then((res) => {
+      setAlbums(transferArray(res.resources.albums))
+      setArtists(transferArray(res.resources.artists))
+      setSongs(transferArray(res.resources.songs))
+    })
 
     //더미
     // fetch(
