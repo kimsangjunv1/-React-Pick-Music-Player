@@ -5,24 +5,24 @@
         "track": {
           "layout": "5",
           "type": "MUSIC",
-          "key": "322106352",
-          "title": "비",
-          "subtitle": "폴킴",
+          "key": "535061753",
+          "title": "너의 시선을 따라",
+          "subtitle": "Ziyoon",
           "share": {
-            "subject": "비 - 폴킴",
-            "text": "비(폴킴 제공)",
-            "href": "https://www.shazam.com/track/322106352/rain",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b7/c5/cd/b7c5cd2b-ede0-b09b-ef3b-c9b5b39d85bf/COVER.jpg/400x400cc.jpg",
-            "twitter": "@Shazam으로 폴킴의 비을(를) 찾았어요.",
-            "html": "https://www.shazam.com/snippets/email-share/322106352?lang=ko-KR&country=KR",
-            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/52/66/8d/52668d0d-cb59-796d-bf81-807924fa0fbc/c423c71b-6fde-4ab6-845c-1421930e7dfd_ami-identity-003da2d175d4a52f9c6e99e717c26ce6-2023-10-08T12-44-30.786Z_cropped.png/800x800cc.jpg",
-            "snapchat": "https://www.shazam.com/partner/sc/track/322106352"
+            "subject": "너의 시선을 따라 - Ziyoon",
+            "text": "너의 시선을 따라(Ziyoon 제공)",
+            "href": "https://www.shazam.com/track/535061753/from-your-eyes",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/5c/28/a65c285c-0503-fce9-6f9f-c8105e777c73/190560026180.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 Ziyoon의 너의 시선을 따라을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/535061753?lang=ko-KR&country=KR",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/d8/9b/6cd89b6f-bbc7-2ca4-cb97-3fb300a01e13/mzl.bykdvoac.jpeg/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/535061753"
           },
           "images": {
-            "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/52/66/8d/52668d0d-cb59-796d-bf81-807924fa0fbc/c423c71b-6fde-4ab6-845c-1421930e7dfd_ami-identity-003da2d175d4a52f9c6e99e717c26ce6-2023-10-08T12-44-30.786Z_cropped.png/800x800cc.jpg",
-            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b7/c5/cd/b7c5cd2b-ede0-b09b-ef3b-c9b5b39d85bf/COVER.jpg/400x400cc.jpg",
-            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b7/c5/cd/b7c5cd2b-ede0-b09b-ef3b-c9b5b39d85bf/COVER.jpg/400x400cc.jpg",
-            "joecolor": "b:ffffffp:00051bs:012159t:333748q:344e7a"
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/d8/9b/6cd89b6f-bbc7-2ca4-cb97-3fb300a01e13/mzl.bykdvoac.jpeg/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/5c/28/a65c285c-0503-fce9-6f9f-c8105e777c73/190560026180.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/5c/28/a65c285c-0503-fce9-6f9f-c8105e777c73/190560026180.jpg/400x400cc.jpg",
+            "joecolor": "b:222025p:e67da3s:f56987t:be6a8aq:ca5a73"
           },
           "hub": {
             "type": "APPLEMUSIC",
@@ -31,12 +31,12 @@
               {
                 "name": "apple",
                 "type": "applemusicplay",
-                "id": "1406302891"
+                "id": "1579271821"
               },
               {
                 "name": "apple",
                 "type": "uri",
-                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/12/1b/37/121b37f7-9dc7-06b0-efb1-80dc10d564f2/mzaf_3224721327871213850.plus.aac.ep.m4a"
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3e/b3/07/3eb30724-6bc7-667e-305c-049eb15a8194/mzaf_17152564792307907168.plus.aac.ep.m4a"
               }
             ],
             "options": [
@@ -46,12 +46,12 @@
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "applemusicopen",
-                    "uri": "https://music.apple.com/kr/album/rain/1406302148?i=1406302891&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/from-your-eyes/1579271818?i=1579271821&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   },
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "uri",
-                    "uri": "https://music.apple.com/kr/album/rain/1406302148?i=1406302891&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/from-your-eyes/1579271818?i=1579271821&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   }
                 ],
                 "beacondata": {
@@ -77,7 +77,7 @@
                   {
                     "name": "hub:spotify:searchdeeplink",
                     "type": "uri",
-                    "uri": "spotify:search:%EB%B9%84%20%ED%8F%B4%ED%82%B4"
+                    "uri": "spotify:search:%EB%84%88%EC%9D%98%20%EC%8B%9C%EC%84%A0%EC%9D%84%20%EB%94%B0%EB%9D%BC%20Ziyoon"
                   }
                 ],
                 "type": "SPOTIFY"
@@ -92,7 +92,7 @@
                   {
                     "name": "hub:deezer:searchdeeplink",
                     "type": "uri",
-                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EB%B9%84%27%20artist%3A%27%ED%8F%B4%ED%82%B4%27%7D"
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EB%84%88%EC%9D%98+%EC%8B%9C%EC%84%A0%EC%9D%84+%EB%94%B0%EB%9D%BC%27%20artist%3A%27Ziyoon%27%7D"
                   }
                 ],
                 "type": "DEEZER"
@@ -104,34 +104,35 @@
           "artists": [
             {
               "id": "42",
-              "adamid": "657331568"
+              "adamid": "1529215148"
             }
           ],
-          "url": "https://www.shazam.com/track/322106352/rain"
-        }
+          "url": "https://www.shazam.com/track/535061753/from-your-eyes"
+        },
+        "snippet": "왜 이렇게 애매하게 차분한 기분 또 이래"
       },
       {
         "track": {
           "layout": "5",
           "type": "MUSIC",
-          "key": "362354501",
-          "title": "비도 오고 그래서 (feat. 신용재)",
-          "subtitle": "헤이즈",
+          "key": "471321360",
+          "title": "Ice Queen",
+          "subtitle": "백현",
           "share": {
-            "subject": "비도 오고 그래서 (feat. 신용재) - 헤이즈",
-            "text": "비도 오고 그래서 (feat. 신용재)(헤이즈 제공)",
-            "href": "https://www.shazam.com/track/362354501/you-clouds-rain-feat-shin-yong-jae",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/c1/05/1bc105f3-72f2-03be-0d05-6e302f74d757/8809534465840_Cover.jpg/400x400cc.jpg",
-            "twitter": "@Shazam으로 헤이즈의 비도 오고 그래서 (feat. 신용재)을(를) 찾았어요.",
-            "html": "https://www.shazam.com/snippets/email-share/362354501?lang=ko-KR&country=KR",
-            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a2/7f/87/a27f87b5-24b7-bb1f-1a9c-4939644d131e/mzl.hsccklzp.jpg/800x800cc.jpg",
-            "snapchat": "https://www.shazam.com/partner/sc/track/362354501"
+            "subject": "Ice Queen - 백현",
+            "text": "Ice Queen(백현 제공)",
+            "href": "https://www.shazam.com/track/471321360/ice-queen",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0b/50/d8/0b50d8cd-c836-2e71-6911-aaa0f597695b/cover.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 백현의 Ice Queen을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/471321360?lang=ko-KR&country=KR",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/14/6c/68/146c68c6-f577-a5b2-09a3-6f46eab5ee85/ffce55b0-885a-4ec4-a456-c16ad99aeb7c_ami-identity-1a9ae0534d3b923e797c28eef48a3a04-2023-07-07T01-55-39.343Z_cropped.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/471321360"
           },
           "images": {
-            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a2/7f/87/a27f87b5-24b7-bb1f-1a9c-4939644d131e/mzl.hsccklzp.jpg/800x800cc.jpg",
-            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/c1/05/1bc105f3-72f2-03be-0d05-6e302f74d757/8809534465840_Cover.jpg/400x400cc.jpg",
-            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/c1/05/1bc105f3-72f2-03be-0d05-6e302f74d757/8809534465840_Cover.jpg/400x400cc.jpg",
-            "joecolor": "b:071e2cp:f2f6f9s:e16673t:c3cbd0q:b55765"
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/14/6c/68/146c68c6-f577-a5b2-09a3-6f46eab5ee85/ffce55b0-885a-4ec4-a456-c16ad99aeb7c_ami-identity-1a9ae0534d3b923e797c28eef48a3a04-2023-07-07T01-55-39.343Z_cropped.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0b/50/d8/0b50d8cd-c836-2e71-6911-aaa0f597695b/cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0b/50/d8/0b50d8cd-c836-2e71-6911-aaa0f597695b/cover.jpg/400x400cc.jpg",
+            "joecolor": "b:d4cacbp:0e0e10s:571f11t:363335q:704136"
           },
           "hub": {
             "type": "APPLEMUSIC",
@@ -140,12 +141,12 @@
               {
                 "name": "apple",
                 "type": "applemusicplay",
-                "id": "1569744098"
+                "id": "1471975992"
               },
               {
                 "name": "apple",
                 "type": "uri",
-                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/66/10/7b/66107b4e-7a66-0265-081e-8ac019ba38ff/mzaf_14826374985676739356.plus.aac.ep.m4a"
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/7b/85/4c7b855d-98ac-d9c5-ad98-b6d6934b1c6a/mzaf_8176740483804531991.plus.aac.ep.m4a"
               }
             ],
             "options": [
@@ -155,12 +156,12 @@
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "applemusicopen",
-                    "uri": "https://music.apple.com/kr/album/you-clouds-rain-feat-shin-yong-jae/1569743835?i=1569744098&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/ice-queen/1471975981?i=1471975992&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   },
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "uri",
-                    "uri": "https://music.apple.com/kr/album/you-clouds-rain-feat-shin-yong-jae/1569743835?i=1569744098&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/ice-queen/1471975981?i=1471975992&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   }
                 ],
                 "beacondata": {
@@ -186,7 +187,7 @@
                   {
                     "name": "hub:spotify:searchdeeplink",
                     "type": "uri",
-                    "uri": "spotify:search:%EB%B9%84%EB%8F%84%20%EC%98%A4%EA%B3%A0%20%EA%B7%B8%EB%9E%98%EC%84%9C%20%28feat.%20%EC%8B%A0%EC%9A%A9%EC%9E%AC%29%20%ED%97%A4%EC%9D%B4%EC%A6%88"
+                    "uri": "spotify:search:Ice%20Queen%20%EB%B0%B1%ED%98%84"
                   }
                 ],
                 "type": "SPOTIFY"
@@ -201,7 +202,7 @@
                   {
                     "name": "hub:deezer:searchdeeplink",
                     "type": "uri",
-                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EB%B9%84%EB%8F%84+%EC%98%A4%EA%B3%A0+%EA%B7%B8%EB%9E%98%EC%84%9C+%28feat.+%EC%8B%A0%EC%9A%A9%EC%9E%AC%29%27%20artist%3A%27%ED%97%A4%EC%9D%B4%EC%A6%88%27%7D"
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Ice+Queen%27%20artist%3A%27%EB%B0%B1%ED%98%84%27%7D"
                   }
                 ],
                 "type": "DEEZER"
@@ -213,34 +214,35 @@
           "artists": [
             {
               "id": "42",
-              "adamid": "805276942"
+              "adamid": "987357639"
             }
           ],
-          "url": "https://www.shazam.com/track/362354501/you-clouds-rain-feat-shin-yong-jae"
-        }
+          "url": "https://www.shazam.com/track/471321360/ice-queen"
+        },
+        "snippet": "맑게 갠 이 순간"
       },
       {
         "track": {
           "layout": "5",
           "type": "MUSIC",
-          "key": "574478376",
-          "title": "비와 당신",
-          "subtitle": "이무진",
+          "key": "503316849",
+          "title": "좋은 친구들 (feat. 스윙스)",
+          "subtitle": "다이나믹 듀오",
           "share": {
-            "subject": "비와 당신 - 이무진",
-            "text": "비와 당신(이무진 제공)",
-            "href": "https://www.shazam.com/track/574478376/rain-and-you",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/cc/ea/d4ccea77-1a22-77b1-df17-1a6796fcb1a0/888272082081_Cover.jpg/400x400cc.jpg",
-            "twitter": "@Shazam으로 이무진의 비와 당신을(를) 찾았어요.",
-            "html": "https://www.shazam.com/snippets/email-share/574478376?lang=ko-KR&country=KR",
-            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ba/83/51/ba83518e-e259-c7bd-8e4c-621475928393/mzl.oasjfucn.jpg/800x800cc.jpg",
-            "snapchat": "https://www.shazam.com/partner/sc/track/574478376"
+            "subject": "좋은 친구들 (feat. 스윙스) - 다이나믹 듀오",
+            "text": "좋은 친구들 (feat. 스윙스)(다이나믹 듀오 제공)",
+            "href": "https://www.shazam.com/track/503316849/goodfellas-feat-swings",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/60/28/b6/6028b6d2-6b95-eb11-6f08-c972c7f0840a/8809658318060_Cover.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 다이나믹 듀오의 좋은 친구들 (feat. 스윙스)을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/503316849?lang=ko-KR&country=KR",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/86/17/48/86174827-1384-9261-847d-a0b49975251c/mzl.cqwomxiw.jpg/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/503316849"
           },
           "images": {
-            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ba/83/51/ba83518e-e259-c7bd-8e4c-621475928393/mzl.oasjfucn.jpg/800x800cc.jpg",
-            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/cc/ea/d4ccea77-1a22-77b1-df17-1a6796fcb1a0/888272082081_Cover.jpg/400x400cc.jpg",
-            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/cc/ea/d4ccea77-1a22-77b1-df17-1a6796fcb1a0/888272082081_Cover.jpg/400x400cc.jpg",
-            "joecolor": "b:d1a9c3p:0c0d1bs:131827t:332c3cq:393546"
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/86/17/48/86174827-1384-9261-847d-a0b49975251c/mzl.cqwomxiw.jpg/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/60/28/b6/6028b6d2-6b95-eb11-6f08-c972c7f0840a/8809658318060_Cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/60/28/b6/6028b6d2-6b95-eb11-6f08-c972c7f0840a/8809658318060_Cover.jpg/400x400cc.jpg",
+            "joecolor": "b:08abd2p:08090as:182021t:082a32q:153c44"
           },
           "hub": {
             "type": "APPLEMUSIC",
@@ -249,12 +251,12 @@
               {
                 "name": "apple",
                 "type": "applemusicplay",
-                "id": "1572573548"
+                "id": "1632406655"
               },
               {
                 "name": "apple",
                 "type": "uri",
-                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7f/58/78/7f587899-c93d-c781-9f45-85d9b3de5dc8/mzaf_4371791233612061424.plus.aac.ep.m4a"
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ef/bf/9e/efbf9e70-c8d2-00e8-d163-1f0749cc2f1e/mzaf_5560752130858403185.plus.aac.ep.m4a"
               }
             ],
             "options": [
@@ -264,12 +266,12 @@
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "applemusicopen",
-                    "uri": "https://music.apple.com/kr/album/rain-and-you/1572573546?i=1572573548&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/goodfellas-feat-swings/1632406433?i=1632406655&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   },
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "uri",
-                    "uri": "https://music.apple.com/kr/album/rain-and-you/1572573546?i=1572573548&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/goodfellas-feat-swings/1632406433?i=1632406655&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   }
                 ],
                 "beacondata": {
@@ -295,7 +297,7 @@
                   {
                     "name": "hub:spotify:searchdeeplink",
                     "type": "uri",
-                    "uri": "spotify:search:%EB%B9%84%EC%99%80%20%EB%8B%B9%EC%8B%A0%20%EC%9D%B4%EB%AC%B4%EC%A7%84"
+                    "uri": "spotify:search:%EC%A2%8B%EC%9D%80%20%EC%B9%9C%EA%B5%AC%EB%93%A4%20%28feat.%20%EC%8A%A4%EC%9C%99%EC%8A%A4%29%20%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9%20%EB%93%80%EC%98%A4"
                   }
                 ],
                 "type": "SPOTIFY"
@@ -310,7 +312,7 @@
                   {
                     "name": "hub:deezer:searchdeeplink",
                     "type": "uri",
-                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EB%B9%84%EC%99%80+%EB%8B%B9%EC%8B%A0%27%20artist%3A%27%EC%9D%B4%EB%AC%B4%EC%A7%84%27%7D"
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EC%A2%8B%EC%9D%80+%EC%B9%9C%EA%B5%AC%EB%93%A4+%28feat.+%EC%8A%A4%EC%9C%99%EC%8A%A4%29%27%20artist%3A%27%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9+%EB%93%80%EC%98%A4%27%7D"
                   }
                 ],
                 "type": "DEEZER"
@@ -322,34 +324,35 @@
           "artists": [
             {
               "id": "42",
-              "adamid": "1567544636"
+              "adamid": "412564585"
             }
           ],
-          "url": "https://www.shazam.com/track/574478376/rain-and-you"
-        }
+          "url": "https://www.shazam.com/track/503316849/goodfellas-feat-swings"
+        },
+        "snippet": "멀리하고 싶어 그 검은 안개 같은 기운"
       },
       {
         "track": {
           "layout": "5",
           "type": "MUSIC",
-          "key": "574782810",
-          "title": "비 오는 날 듣기 좋은 노래 (feat. Colde)",
-          "subtitle": "에픽하이",
+          "key": "646153110",
+          "title": "잠깐",
+          "subtitle": "하프",
           "share": {
-            "subject": "비 오는 날 듣기 좋은 노래 (feat. Colde) - 에픽하이",
-            "text": "비 오는 날 듣기 좋은 노래 (feat. Colde)(에픽하이 제공)",
-            "href": "https://www.shazam.com/track/574782810/rain-song-feat-colde",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ed/fd/67/edfd6783-e023-7f73-cda5-9e2546f4cac6/82465846.jpg/400x400cc.jpg",
-            "twitter": "@Shazam으로 에픽하이의 비 오는 날 듣기 좋은 노래 (feat. Colde)을(를) 찾았어요.",
-            "html": "https://www.shazam.com/snippets/email-share/574782810?lang=ko-KR&country=KR",
-            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/27/35/48/2735485e-73e0-f9d1-3da3-dc7c25c776b1/pr_source.png/800x800cc.jpg",
-            "snapchat": "https://www.shazam.com/partner/sc/track/574782810"
+            "subject": "잠깐 - 하프",
+            "text": "잠깐(하프 제공)",
+            "href": "https://www.shazam.com/track/646153110/the-moment",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/a7/07/45a7077f-e033-569c-6cb1-a46b0adca65f/888272110401_Cover.jpg/400x400cc.jpg",
+            "twitter": "@Shazam으로 하프의 잠깐을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/646153110?lang=ko-KR&country=KR",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/1c/1f/1e/1c1f1e09-bdf0-409f-e544-e38327070858/mzl.onvtbxgu.jpg/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/646153110"
           },
           "images": {
-            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/27/35/48/2735485e-73e0-f9d1-3da3-dc7c25c776b1/pr_source.png/800x800cc.jpg",
-            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ed/fd/67/edfd6783-e023-7f73-cda5-9e2546f4cac6/82465846.jpg/400x400cc.jpg",
-            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ed/fd/67/edfd6783-e023-7f73-cda5-9e2546f4cac6/82465846.jpg/400x400cc.jpg",
-            "joecolor": "b:a2d1c6p:1b1b1bs:2c2e2et:36403dq:434e4d"
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/1c/1f/1e/1c1f1e09-bdf0-409f-e544-e38327070858/mzl.onvtbxgu.jpg/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/a7/07/45a7077f-e033-569c-6cb1-a46b0adca65f/888272110401_Cover.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/a7/07/45a7077f-e033-569c-6cb1-a46b0adca65f/888272110401_Cover.jpg/400x400cc.jpg",
+            "joecolor": "b:c4f0f1p:0a0445s:1e1f4ft:2f3367q:3f496f"
           },
           "hub": {
             "type": "APPLEMUSIC",
@@ -358,12 +361,12 @@
               {
                 "name": "apple",
                 "type": "applemusicplay",
-                "id": "1607432021"
+                "id": "1660024972"
               },
               {
                 "name": "apple",
                 "type": "uri",
-                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b1/10/f9/b110f9e4-a31b-a97f-d3c3-450651d09f96/mzaf_12237016753120010189.plus.aac.ep.m4a"
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/60/83/45/60834510-e205-3ff9-c7d3-793e3a1fd5f3/mzaf_6302845338634784465.plus.aac.ep.m4a"
               }
             ],
             "options": [
@@ -373,12 +376,12 @@
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "applemusicopen",
-                    "uri": "https://music.apple.com/kr/album/rain-song-feat-colde/1607431676?i=1607432021&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/the-moment/1660024968?i=1660024972&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   },
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "uri",
-                    "uri": "https://music.apple.com/kr/album/rain-song-feat-colde/1607431676?i=1607432021&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/the-moment/1660024968?i=1660024972&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   }
                 ],
                 "beacondata": {
@@ -404,7 +407,7 @@
                   {
                     "name": "hub:spotify:searchdeeplink",
                     "type": "uri",
-                    "uri": "spotify:search:%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EB%82%A0%20%EB%93%A3%EA%B8%B0%20%EC%A2%8B%EC%9D%80%20%EB%85%B8%EB%9E%98%20%28feat.%20Colde%29%20%EC%97%90%ED%94%BD%ED%95%98%EC%9D%B4"
+                    "uri": "spotify:search:%EC%9E%A0%EA%B9%90%20%ED%95%98%ED%94%84"
                   }
                 ],
                 "type": "SPOTIFY"
@@ -419,7 +422,7 @@
                   {
                     "name": "hub:deezer:searchdeeplink",
                     "type": "uri",
-                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EB%B9%84+%EC%98%A4%EB%8A%94+%EB%82%A0+%EB%93%A3%EA%B8%B0+%EC%A2%8B%EC%9D%80+%EB%85%B8%EB%9E%98+%28feat.+Colde%29%27%20artist%3A%27%EC%97%90%ED%94%BD%ED%95%98%EC%9D%B4%27%7D"
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EC%9E%A0%EA%B9%90%27%20artist%3A%27%ED%95%98%ED%94%84%27%7D"
                   }
                 ],
                 "type": "DEEZER"
@@ -431,34 +434,34 @@
           "artists": [
             {
               "id": "42",
-              "adamid": "139334133"
+              "adamid": "1582036415"
             }
           ],
-          "url": "https://www.shazam.com/track/574782810/rain-song-feat-colde"
-        }
+          "url": "https://www.shazam.com/track/646153110/the-moment"
+        },
+        "snippet": "잠깐 하려던 말을 잠시 멈출 게"
       },
       {
         "track": {
           "layout": "5",
           "type": "MUSIC",
-          "key": "579529880",
-          "title": "비가 오는 날엔 (2021)",
-          "subtitle": "헤이즈",
+          "key": "552148120",
+          "title": "You make me feel great.",
+          "subtitle": "올잼과 엇박천재래퍼",
           "share": {
-            "subject": "비가 오는 날엔 (2021) - 헤이즈",
-            "text": "비가 오는 날엔 (2021)(헤이즈 제공)",
-            "href": "https://www.shazam.com/track/579529880/on-rainy-days-2021",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/85/36/4f8536c8-3403-5d6e-82e8-408e85feda57/888272084245_Cover.jpg/400x400cc.jpg",
-            "twitter": "@Shazam으로 헤이즈의 비가 오는 날엔 (2021)을(를) 찾았어요.",
-            "html": "https://www.shazam.com/snippets/email-share/579529880?lang=ko-KR&country=KR",
-            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a2/7f/87/a27f87b5-24b7-bb1f-1a9c-4939644d131e/mzl.hsccklzp.jpg/800x800cc.jpg",
-            "snapchat": "https://www.shazam.com/partner/sc/track/579529880"
+            "subject": "You make me feel great. - 올잼과 엇박천재래퍼",
+            "text": "You make me feel great.(올잼과 엇박천재래퍼 제공)",
+            "href": "https://www.shazam.com/track/552148120/you-make-me-feel-great",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/0b/a3/d30ba355-607b-7601-b11a-a46d87843267/192641628030.png/400x400cc.jpg",
+            "twitter": "@Shazam으로 올잼과 엇박천재래퍼의 You make me feel great.을(를) 찾았어요.",
+            "html": "https://www.shazam.com/snippets/email-share/552148120?lang=ko-KR&country=KR",
+            "snapchat": "https://www.shazam.com/partner/sc/track/552148120"
           },
           "images": {
-            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a2/7f/87/a27f87b5-24b7-bb1f-1a9c-4939644d131e/mzl.hsccklzp.jpg/800x800cc.jpg",
-            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/85/36/4f8536c8-3403-5d6e-82e8-408e85feda57/888272084245_Cover.jpg/400x400cc.jpg",
-            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/85/36/4f8536c8-3403-5d6e-82e8-408e85feda57/888272084245_Cover.jpg/400x400cc.jpg",
-            "joecolor": "b:174a5dp:e6e7ecs:00cbfft:bdc8cfq:04b1de"
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/0b/a3/d30ba355-607b-7601-b11a-a46d87843267/192641628030.png/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/0b/a3/d30ba355-607b-7601-b11a-a46d87843267/192641628030.png/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/0b/a3/d30ba355-607b-7601-b11a-a46d87843267/192641628030.png/400x400cc.jpg",
+            "joecolor": "b:78c30ep:01060fs:000711t:192c0fq:182c10"
           },
           "hub": {
             "type": "APPLEMUSIC",
@@ -467,12 +470,12 @@
               {
                 "name": "apple",
                 "type": "applemusicplay",
-                "id": "1579454245"
+                "id": "1688498141"
               },
               {
                 "name": "apple",
                 "type": "uri",
-                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/20/ac/6d/20ac6d08-c172-2d33-8952-d25f9761c7f0/mzaf_15393109619807402502.plus.aac.ep.m4a"
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/91/3f/a9/913fa97d-7ba8-425b-c2fe-d74c25c08e5f/mzaf_10313550810549616215.plus.aac.ep.m4a"
               }
             ],
             "options": [
@@ -482,12 +485,12 @@
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "applemusicopen",
-                    "uri": "https://music.apple.com/kr/album/on-rainy-days-2021/1579454239?i=1579454245&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/you-make-me-feel-great/1688498139?i=1688498141&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   },
                   {
                     "name": "hub:applemusic:deeplink",
                     "type": "uri",
-                    "uri": "https://music.apple.com/kr/album/on-rainy-days-2021/1579454239?i=1579454245&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    "uri": "https://music.apple.com/kr/album/you-make-me-feel-great/1688498139?i=1688498141&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
                   }
                 ],
                 "beacondata": {
@@ -513,7 +516,7 @@
                   {
                     "name": "hub:spotify:searchdeeplink",
                     "type": "uri",
-                    "uri": "spotify:search:%EB%B9%84%EA%B0%80%20%EC%98%A4%EB%8A%94%20%EB%82%A0%EC%97%94%20%282021%29%20%ED%97%A4%EC%9D%B4%EC%A6%88"
+                    "uri": "spotify:search:You%20make%20me%20feel%20great.%20%EC%98%AC%EC%9E%BC%EA%B3%BC%20%EC%97%87%EB%B0%95%EC%B2%9C%EC%9E%AC%EB%9E%98%ED%8D%BC"
                   }
                 ],
                 "type": "SPOTIFY"
@@ -528,7 +531,7 @@
                   {
                     "name": "hub:deezer:searchdeeplink",
                     "type": "uri",
-                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27%EB%B9%84%EA%B0%80+%EC%98%A4%EB%8A%94+%EB%82%A0%EC%97%94+%282021%29%27%20artist%3A%27%ED%97%A4%EC%9D%B4%EC%A6%88%27%7D"
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27You+make+me+feel+great.%27%20artist%3A%27%EC%98%AC%EC%9E%BC%EA%B3%BC+%EC%97%87%EB%B0%95%EC%B2%9C%EC%9E%AC%EB%9E%98%ED%8D%BC%27%7D"
                   }
                 ],
                 "type": "DEEZER"
@@ -540,10 +543,60 @@
           "artists": [
             {
               "id": "42",
-              "adamid": "805276942"
+              "adamid": "1688498140"
             }
           ],
-          "url": "https://www.shazam.com/track/579529880/on-rainy-days-2021"
+          "url": "https://www.shazam.com/track/552148120/you-make-me-feel-great"
+        },
+        "snippet": "내 맘도 모르고 하늘은 왜 이리 맑은 건지"
+      }
+    ]
+  },
+  "artists": {
+    "hits": [
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/d8/9b/6cd89b6f-bbc7-2ca4-cb97-3fb300a01e13/mzl.bykdvoac.jpeg/800x800bb.jpg",
+          "name": "Ziyoon",
+          "verified": false,
+          "weburl": "https://music.apple.com/kr/artist/ziyoon/1529215148",
+          "adamid": "1529215148"
+        }
+      },
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/14/6c/68/146c68c6-f577-a5b2-09a3-6f46eab5ee85/ffce55b0-885a-4ec4-a456-c16ad99aeb7c_ami-identity-1a9ae0534d3b923e797c28eef48a3a04-2023-07-07T01-55-39.343Z_cropped.png/800x800bb.jpg",
+          "name": "백현",
+          "verified": false,
+          "weburl": "https://music.apple.com/kr/artist/%EB%B0%B1%ED%98%84/987357639",
+          "adamid": "987357639"
+        }
+      },
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/72/2c/ba/722cba9e-7e9f-4f78-b629-e382d963f794/pr_source.png/800x800bb.jpg",
+          "name": "스윙스",
+          "verified": false,
+          "weburl": "https://music.apple.com/kr/artist/%EC%8A%A4%EC%9C%99%EC%8A%A4/310842097",
+          "adamid": "310842097"
+        }
+      },
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/86/17/48/86174827-1384-9261-847d-a0b49975251c/mzl.cqwomxiw.jpg/800x800bb.jpg",
+          "name": "다이나믹 듀오",
+          "verified": false,
+          "weburl": "https://music.apple.com/kr/artist/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%EB%93%80%EC%98%A4/412564585",
+          "adamid": "412564585"
+        }
+      },
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/1c/1f/1e/1c1f1e09-bdf0-409f-e544-e38327070858/mzl.onvtbxgu.jpg/800x800bb.jpg",
+          "name": "하프",
+          "verified": false,
+          "weburl": "https://music.apple.com/kr/artist/%ED%95%98%ED%94%84/1582036415",
+          "adamid": "1582036415"
         }
       }
     ]
