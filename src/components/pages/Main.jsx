@@ -16,18 +16,18 @@ const Main = () => {
 
   useEffect(() => {
     // 실데이터
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
-    ).then((data) => setSongData(data.tracks))
+    // fetchAPI(
+    //   `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=10&startFrom=0`
+    // ).then((data) => setSongData(data.tracks))
 
     //더미
-    // fetch(
-    //   `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_track.json`
-    // )
-    //   .then((res) => res.json())
-    //   .then((res) => {
-    //     setSongData(res.tracks)
-    //   })
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_track.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setSongData(res.tracks)
+      })
   }, [])
 
   if (!songData?.length) return <Loader />

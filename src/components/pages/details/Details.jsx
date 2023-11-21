@@ -34,11 +34,11 @@ const Details = () => {
     // detailsAPI(`artists/get-top-songs?id=${artistId}&l=ko-KR`).then((item) =>
     //   setDetails(item.data)
     // )
-    detailsAPI(`artists/get-summary?id=${artistId}&l=ko-KR`).then((res) => {
-      setAlbums(transferArray(res.resources.albums))
-      setArtists(transferArray(res.resources.artists))
-      setSongs(transferArray(res.resources.songs))
-    })
+    // detailsAPI(`artists/get-summary?id=${artistId}&l=ko-KR`).then((res) => {
+    //   setAlbums(transferArray(res.resources.albums))
+    //   setArtists(transferArray(res.resources.artists))
+    //   setSongs(transferArray(res.resources.songs))
+    // })
 
     //더미
     // fetch(
@@ -49,16 +49,16 @@ const Details = () => {
     //     setDetails(res.data)
     //   })
 
-    // fetch(
-    //   `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_getsummary.json`
-    // )
-    //   .then((res) => res.json())
-    //   .then((res) => {
-    //     // setDetails(res.data)
-    //     setAlbums(transferArray(res.resources.albums))
-    //     setArtists(transferArray(res.resources.artists))
-    //     setSongs(transferArray(res.resources.songs))
-    //   })
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/artist_getsummary.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        // setDetails(res.data)
+        setAlbums(transferArray(res.resources.albums))
+        setArtists(transferArray(res.resources.artists))
+        setSongs(transferArray(res.resources.songs))
+      })
   }, [])
 
   if (!albums?.length && !artists?.length && !songs?.length) return <Loader />

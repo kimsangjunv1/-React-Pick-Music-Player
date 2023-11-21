@@ -12,24 +12,24 @@ function ArtistItem(props) {
   const dispatch = useDispatch()
   return (
     <Link
-      to={`/artist/details/${props.artist.artists[0].adamid}`}
+      to={`/artist/details/${props?.artist?.artists[0].adamid}`}
       onClick={() => {
-        dispatch(saveArtistID(props.artist.artists[0].adamid))
+        dispatch(saveArtistID(props?.artist?.artists[0].adamid))
         dispatch(saveProps(props))
       }}
       className="main_artist_item"
     >
       <div className="artist_info_container">
-        <p className="artist_eng_name">{props.artist.artists[0].alias}</p>
-        <h2 className="artist_name">{props.artist.subtitle}</h2>
+        <p className="artist_eng_name">{props?.artist?.artists[0].alias}</p>
+        <h2 className="artist_name">{props?.artist?.subtitle}</h2>
       </div>
       <img
-        src={`${props.artist.images.background}`}
-        alt={`${props.artist.subtitle}의 이미지`}
+        src={`${props?.artist?.images.background}`}
+        alt={`${props?.artist?.subtitle}의 이미지`}
       />
       <div className="artist_like_container">
         <img className="icon" src={icon_graph} alt="그래프 아이콘" />
-        <p className="count">{props.artist.key.slice(0, 4)}</p>
+        <p className="count">{props?.artist?.key.slice(0, 4)}</p>
         <p className="type">view</p>
       </div>
     </Link>

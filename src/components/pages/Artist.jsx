@@ -20,19 +20,19 @@ const Artist = () => {
 
   useEffect(() => {
     // 실데이터
-    fetchAPI(
-      `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=${resultCount}&startFrom=0`
-    ).then((data) => setArtist(data.tracks))
-    setResultCount(resultCount + 5)
+    // fetchAPI(
+    //   `charts/track?locale=ko-KR&listId=ip-country-chart-KR&pageSize=${resultCount}&startFrom=0`
+    // ).then((data) => setArtist(data.tracks))
+    // setResultCount(resultCount + 5)
 
     //더미
-    // fetch(
-    //   `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_track.json`
-    // )
-    //   .then((res) => res.json())
-    //   .then((res) => {
-    //     setArtist(res.tracks)
-    //   })
+    fetch(
+      `https://raw.githubusercontent.com/kimsangjunv1/-React-Pick-Music-Player/main/src/utils/shazam_track.json`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setArtist(res.tracks)
+      })
   }, [])
 
   // return <Loader />

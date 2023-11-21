@@ -41,6 +41,14 @@ const WeatherCard = ({ props, image, type }) => {
     return a
   }
 
+  for (let i = 1; i <= 9; i++) {
+    for (let e = 1; e <= 9; e++) {
+      if (i !== 7) {
+        console.log(`${i}+”*”+${e}+”=“+${i * e}`)
+      }
+    }
+  }
+
   const dispatch = useDispatch()
 
   console.log('props : ', props)
